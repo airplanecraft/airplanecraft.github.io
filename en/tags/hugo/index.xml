@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Airplane Craft</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/hugo/</link>
+    <link>https://airplanecraft.github.io/en/tags/hugo/</link>
     <description>Recent content in Hugo on Airplane Craft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://airplanecraft.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo page bundles english</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/bundle/</link>
+      <link>https://airplanecraft.github.io/en/posts/bundle/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/bundle/</guid>
+      <guid>https://airplanecraft.github.io/en/posts/bundle/</guid>
       <description>
         
           
@@ -25,10 +25,10 @@
     
     <item>
       <title>Emoji Support</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/emoji-support/</link>
+      <link>https://airplanecraft.github.io/en/posts/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/emoji-support/</guid>
+      <guid>https://airplanecraft.github.io/en/posts/emoji-support/</guid>
       <description>
         
           

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sap on Airplane Craft</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/sap/</link>
+    <link>https://airplanecraft.github.io/en/tags/sap/</link>
     <description>Recent content in Sap on Airplane Craft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2019 10:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/sap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Aug 2019 10:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/en/tags/sap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>service catalog 简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/aws-service-catalog/</link>
+      <link>https://airplanecraft.github.io/en/posts/aws-service-catalog/</link>
       <pubDate>Thu, 29 Aug 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/aws-service-catalog/</guid>
+      <guid>https://airplanecraft.github.io/en/posts/aws-service-catalog/</guid>
       <description>
         
           
@@ -51,7 +51,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;751&#34;
         height=&#34;436&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/usecase-example_13522702303702877102.png&#34;
+        src=&#34;https://airplanecraft.github.io/usecase-example_13522702303702877102.png&#34;
       
       
     /&gt;
@@ -98,7 +98,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;631&#34;
         height=&#34;574&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/concept_13299398146200500871.png&#34;
+        src=&#34;https://airplanecraft.github.io/concept_13299398146200500871.png&#34;
       
       
     /&gt;
@@ -136,7 +136,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;795&#34;
         height=&#34;441&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/policy_and_role_as_partition_border_636593408755960434.png&#34;
+        src=&#34;https://airplanecraft.github.io/policy_and_role_as_partition_border_636593408755960434.png&#34;
       
       
     /&gt;
@@ -160,10 +160,10 @@
     
     <item>
       <title>aws infrastructure as code</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/aws-infrastructure-as-code/</link>
+      <link>https://airplanecraft.github.io/en/posts/aws-infrastructure-as-code/</link>
       <pubDate>Thu, 29 Aug 2019 08:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/aws-infrastructure-as-code/</guid>
+      <guid>https://airplanecraft.github.io/en/posts/aws-infrastructure-as-code/</guid>
       <description>
         
           

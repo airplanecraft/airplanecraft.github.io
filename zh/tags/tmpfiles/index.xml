@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tmpfiles on 飞机模型</title>
-    <link>https://www.airplanecraft.github.io/zh/tags/tmpfiles/</link>
+    <link>https://www.airplanecraft.com/zh/tags/tmpfiles/</link>
     <description>Recent content in Tmpfiles on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 May 2022 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.github.io/zh/tags/tmpfiles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/tmpfiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux 临时文件的管理</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/linux-tmpfiles-clean/</link>
+      <link>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</link>
       <pubDate>Sat, 07 May 2022 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/linux-tmpfiles-clean/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</guid>
       <description>
         
           

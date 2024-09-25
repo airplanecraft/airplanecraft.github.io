@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terraform on 飞机模型</title>
-    <link>https://www.airplanecraft.github.io/zh/tags/terraform/</link>
+    <link>https://www.airplanecraft.com/zh/tags/terraform/</link>
     <description>Recent content in Terraform on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 May 2020 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.github.io/zh/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 May 2020 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用terraform创建阿里ecs用ansible完成主机配置</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</link>
+      <link>https://www.airplanecraft.com/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</link>
       <pubDate>Fri, 29 May 2020 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</guid>
       <description>
         
           

@@ -10,7 +10,7 @@ const imageAltClass = 'img_alt';
 
 
 const defaultSiteLanguage = 'en';
-const baseURL = 'https://www.airplanecraft.github.io/';
+const baseURL = 'https://www.airplanecraft.com/';
 const searchFieldClass = '.search_field';
 const searchClass = '.search';
 const goBackClass = 'button_back';

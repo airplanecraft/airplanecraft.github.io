@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jwk on 飞机模型</title>
-    <link>https://www.airplanecraft.github.io/zh/tags/jwk/</link>
+    <link>https://www.airplanecraft.com/zh/tags/jwk/</link>
     <description>Recent content in Jwk on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.github.io/zh/tags/jwk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/jwk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JWT、JWE、JWS 、JWK 到底是什么</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/jwt-jwe-jwk-jws/</link>
+      <link>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/jwt-jwe-jwk-jws/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</guid>
       <description>
         
           

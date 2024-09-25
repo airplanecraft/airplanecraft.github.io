@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 飞机模型</title>
-    <link>https://www.airplanecraft.github.io/zh/tags/hugo/</link>
+    <link>https://www.airplanecraft.com/zh/tags/hugo/</link>
     <description>Recent content in Hugo on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Nov 2019 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.github.io/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2019 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>手把手使用Hugo搭建网站-高级篇</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/hugo-advanced-level-lesson/</link>
+      <link>https://www.airplanecraft.com/zh/posts/hugo-advanced-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/hugo-advanced-level-lesson/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/hugo-advanced-level-lesson/</guid>
       <description>
         
           
@@ -53,10 +53,10 @@
     
     <item>
       <title>手把手使用Hugo搭建网站-中级篇</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/hugo-medium-level-lesson/</link>
+      <link>https://www.airplanecraft.com/zh/posts/hugo-medium-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 11:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/hugo-medium-level-lesson/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/hugo-medium-level-lesson/</guid>
       <description>
         
           
@@ -164,10 +164,10 @@
     
     <item>
       <title>手把手使用Hugo搭建网站-初级篇</title>
-      <link>https://www.airplanecraft.github.io/zh/posts/hugo-entry-level-lesson/</link>
+      <link>https://www.airplanecraft.com/zh/posts/hugo-entry-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.github.io/zh/posts/hugo-entry-level-lesson/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/hugo-entry-level-lesson/</guid>
       <description>
         
           

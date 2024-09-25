@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on 飞机模型</title>
-    <link>https://airplanecraft.github.io/zh/tags/cloud/</link>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/cloud/</link>
     <description>Recent content in Cloud on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本地数据中心和云的对比</title>
-      <link>https://airplanecraft.github.io/zh/posts/local-datacenter-vs-cloud/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/local-datacenter-vs-cloud/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:30 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/local-datacenter-vs-cloud/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/local-datacenter-vs-cloud/</guid>
       <description>
         
           
@@ -141,10 +141,10 @@
     
     <item>
       <title>裸金属服务器使用</title>
-      <link>https://airplanecraft.github.io/zh/posts/bare-metal-server/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/bare-metal-server/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/bare-metal-server/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/bare-metal-server/</guid>
       <description>
         
           
@@ -180,7 +180,7 @@
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/huaweibaremetal.png&#34;
+        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/huaweibaremetal.png&#34;
       
       
     /&gt;
@@ -206,7 +206,7 @@
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/huaweicompare.png&#34;
+        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/huaweicompare.png&#34;
       
       
     /&gt;
@@ -231,10 +231,10 @@
     
     <item>
       <title>裸金属服务器遇到的docker容器访问问题</title>
-      <link>https://airplanecraft.github.io/zh/posts/firewalld-block-docker/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/firewalld-block-docker/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/firewalld-block-docker/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/firewalld-block-docker/</guid>
       <description>
         
           
@@ -264,7 +264,7 @@
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/firewall-docker.png&#34;
+        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/firewall-docker.png&#34;
       
       
     /&gt;

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 飞机模型</title>
-    <link>http://localhost:1313/zh/categories/</link>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/categories/</link>
     <description>Recent content in Categories on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Dec 2023 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

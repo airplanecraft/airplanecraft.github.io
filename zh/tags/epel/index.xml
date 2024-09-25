@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Epel on 飞机模型</title>
-    <link>http://localhost:1313/zh/tags/epel/</link>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/epel/</link>
     <description>Recent content in Epel on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 22 May 2017 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/epel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2017 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/epel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为什么要使用epel</title>
-      <link>http://localhost:1313/zh/posts/why-epel/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-epel/</link>
       <pubDate>Mon, 22 May 2017 10:30:37 +0800</pubDate>
       
-      <guid>http://localhost:1313/zh/posts/why-epel/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-epel/</guid>
       <description>
         
           

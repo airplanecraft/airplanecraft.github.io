@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maxfileopen on 飞机模型</title>
-    <link>http://localhost:1313/zh/tags/maxfileopen/</link>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/maxfileopen/</link>
     <description>Recent content in Maxfileopen on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 May 2016 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/maxfileopen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2016 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/maxfileopen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux最大文件打开数</title>
-      <link>http://localhost:1313/zh/posts/linux-file-max-open/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-file-max-open/</link>
       <pubDate>Sat, 07 May 2016 10:30:37 +0800</pubDate>
       
-      <guid>http://localhost:1313/zh/posts/linux-file-max-open/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-file-max-open/</guid>
       <description>
         
           

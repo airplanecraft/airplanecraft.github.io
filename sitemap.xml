@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    <loc>https://airplanecraft.github.io/website-airplanecraft-publish/en/sitemap.xml</loc>
     
       <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/zh/sitemap.xml</loc>
+    <loc>https://airplanecraft.github.io/website-airplanecraft-publish/zh/sitemap.xml</loc>
     
       <lastmod>2023-12-03T10:30:37+08:00</lastmod>
     

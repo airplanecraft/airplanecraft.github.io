@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cdk on 飞机模型</title>
-    <link>https://airplanecraft.github.io/zh/tags/cdk/</link>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/cdk/</link>
     <description>Recent content in Cdk on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把最近一些东西aws东西画出来</title>
-      <link>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-best-practise-financial/</link>
       <pubDate>Tue, 26 Apr 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-best-practise-financial/</guid>
       <description>
         
           
@@ -124,10 +124,10 @@
     
     <item>
       <title>aws cdk introduction</title>
-      <link>https://airplanecraft.github.io/zh/posts/aws-cdk/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cdk/</link>
       <pubDate>Fri, 26 Feb 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/aws-cdk/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cdk/</guid>
       <description>
         
           
@@ -184,10 +184,10 @@
     
     <item>
       <title>jvm参数优化</title>
-      <link>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</link>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jvm-optimize-related/</link>
       <pubDate>Fri, 26 Jun 2015 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</guid>
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jvm-optimize-related/</guid>
       <description>
         
           

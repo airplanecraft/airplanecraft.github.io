@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Websocket on 飞机模型</title>
-    <link>https://www.airplanecraft.com/zh/tags/websocket/</link>
+    <link>https://airplanecraft.github.io/zh/tags/websocket/</link>
     <description>Recent content in Websocket on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Nov 2021 11:40:30 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 11:40:30 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polygon在websoket的连接串数据的经常中断</title>
-      <link>https://www.airplanecraft.com/zh/posts/polygon-websoket-data-transfer-issue/</link>
+      <link>https://airplanecraft.github.io/zh/posts/polygon-websoket-data-transfer-issue/</link>
       <pubDate>Sat, 20 Nov 2021 11:40:30 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/polygon-websoket-data-transfer-issue/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/polygon-websoket-data-transfer-issue/</guid>
       <description>
         
           
@@ -41,7 +41,7 @@
       alt=&#34;polygon&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://www.airplanecraft.com/images/photo_2022-02-03_22-18-05.jpg&#34;
+        src=&#34;https://airplanecraft.github.io/images/photo_2022-02-03_22-18-05.jpg&#34;
       
       
     /&gt;

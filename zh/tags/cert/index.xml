@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cert on 飞机模型</title>
-    <link>https://www.airplanecraft.com/zh/tags/cert/</link>
+    <link>https://airplanecraft.github.io/zh/tags/cert/</link>
     <description>Recent content in Cert on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 May 2020 14:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/cert/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2020 14:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/cert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给nginx安装免费的证书</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-cerbot/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-cerbot/</link>
       <pubDate>Fri, 08 May 2020 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-cerbot/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-cerbot/</guid>
       <description>
         
           

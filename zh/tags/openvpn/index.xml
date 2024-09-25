@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openvpn on 飞机模型</title>
-    <link>https://www.airplanecraft.com/zh/tags/openvpn/</link>
+    <link>https://airplanecraft.github.io/zh/tags/openvpn/</link>
     <description>Recent content in Openvpn on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 08 May 2017 12:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2017 12:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openvpn最简单的安装方式</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-openvpn-install/</link>
       <pubDate>Mon, 08 May 2017 12:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-openvpn-install/</guid>
       <description>
         
           

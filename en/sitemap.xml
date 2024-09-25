@@ -2,311 +2,311 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.airplanecraft.com/en/</loc>
+    <loc>https://airplanecraft.github.io/en/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/"
+                href="https://airplanecraft.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/"
+                href="https://airplanecraft.github.io/en/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/</loc>
+    <loc>https://airplanecraft.github.io/en/categories/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/categories/"
+                href="https://airplanecraft.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/"
+                href="https://airplanecraft.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/hugo/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/hugo/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/hugo/"
+                href="https://airplanecraft.github.io/zh/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/hugo/"
+                href="https://airplanecraft.github.io/en/tags/hugo/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/index/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/index/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/index/"
+                href="https://airplanecraft.github.io/zh/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/index/"
+                href="https://airplanecraft.github.io/en/tags/index/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/posts/"
+                href="https://airplanecraft.github.io/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/posts/"
+                href="https://airplanecraft.github.io/en/posts/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/"
+                href="https://airplanecraft.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/"
+                href="https://airplanecraft.github.io/en/tags/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/technology/</loc>
+    <loc>https://airplanecraft.github.io/en/categories/technology/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/categories/technology/"
+                href="https://airplanecraft.github.io/zh/categories/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/technology/"
+                href="https://airplanecraft.github.io/en/categories/technology/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/bundle/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/bundle/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/oauth2.0/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/oauth2.0/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/oauth2.0/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/oauth2.0/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/oidc/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/oidc/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/security/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/security/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/starting_recording_my_airplanecraft_life/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/starting_recording_my_airplanecraft_life/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/posts/starting_recording_my_airplanecraft_life/"
+                href="https://airplanecraft.github.io/zh/posts/starting_recording_my_airplanecraft_life/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/posts/starting_recording_my_airplanecraft_life/"
+                href="https://airplanecraft.github.io/en/posts/starting_recording_my_airplanecraft_life/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/airplanecraft/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/airplanecraft/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/airplanecraft/"
+                href="https://airplanecraft.github.io/zh/tags/airplanecraft/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/airplanecraft/"
+                href="https://airplanecraft.github.io/en/tags/airplanecraft/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/airplanecraft/</loc>
+    <loc>https://airplanecraft.github.io/en/categories/airplanecraft/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/categories/airplanecraft/"
+                href="https://airplanecraft.github.io/zh/categories/airplanecraft/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/airplanecraft/"
+                href="https://airplanecraft.github.io/en/categories/airplanecraft/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/devops/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/devops/</loc>
     <lastmod>2022-06-17T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/devops/"
+                href="https://airplanecraft.github.io/zh/tags/devops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/devops/"
+                href="https://airplanecraft.github.io/en/tags/devops/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/devops-traning-slide/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/devops-traning-slide/</loc>
     <lastmod>2022-06-17T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/architect/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/architect/</loc>
     <lastmod>2022-06-15T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/architect-design-principle/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/architect-design-principle/</loc>
     <lastmod>2022-06-15T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</loc>
     <lastmod>2022-06-10T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/css/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/css/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/featured/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/featured/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/html/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/html/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/markdown/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/markdown/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/markdown-syntax/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/markdown-syntax/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/themes/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/themes/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/themes/"
+                href="https://airplanecraft.github.io/zh/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/themes/"
+                href="https://airplanecraft.github.io/en/tags/themes/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/map/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/map/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/jwt/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/jwt/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/jwt/"
+                href="https://airplanecraft.github.io/zh/tags/jwt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/jwt/"
+                href="https://airplanecraft.github.io/en/tags/jwt/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/jwt/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/jwt/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/token/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/token/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/token/"
+                href="https://airplanecraft.github.io/zh/tags/token/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/token/"
+                href="https://airplanecraft.github.io/en/tags/token/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/notices/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/notices/</loc>
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/about/</loc>
+    <loc>https://airplanecraft.github.io/en/about/</loc>
     <lastmod>2020-08-18T18:03:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/about/"
+                href="https://airplanecraft.github.io/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/about/"
+                href="https://airplanecraft.github.io/en/about/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/aws/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/aws/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/aws/"
+                href="https://airplanecraft.github.io/zh/tags/aws/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/aws/"
+                href="https://airplanecraft.github.io/en/tags/aws/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/sap/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/sap/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.airplanecraft.com/zh/tags/sap/"
+                href="https://airplanecraft.github.io/zh/tags/sap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/sap/"
+                href="https://airplanecraft.github.io/en/tags/sap/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-service-catalog/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/aws-service-catalog/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-infrastructure-as-code/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/aws-infrastructure-as-code/</loc>
     <lastmod>2019-08-29T08:30:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/archives/</loc>
+    <loc>https://airplanecraft.github.io/en/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/privacy/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/rich-content/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/shortcodes/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/placeholder-text/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/text/</loc>
+    <loc>https://airplanecraft.github.io/en/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/math-typesetting/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/emoji-support/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-secutirygroup-networkacl/</loc>
+    <loc>https://airplanecraft.github.io/en/posts/aws-secutirygroup-networkacl/</loc>
     <lastmod>2019-02-26T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/search/</loc>
+    <loc>https://airplanecraft.github.io/en/search/</loc>
   </url>
 </urlset>

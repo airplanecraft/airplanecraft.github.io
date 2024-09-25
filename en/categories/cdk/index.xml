@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cdk on Airplane Craft</title>
+    <link>http://localhost:1313/en/categories/cdk/</link>
+    <description>Recent content in Cdk on Airplane Craft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/cdk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>把最近一些东西aws东西画出来</title>
+      <link>http://localhost:1313/en/posts/aws-best-practise-financial/</link>
+      <pubDate>Tue, 26 Apr 2022 12:40:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/aws-best-practise-financial/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;1&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/Best_practice_eventbridge.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;2&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/Best_practice_finicial_industry.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;3&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/vpc-connectivity-overview.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;4&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/dmz.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>aws cdk introduction</title>
+      <link>http://localhost:1313/en/posts/aws-cdk/</link>
+      <pubDate>Fri, 26 Feb 2021 12:40:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/aws-cdk/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;what-is-the-aws-cdk&#34;&gt;What is the AWS CDK?&lt;/h2&gt;
+&lt;p&gt;The AWS Cloud Development Kit (CDK) ,a framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.&lt;/p&gt;
+&lt;h2 id=&#34;cdk-stack&#34;&gt;CDK stack&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;cdkstatck&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/awscdk.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;how-does-cdk-work&#34;&gt;How does CDK work&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Build with high-level constructs that automatically provide sensible, secure defaults for your AWS resources, defining more infrastructure with less code.&lt;/li&gt;
+&lt;li&gt;Use programming idioms like parameters, conditionals, loops, composition, and inheritance to model your system design from building blocks provided by AWS and others.&lt;/li&gt;
+&lt;li&gt;Put your infrastructure, application code, and configuration all in one place, ensuring that at every milestone you have a complete, cloud-deployable system.&lt;/li&gt;
+&lt;li&gt;Employ software engineering practices such as code reviews, unit tests, and source control to make your infrastructure more robust.&lt;/li&gt;
+&lt;li&gt;Connect your AWS resources together (even across stacks) and grant permissions using simple, intent-oriented APIs.&lt;/li&gt;
+&lt;li&gt;Import existing AWS CloudFormation templates to give your resources a CDK API.&lt;/li&gt;
+&lt;li&gt;Use the power of AWS CloudFormation to perform infrastructure deployments predictably and repeatedly, with rollback on error.&lt;/li&gt;
+&lt;li&gt;Easily share infrastructure design patterns among teams within your organization or even with the public.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-does-cdk-benefit&#34;&gt;What does CDK benefit&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;The AWS CDK supports TypeScript, JavaScript, Python, Java, C#/.Net, and (in developer preview) Go. Developers can use one of these supported programming languages to define reusable cloud components known as Constructs. You compose these together into Stacks and Apps.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CDK提供了多种开发语言的支持&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

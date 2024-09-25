@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/index/</link>
+    <description>Recent content in Index on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Dec 2023 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/zh/posts/</link>
+      <pubDate>Sun, 03 Dec 2023 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/</guid>
+      <description>
+        
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

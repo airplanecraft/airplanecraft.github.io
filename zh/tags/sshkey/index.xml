@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sshkey on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/sshkey/</link>
+    <description>Recent content in Sshkey on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Apr 2016 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/sshkey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos使用ssh-key免密登录</title>
+      <link>http://localhost:1313/zh/posts/linux-key-gen/</link>
+      <pubDate>Sun, 03 Apr 2016 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/linux-key-gen/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;centos-ssh-login-免密码登录&#34;&gt;centos ssh login 免密码登录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;修改linux主机sshd配置&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vi /etc/ssh/sshd_config 
+  RSAAuthentication yes 
+  PubkeyAuthentication yes 
+  AuthorizedKeysFile .ssh/authorized_keys 
+/sbin/service sshd restart 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;生成密钥,包括 id_rsa私钥，id_rsa.pub公钥&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; ssh-keygen -t rsa 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更改文件名&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; mv ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拷贝id_rsa文件内容到任何一个linux客户端,remote.pem,使用ssh登录&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh -i remote.pem user@host
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

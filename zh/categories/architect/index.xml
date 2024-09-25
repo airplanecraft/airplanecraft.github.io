@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architect on 飞机模型</title>
+    <link>http://localhost:1313/zh/categories/architect/</link>
+    <description>Recent content in Architect on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 21 Aug 2021 12:40:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/architect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交换机故障导致线程阻塞</title>
+      <link>http://localhost:1313/zh/posts/application-network-issue-caused-thread-block/</link>
+      <pubDate>Sat, 21 Aug 2021 12:40:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/application-network-issue-caused-thread-block/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;本来使用工具或者服务&#34;&gt;本来使用工具或者服务&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jconsole&lt;/li&gt;
+&lt;li&gt;Jstack&lt;/li&gt;
+&lt;li&gt;prometheus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;架构图&#34;&gt;架构图&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;architect&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/photo_2022-01-27_14-32-48.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;架构说明&#34;&gt;架构说明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This is an internal application (Not cloud) architect,we have big network traffic and lots of application ,we deploy in our own server&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we have a RabbitMQ server (which our data provider will send  HKEX data to this server)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we have an Application will consume the messages from MQ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Our application will process the data and sending to Kafka and Elastic search&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

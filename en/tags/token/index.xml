@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Token on Airplane Craft</title>
+    <link>http://localhost:1313/en/tags/token/</link>
+    <description>Recent content in Token on Airplane Craft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/token/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JWT</title>
+      <link>http://localhost:1313/en/posts/jwt/</link>
+      <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/en/posts/jwt/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;what-is-jwt&#34;&gt;what is jwt&lt;/h3&gt;
+&lt;p&gt;JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.&lt;/p&gt;
+&lt;h3 id=&#34;jwt-structure&#34;&gt;jwt structure&lt;/h3&gt;
+&lt;p&gt;A well-formed JWT consists of three concatenated Base64url-encoded strings, separated by dots (.):&lt;/p&gt;
+&lt;p&gt;JOSE Header: contains metadata about the type of token and the cryptographic algorithms used to secure its contents.&lt;/p&gt;
+&lt;p&gt;JWS payload (set of claims): contains verifiable security statements, such as the identity of the user and the permissions they are allowed.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epel on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/epel/</link>
+    <description>Recent content in Epel on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 May 2017 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/epel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么要使用epel</title>
+      <link>http://localhost:1313/zh/posts/why-epel/</link>
+      <pubDate>Mon, 22 May 2017 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/why-epel/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;linux-安装包的痛苦经历&#34;&gt;Linux 安装包的痛苦经历&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;libcurl.so: libssh2.so.1: cannot open shared object file: No such file or directory
+libssl.so.10: cannot open shared object file: No such file or directory
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果遇到以上以上情况，libcurl需要libssh2依赖，那我们最希望的最法无非是yum install libssh2 libssl希望能安装好，那就解决了依赖的问题了，但是问题是没有&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Last metadata expiration check: 2:33:40 ago on  18 Mar 2019 02:09:36 PM CST.
+No match for argument: libssh2
+Error: Unable to find a match: libssh2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;遇到这样的问题我们一般会去找一个rpm包去安装，通过rpm -ivh libssh2.rpm 发现缺少依赖&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Requires
+libc.so.6()(64bit)
+libc.so.6(GLIBC_2.14)(64bit)
+libc.so.6(GLIBC_2.2.5)(64bit)
+libc.so.6(GLIBC_2.3)(64bit)
+libc.so.6(GLIBC_2.3.4)(64bit)
+libc.so.6(GLIBC_2.4)(64bit)
+libcrypto.so.3()(64bit)
+libcrypto.so.3(OPENSSL_3.0.0)(64bit)
+libssl.so.3()(64bit)
+libz.so.1()(64bit)
+rpmlib(CompressedFileNames) &amp;lt;= 3.0.4-1
+rpmlib(FileDigests) &amp;lt;= 4.6.0-1
+rpmlib(PayloadFilesHavePrefix) &amp;lt;= 4.0-1
+rpmlib(PayloadIsZstd) &amp;lt;= 5.4.18-1
+rtld(GNU_HASH)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;有的依赖可以找到的，但是因为版本问题可能不行，有的找不到需要通过gcc编译，然后一个个解决实在太麻烦了！但是任何一个有经验的centos/redhat的系统工程师都会提前求助于EPEL!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

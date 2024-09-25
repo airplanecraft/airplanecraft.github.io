@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/docker/</link>
+    <description>Recent content in Docker on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 May 2020 12:40:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用ansible在多台客户机安装docker</title>
+      <link>http://localhost:1313/zh/posts/ansible-deploy-docker-container/</link>
+      <pubDate>Fri, 22 May 2020 12:40:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/ansible-deploy-docker-container/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;install-ansible-on-server&#34;&gt;Install ansible on server&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible是一个开源配置管理工具，可以使用它来自动化任务，部署应用程序实现IT基础架构。Ansible可以用来自动化日常任务，比如，服务器的初始化配置、安全基线配置、更新和打补丁系统，安装软件包等&lt;/li&gt;
+&lt;li&gt;Ansible包括控制节点（Control node）也叫主机，受控节点（Managed nodes）也叫客户机,只在控制节点安装就好了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ansible-优点&#34;&gt;ansible 优点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;只需要在主机上安装ansible软件，客户机不需要安装&lt;/li&gt;
+&lt;li&gt;通讯协议SSH协议和SFTP&lt;/li&gt;
+&lt;li&gt;可并行执行程序，默认情况下，forks值为5，可以按需，在配置文件中增大该值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ansiblecentos安装和配置&#34;&gt;ansible(centos)安装和配置&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;yum install ansible&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为了使Ansible与客户端通信，需要使用用户帐户配置管理机和客户机。为了方便快捷安全，一般会配置证书方式连接客户机&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-keygen
+ssh-copy-id ansible@node ip
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用ad-hoc-在客户执行命令相当于命令行&#34;&gt;使用ad-hoc 在客户执行命令，相当于命令行&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;/etc/ansible/hosts,最好谨慎使用hosts配置，安全问题需要解决&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[docker]
+
+ 192.168.25.173 ansible_ssh_port=22 ansible_ssh_user=root ansible_ssh_pass=&amp;#34;xxx&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行以下ping,命令里面的docker对应的上面文件的docker&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -m ping
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用ad-hoc命令管理软件包,安装&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -m yum -a &amp;#34;name=docker state=present&amp;#34; -b
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用ad-hoc命令管理软件包,设置默认启动&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -b -m service -a &amp;#34;name=docker  enabled=yes&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用ad-hoc命令管理软件包,启动&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -b -m service -a &amp;#34;name=httpd state=started&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用ansible-playbook-部署docker&#34;&gt;使用ansible-playbook 部署docker&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;test-ansile.yml 文件内容&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  ---
+  - hosts: docker
+  remote_user: docker
+  become: yes
+  become_method: sudo
+  vars:
+      container_name: &amp;#34;robotic&amp;#34;
+      container_image: &amp;#34;test-prod:{{container_version}}&amp;#34;
+      registry_url: &amp;#34;ecr.test.amazonaws.com&amp;#34;
+      working_dir: &amp;#34;/data/docker_test&amp;#34;
+
+  tasks:
+      - name: remove container
+      docker_container:
+          name: &amp;#34;{{ container_name }}&amp;#34;
+          state: absent
+
+      - name: install aws cli
+      shell: |
+          yum install awscli -y
+      - name: rm config
+      shell: |
+          rm -rf /root/.aws;mkdir /root/.aws
+      - name: create config for aws user
+      shell: |
+          echo &amp;#34;[profile ecr]&amp;#34; &amp;gt;&amp;gt;/root/.aws/config
+          echo &amp;#34;region = ap-southeast-1&amp;#34; &amp;gt;&amp;gt;/root/.aws/config
+      - name: create credential
+      shell: |
+          echo &amp;#34;[ecr]&amp;#34; &amp;gt;&amp;gt;/root/.aws/credentials
+          echo &amp;#34;aws_access_key_id = xxx&amp;#34;  &amp;gt;&amp;gt;/root/.aws/credentials
+          echo &amp;#34;aws_secret_access_key = xxx&amp;#34;  &amp;gt;&amp;gt;/root/.aws/credentials
+      - name: docker login
+      shell: |
+          loginstr=`aws ecr get-login --no-include-email --profile ecr`
+          bash $loginstr
+      - name: create working_dir directory
+      file:
+          path: &amp;#34;{{ item }}&amp;#34;
+          state: directory
+      with_items:
+          - &amp;#34;{{ working_dir }}&amp;#34;
+
+      - name: create container
+      docker_container:
+          name: &amp;#34;{{ container_name }}&amp;#34;
+          image: &amp;#34;{{registry_url}}/{{ container_image }}&amp;#34;
+          privileged: yes
+          restart_policy: always
+          ports:
+          - &amp;#34;80:80&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行ansible文件&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

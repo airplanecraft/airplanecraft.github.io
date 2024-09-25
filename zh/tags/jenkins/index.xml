@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/jenkins/</link>
+    <description>Recent content in Jenkins on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 13 Oct 2018 10:40:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何配置jenkins新节点</title>
+      <link>http://localhost:1313/zh/posts/jenkins_create_new_node/</link>
+      <pubDate>Sat, 13 Oct 2018 10:40:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/jenkins_create_new_node/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;jenkins-节点-简介&#34;&gt;jenkins 节点 简介&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在企业里面使用Jenkins自动部署时，大部分企业更新发布几个软件版本,但是对于一些公司有非常多的业务线或者产品来说，Jenkins就需要同时处理很多的任务，这时候就需要借助Jenkins多个node或者我们所说的Jenkins分布式SLAVE节点，来分开处理多个产品或者业务线的部署，目的就是master节点用来分配任务，slave节点来具体执行部署任务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;配置-slave节点&#34;&gt;配置 slave节点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;jenkins -&amp;gt;manage jenins -&amp;gt; manage node and cloud -&amp;gt;new node&lt;/li&gt;
+&lt;li&gt;node name:test ,选择permanent node&lt;/li&gt;
+&lt;li&gt;填好number of executors:1 ,remote root,launch method:launch agent via ssh,Host,Credentials,	Host Key Verification Strategy,known hosts file verification strategy ,availability:keep agent online as much as possible&lt;/li&gt;
+&lt;li&gt;在slave上安装各种需要软件&lt;/li&gt;
+&lt;li&gt;一定要安装相关的plugin和global tool configuration里面配置相关的工具软件
+e&lt;/li&gt;
+&lt;li&gt;创建一个pipeline测试一下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pipeline {
+    agent any
+    stages {
+        stage(&amp;#39;Example&amp;#39;) {
+            steps {
+                echo &amp;#39;Hello World&amp;#39;
+            }
+        }
+    }
+    post {
+        always {
+            echo &amp;#39;I will ........!&amp;#39;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>jenkins简介</title>
+      <link>http://localhost:1313/zh/posts/jenkins-devops-tools/</link>
+      <pubDate>Wed, 06 May 2015 11:40:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/jenkins-devops-tools/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;什么是ci和cd&#34;&gt;什么是CI和CD&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;CI(Continuous integration，中文意思是持续集成)/  CD(Continuous Delivery， 中文意思持续交付)
+CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交付应用的方法。
+CI/CD 的核心概念是持续集成、持续交付和持续部署。它是作为一个面向开发和运营团队的解决方案，主要针对在集成新代码时所引发的问题（也称为：“集成地狱”）。
+CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期（从集成和测试阶段，到交付和部署）。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;jenkins简介&#34;&gt;jenkins简介&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;    Jenkins是一个开源的、提供友好操作界面的持续集成(CI)工具，起源于Hudson（Hudson是商用的），主要用于持续、自动的构建/测试软件项目、监控外部任务的运行（这个比较抽象，暂且写上，不做解释）。Jenkins用Java语言编写，可在Tomcat等流行的servlet容器中运行，也可独立运行。通常与版本管理工具(SCM)、构建工具结合使用。可集成使用版本控制工具有SVN、GIT，以及构建工具有Maven、Ant、Gradle。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;特点&#34;&gt;特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;易于安装-只要把jenkins.war部署到servlet容器，不需要数据库支持&lt;/li&gt;
+&lt;li&gt;易于配置-所有配置都是通过其提供的web界面实现；&lt;/li&gt;
+&lt;li&gt;有大量的插件可以配置使用,比如email通知结果,git,maven&lt;/li&gt;
+&lt;li&gt;附带了很多其他的功能比如用户密码的加密&lt;/li&gt;
+&lt;li&gt;可以支持备份,迁移,升级&lt;/li&gt;
+&lt;li&gt;还可以通过完全编程的方式Jenkinsfile,devops来实现纯代码的方式完全CI/CD&lt;/li&gt;
+&lt;li&gt;可以支持分布式的多个slave agent&lt;/li&gt;
+&lt;li&gt;可以保存每次build日志方便查阅&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cicd-优势&#34;&gt;CI/CD 优势&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1. 持续集成中的任何一个环节都是自动完成的，无需太多的人工干预，有利于减少重复过程以节省时间、费用和工作量
+2. 持续集成保障了每个时间点上团队成员提交的代码是能成功集成的。换言之，任何时间点都能第一时间发现软件的集成问题，使任意时间发布可部署的软件成为了可能
+3. CI/CD 具有高度的自动化 就是减少人工操作的事务，可以通过预先准备的脚本一次性运行，是我们内部或者外部用户，得到用户对于新版本的快速反馈，并且可以迅速处理任何明显的缺陷.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;放几张图&#34;&gt;放几张图&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;cicd&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/cicd.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;jenkins&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;http://localhost:1313/images/jenkins.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

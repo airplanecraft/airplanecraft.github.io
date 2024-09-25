@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lvm on 飞机模型</title>
+    <link>http://localhost:1313/zh/tags/lvm/</link>
+    <description>Recent content in Lvm on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 May 2016 10:30:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux的tree命令</title>
+      <link>http://localhost:1313/zh/posts/linux-tree/</link>
+      <pubDate>Fri, 06 May 2016 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/linux-tree/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;linux-tree-command&#34;&gt;linux tree command&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Centos 是默认不带tree 命令的，如果要使用首先要install tree command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install -y tree
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;使用tree 显示目录的深度为2级&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; tree -L 2
+.
+├── easy-rsa-old-2.3.3
+│   ├── configure.ac
+│   ├── COPYING
+│   ├── COPYRIGHT.GPL
+│   ├── distro
+│   ├── doc
+│   ├── easy-rsa
+│   └── Makefile.am
+├── frgs.log
+├── frp_0.32.1_linux_amd64
+│   ├── frgs.log
+│   ├── frpc
+│   ├── frpc_full.ini
+│   ├── frpc.ini
+│   ├── frps
+│   ├── frps_full.ini
+│   ├── frps.ini
+│   ├── frps.log
+│   ├── LICENSE
+│   ├── nohup.out
+│   └── systemd
+├── frp_0.32.1_linux_amd64.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>lvm空间扩容</title>
+      <link>http://localhost:1313/zh/posts/linux-lvm-resize/</link>
+      <pubDate>Wed, 20 Apr 2016 10:30:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/zh/posts/linux-lvm-resize/</guid>
+      <description>
+        
+          
+            &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@localhost ~]# df -H
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                  17G     0   17G   0% /dev
+tmpfs                     17G     0   17G   0% /dev/shm
+tmpfs                     17G  9.1M   17G   1% /run
+tmpfs                     17G     0   17G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   54G  1.4G   53G   3% /
+/dev/sda2                1.1G  148M  916M  14% /boot
+/dev/sda1                210M   12M  198M   6% /boot/efi
+/dev/mapper/centos-home   12T   35M   12T   1% /home
+tmpfs                    3.4G     0  3.4G   0% /run/user/0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;分区不够合理 root 下面空间不够用&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;umount /home
+
+lvreduce -L 5T /dev/mapper/centos-home
+
+lvextend -L +5T /dev/mapper/centos-root
+
+xfs_growfs /dev/mapper/centos-root
+
+mkfs.xfs -f /dev/mapper/centos-home
+
+mount /home
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
++++
+Categories = ["Technology"]
+Description = "What is service mesh"
+Tags = ["service mesh","PAAS","kubenetes"]
+date = "2023-11-23T12:40:37+08:00"
+menu = "k8s"
+title = "什么是service mesh"
+toc = true
++++
+
+## 什么是service mesh
+
+Service Mesh又译作“服务网格”，作为服务间通信的基础设施层。Willian Morgan（Linkerd的CEO）如下定义Service Mesh。
+
+Service Mesh 是一个基础设施层，用于处理服务间通信。云原生应用有着复杂的服务拓扑，Service Mesh 保证请求可以在这些拓扑中可靠地穿梭。在实际应用当中，Service Mesh 通常是由一系列轻量级的网络代理组成的，它们与应用程序部署在一起，但应用程序不需要知道它们的存在。
+
+Service Mesh 实际上就是处于 TCP/IP 之上的一个抽象层，它假设底层的 L3/L4 网络能够点对点地传输字节（当然，它也假设网络环境是不可靠的，所以 Service Mesh 必须具备处理网络故障的能力）。
+
+## 架构图
+
+![PrivateLink](/images/service-mesh.png)
+
+通过以上的架构图，很清晰的看到，最重要的两个部分就是control plane 和sidecar
+
+Control Plane：控制平面是服务网格的集中管理和配置层。它负责控制和协调sidecar代理的行为。它提供了一个控制平面API，允许管理员配置流量管理、安全性和可观测性的策略、规则和设置。
+
+Sidecar（旁车）：它基于Envoy代理。它是在同一Kubernetes POD中运行的另一个容器，负责处理所有的横切关注点。它基于旁车容器设计模式。•应用程序流量：微服务通过使用sidecar容器连接到其他微服务。应用程序流量基本上是Envoy sidecar代理容器之间的通信
+
+Data Plane：数据平面指的是部署在每个服务实例旁边的一组sidecar代理组成的网络，用于与系统中的其他服务进行通信。它充当服务与网络的中间人。Sidecar代理处理入站和出站流量，拦截通信并提供其他功能。
+
+Controllers：控制器是负责管理和控制网格行为的组件。它通常是一个软件组件，用于监视服务的状态和健康情况、配置流量路由和负载均衡规则、实施安全策略，并处理网格内服务之间通信的其他方面。
+
+服务发现（Service Discovery）：服务发现是服务网格架构中的一个重要组件。它使得服务能够动态地定位和连接到彼此，而无需硬编码的地址。
+
+证书授权机构（Certificate Authority）：它提供和管理根证书和中间证书，并执行证书签名操作。
+
+应用程序微服务（Application Microservices）：这些是组成应用程序的各个服务或微服务。它们负责处理特定的功能或任务。
+
+API端点（API Endpoints）：API端点是网格中的服务之间进行通信的入口点
+
+## 方案
+目前社区Service Mesh的开源解决方案有：Buoyant 公司推出的 Linkerd 和 Google、IBM 等厂商牵头的 Istio。Linkerd 更加成熟稳定些，Istio 功能更加丰富、设计上更为强大，社区相对也更加强大一些。
+
+### istio介绍
+ Istio是由Google、IBM和Lyft开源的微服务管理、保护和监控框架。Istio为希腊语，意思是”起航“。Istio是一个开源的服务网格平台，提供了一组工具和功能，用于管理和保护基于微服务的应用程序。它旨在解决复杂分布式系统中与服务之间通信、可观察性、安全性和流量管理相关的常见挑战。在其核心，Istio在应用程序中的每个微服务旁边部署一个称为Envoy的sidecar代理。这个sidecar代理拦截和管理服务的所有入站和出站流量，使得Istio可以控制和监控服务之间的通信。
+
+优点：
+
+Istio拥有庞大的在线服务网格社区，并且在互联网上备受赞誉和讨论。其GitHub的贡献者远远超过Linkerd，数量上占据优势。•此外，它支持Kubernetes和VM模式。
+
+缺点：
+
+Istio并非免费提供，使用它需要相当大的时间投入，包括阅读文档、设置、确保正常功能和持续维护。
+
+在生产环境中实施和集成Istio可能需要几周甚至几个月的时间，这取决于基础架构的复杂性。
+使用Istio需要相当大的资源开销。•与Linkerd不同，它缺乏内置的管理仪表板。
+此外，Istio要求使用其自己的入口网关。
+Istio控制平面仅在Kubernetes容器中受支持，没有可用于Istio数据平面的VM模式。
+
+
+
+
+

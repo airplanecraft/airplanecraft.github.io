@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Themes on 飞机模型</title>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/themes/</link>
+    <description>Recent content in Themes on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 Nov 2019 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手把手使用Hugo搭建网站-高级篇</title>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-advanced-level-lesson/</link>
+      <pubDate>Tue, 26 Nov 2019 12:40:37 +0800</pubDate>
+      
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-advanced-level-lesson/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;13-手把手使用hugo搭建网站高级篇&#34;&gt;1.3. 手把手使用hugo搭建网站高级篇&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;131-創建页面的目錄&#34;&gt;1.3.1. 創建页面的目錄&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hugo提供了目錄的支持table of content&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;創建目錄首先你的文章必須有標題&lt;/li&gt;
+&lt;li&gt;在layouts/_default/single.html 添加代碼 {{.TableOfContents}}&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;          {{ define &amp;#34;main&amp;#34; -}}
+          &amp;lt;div class=&amp;#34;post&amp;#34;&amp;gt;
+          &amp;lt;h1&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
+          &amp;lt;time datetime={{ .Date.Format &amp;#34;2006-01-02T15:04:05Z0700&amp;#34; }} class=&amp;#34;post-date&amp;#34;&amp;gt;{{ .Date.Format &amp;#34;Mon, Jan 2, 2006&amp;#34; }}&amp;lt;/time&amp;gt;
+          {{.TableOfContents}}
+
+          {{ .Content }}
+          &amp;lt;/div&amp;gt;
+
+          {{ if .Site.DisqusShortname -}}
+          &amp;lt;h2&amp;gt;Comments&amp;lt;/h2&amp;gt;
+          {{ template &amp;#34;_internal/disqus.html&amp;#34; . }}
+          {{- end }}
+          {{ partial &amp;#34;related.html&amp;#34; . }}
+          {{- end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>手把手使用Hugo搭建网站-中级篇</title>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-medium-level-lesson/</link>
+      <pubDate>Tue, 26 Nov 2019 11:40:37 +0800</pubDate>
+      
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-medium-level-lesson/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;12-手把手使用hugo搭建网站进阶篇&#34;&gt;1.2. 手把手使用hugo搭建网站进阶篇&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;121-自定义菜单&#34;&gt;1.2.1. 自定义菜单&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;配置定义菜单栏
+&lt;ol&gt;
+&lt;li&gt;layouts/partials/sidebar.html&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; &amp;lt;aside class=&amp;#34;sidebar&amp;#34;&amp;gt;
+  &amp;lt;div class=&amp;#34;container sidebar-sticky&amp;#34;&amp;gt;
+     &amp;lt;div class=&amp;#34;sidebar-about&amp;#34;&amp;gt;
+        &amp;lt;a href=&amp;#34;{{ .Site.BaseURL }}&amp;#34;&amp;gt;&amp;lt;h1&amp;gt;{{ .Site.Title }}&amp;lt;/h1&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;p class=&amp;#34;lead&amp;#34;&amp;gt;
+        {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
+        &amp;lt;/p&amp;gt;
+     &amp;lt;/div&amp;gt;
+
+     &amp;lt;nav&amp;gt;
+
+        &amp;lt;ul class=&amp;#34;sidebar-nav&amp;#34;&amp;gt;
+        {{ $currentPage := . }}
+           {{ range .Site.Menus.main -}}
+           &amp;lt;li&amp;gt;   &amp;lt;a class=&amp;#34;sidebar-nav-item{{if or ($currentPage.IsMenuCurrent &amp;#34;main&amp;#34; .) ($currentPage.HasMenuCurrent &amp;#34;main&amp;#34; .) }} active{{end}}&amp;#34; href=&amp;#34;{{ .URL }}&amp;#34; title=&amp;#34;{{ .Title }}&amp;#34;&amp;gt;{{ .Name }}&amp;lt;/a&amp;gt;
+  &amp;lt;/li&amp;gt;
+        {{- end }}
+
+        &amp;lt;/ul&amp;gt;
+     &amp;lt;ul class=&amp;#34;sidebar-nav&amp;#34;&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/ul&amp;gt;
+     &amp;lt;/nav&amp;gt;
+
+     &amp;lt;p&amp;gt;{{ with .Site.Params.copyright }}{{.}}{{ else }}&amp;amp;copy;  xxx 公司 {{ now.Format &amp;#34;2006&amp;#34;}}.  All rights reserved. {{end}} &amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;/aside&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;site/config.toml&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;   baseURL = &amp;#34;http://clouda3.github.io/&amp;#34;
+   languageCode = &amp;#34;en-us&amp;#34;
+   title = &amp;#34;Clouda3&amp;#34;
+   theme = &amp;#34;hyde&amp;#34;
+   enableRobotsTXT=&amp;#34;true&amp;#34;
+   [permalinks]
+   post = &amp;#34;/:filename/&amp;#34;
+
+   [imaging]
+   quality = 99
+
+   [params]
+   description = &amp;#34;&amp;#34;
+   homeMetaContent = &amp;#34;clouda3 personal blog&amp;#34;
+   footer = &amp;#34;clouda3的个人网站&amp;#34;
+   date = &amp;#34;2019-04-10 14:05:50&amp;#34;
+   codePenUser = &amp;#34;someUser&amp;#34;
+   katex = true
+
+
+   [menu]
+   [[menu.main]]
+      identifier = &amp;#34;home&amp;#34;
+      name = &amp;#34;home&amp;#34;
+      url = &amp;#34;/&amp;#34;
+      weight = 1
+   [[menu.main]]
+      identifier = &amp;#34;blog&amp;#34;
+      name = &amp;#34;Blog&amp;#34;
+      url = &amp;#34;/posts/&amp;#34;
+      weight = 2
+   [[menu.main]]
+      identifier = &amp;#34;tags&amp;#34;
+      name = &amp;#34;Tags&amp;#34;
+      url = &amp;#34;/tags/&amp;#34;
+      weight = 3
+   [[menu.main]]
+      identifier = &amp;#34;about&amp;#34;
+      name = &amp;#34;About&amp;#34;
+      url = &amp;#34;/about&amp;#34;
+      weight = 4
+   [[menu.main]]
+      identifier = &amp;#34;rss&amp;#34;
+      name = &amp;#34;RSS&amp;#34;
+      url = &amp;#34;/index.xml&amp;#34;
+      weight = 5	
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;内容页面关联菜单
+&lt;ol&gt;
+&lt;li&gt;content/posts 目录下面添加文章&lt;/li&gt;
+&lt;li&gt;hugo new post post/abc.md
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;122-自定义tagcategorykeyword&#34;&gt;1.2.2. 自定义tag/category/keyword&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;无论是tag,category 还是keyword 都是用来分类的，在hugo里面没有太多的区别，都可以自定义,先演示页面keywords&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>手把手使用Hugo搭建网站-初级篇</title>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-entry-level-lesson/</link>
+      <pubDate>Tue, 26 Nov 2019 10:40:37 +0800</pubDate>
+      
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-entry-level-lesson/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11-手把手使用hugo搭建网站初级篇&#34;&gt;1.1. 手把手使用hugo搭建网站初级篇&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;111-demo使用hugo的网站&#34;&gt;1.1.1. Demo使用hugo的网站&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.flysnow.org/&#34;&gt;https://www.flysnow.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gohugo.io&#34;&gt;https://www.gohugo.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/&#34;&gt;https://www.netlify.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/showcase/&#34;&gt;https://gohugo.io/showcase/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/&#34;&gt;https://www.smashingmagazine.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;112-部分主题&#34;&gt;1.1.2. 部分主题&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Vimux/Mainroad&#34;&gt;https://github.com/Vimux/Mainroad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kingfsen/Mainroad&#34;&gt;https://github.com/kingfsen/Mainroad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;https://themes.gohugo.io/academic/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/beautifulhugo/&#34;&gt;https://themes.gohugo.io/beautifulhugo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hyde/&#34;&gt;https://themes.gohugo.io/hyde/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-even/&#34;&gt;https://themes.gohugo.io/hugo-theme-even/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rujews/maupassant-hugo&#34;&gt;https://github.com/rujews/maupassant-hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;113-hugo跟wordpress其他建站工具的对比&#34;&gt;1.1.3. hugo跟wordpress其他建站工具的对比&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;wordpress 全球31%的网站使用wordpress，尽管他有各种主题和插件，但是也有非常多的缺点，安全性，seo不够友好，定制麻烦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo 最快的静态生成工具,seo友好，静态更安全，方便定制模板，缺点没有插件，如果要定制模板只能懂一点go的语法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;wordpress是动态的并且还需要托管数据库，所以托管费用比较昂贵&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo是生成静态的页面，在本地生成后上传到服务器就可以了，托管费用非常便宜，可以直接用免费的github托管&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo不可以在线编辑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;wordpress vs hugo&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tables&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;静态/动态&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;托管&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;安全性&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;访问速度&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;在线编辑&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;markdown&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;wordpress&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;动态&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;复杂&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;需要经常升级&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;快&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;可以&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;不支持&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;hugo&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;静态&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;简单&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;不需要打补丁&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;非常快&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;不可以&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;支持&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

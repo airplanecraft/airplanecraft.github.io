@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagrant on 飞机模型</title>
+    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/vagrant/</link>
+    <description>Recent content in Vagrant on 飞机模型</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Apr 2020 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vagrant使用介绍</title>
+      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/vagrant-windows-template/</link>
+      <pubDate>Wed, 22 Apr 2020 10:30:37 +0800</pubDate>
+      
+      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/vagrant-windows-template/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;vagrant-简介&#34;&gt;vagrant 简介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VirtualBox 是一款开源虚拟机软件,vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它使用Oracle的开源VirtualBox虚拟化系统，使用Chef创建自动化虚拟环境。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;BBC Vagrant 是基于VirtualBox创建的虚拟机，并通过Vagrant进行打包而得到的VM环境。在虚拟机中部署好开发环境并建立虚拟机和实体机的文件共享，在开发时，可以通过实体机进行文件修改，并经过虚拟机中的环境执行，从而实现不同操作系统的工作环境的轻松部署。&lt;/p&gt;
+&lt;h2 id=&#34;安装-vagrant和virtualbox&#34;&gt;安装 vagrant和virtualbox&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下载并安装VirtualBox（ &lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt; ）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VirtualBox 4.3.12下载地址(windows请用此链接)：http://dlc-cdn.sun.com/virtualbox/4.3.12/index.html&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下载并安装Vagrant（ &lt;a href=&#34;http://www.vagrantup.com/downloads.html&#34;&gt;http://www.vagrantup.com/downloads.html&lt;/a&gt; ）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装和定制box&#34;&gt;安装和定制box&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下载windows 10 box文件。
+&lt;a href=&#34;https://app.vagrantup.com/mrlesmithjr/boxes/windows10/versions/1574780096/providers/virtualbox.box&#34;&gt;https://app.vagrantup.com/mrlesmithjr/boxes/windows10/versions/1574780096/providers/virtualbox.box&lt;/a&gt; 到c:\vagrant\download&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行命令&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+vagrant box add win10 c:\vagrant\download\virtualbox.box
+
+cd c:\vagrant
+
+vagrant init win10
+
+vagrant up  2&amp;gt; vagrant.log
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;查看模板文件c:\vagrant\Vagrantfile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+    $script = &amp;lt;&amp;lt;-&amp;#39;SCRIPT&amp;#39;
+        echo &amp;#34;starting wechat&amp;#34;
+        ipconfig &amp;gt; c:\ip.log
+        C:\Users\wechat\WeChat.exe &amp;gt; c:\wechat.log
+        netstat &amp;gt; c:\netstat.log
+        echo &amp;#34;started wechat&amp;#34;
+    SCRIPT
+    Vagrant.configure(&amp;#34;2&amp;#34;) do |config|
+
+    config.vm.provider :virtualbox do |vb|
+        vb.gui = true
+        vb.memory = 8*1024
+    end
+    config.vm.hostname = &amp;#39;wechat&amp;#39;
+    config.vm.boot_timeout = 99999999
+    config.vm.box = &amp;#34;mrl/windows10&amp;#34;
+    config.vm.communicator = &amp;#34;winrm&amp;#34;
+    #config.vm.provision :shell, path: &amp;#34;install-wechat.cmd&amp;#34;, privileged: true
+    config.vm.provision &amp;#34;file&amp;#34;, source: &amp;#34;./wechat&amp;#34;, destination: &amp;#34;C:\\Users\\wechat&amp;#34;
+    config.vm.provision &amp;#34;shell&amp;#34;, path: &amp;#34;wechat.cmd&amp;#34;
+    
+    end
+   
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;上面的wechat不可能启动起来，只可以启动后台程序，因为winrm无法启动xwindow，所以客户端没有可能启动起来，如果需要启动起来，就需要使用rdp来连接启动&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

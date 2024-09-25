@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on 飞机模型</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/devops/</link>
+    <link>https://airplanecraft.github.io/zh/tags/devops/</link>
     <description>Recent content in Devops on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Mar 2017 11:40:00 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2017 11:40:00 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-devops-tools/</link>
+      <link>https://airplanecraft.github.io/zh/posts/ansible-devops-tools/</link>
       <pubDate>Mon, 06 Mar 2017 11:40:00 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-devops-tools/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/ansible-devops-tools/</guid>
       <description>
         
           
@@ -87,10 +87,10 @@ IP2
     
     <item>
       <title>jenkins简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins-devops-tools/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jenkins-devops-tools/</link>
       <pubDate>Wed, 06 May 2015 11:40:00 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins-devops-tools/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jenkins-devops-tools/</guid>
       <description>
         
           

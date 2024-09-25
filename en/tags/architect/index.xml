@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architect on Airplane Craft</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/architect/</link>
+    <link>https://www.airplanecraft.github.io/en/tags/architect/</link>
     <description>Recent content in Architect on Airplane Craft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jun 2022 10:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/en/tags/architect/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 10:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.github.io/en/tags/architect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>architect design principle</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/architect-design-principle/</link>
+      <link>https://www.airplanecraft.github.io/en/posts/architect-design-principle/</link>
       <pubDate>Wed, 15 Jun 2022 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/architect-design-principle/</guid>
+      <guid>https://www.airplanecraft.github.io/en/posts/architect-design-principle/</guid>
       <description>
         
           
@@ -46,10 +46,10 @@
     
     <item>
       <title>enterprise atchitect/solution architect/technical architect difference</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</link>
+      <link>https://www.airplanecraft.github.io/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</link>
       <pubDate>Fri, 10 Jun 2022 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</guid>
+      <guid>https://www.airplanecraft.github.io/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</guid>
       <description>
         
           
@@ -89,7 +89,7 @@
       alt=&#34;image&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/architect-types.jpg&#34;
+        src=&#34;https://www.airplanecraft.github.io/images/architect-types.jpg&#34;
       
       
     /&gt;

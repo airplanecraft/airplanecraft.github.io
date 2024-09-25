@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sap on 飞机模型</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/sap/</link>
+    <link>https://airplanecraft.github.io/zh/tags/sap/</link>
     <description>Recent content in Sap on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Oct 2019 10:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/sap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2019 10:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/sap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>aws sap passed</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-passed/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-passed/</link>
       <pubDate>Wed, 02 Oct 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-passed/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-passed/</guid>
       <description>
         
           
@@ -52,10 +52,10 @@
     
     <item>
       <title>aws x-ray</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-x-ray/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-x-ray/</link>
       <pubDate>Thu, 12 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-x-ray/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-x-ray/</guid>
       <description>
         
           
@@ -81,7 +81,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1462&#34;
         height=&#34;488&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
+        src=&#34;https://airplanecraft.github.io/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
       
       
     /&gt;
@@ -132,7 +132,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;925&#34;
         height=&#34;418&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
+        src=&#34;https://airplanecraft.github.io/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
       
       
     /&gt;
@@ -150,10 +150,10 @@
     
     <item>
       <title>accelerating aws migration</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-migration/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-migration/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-migration/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-migration/</guid>
       <description>
         
           
@@ -181,7 +181,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;926&#34;
         height=&#34;373&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
+        src=&#34;https://airplanecraft.github.io/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
       
       
     /&gt;
@@ -208,10 +208,10 @@
     
     <item>
       <title>aws online analytical processing (or OLAP)</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-glue-athena-quicksight/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-glue-athena-quicksight/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-glue-athena-quicksight/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-glue-athena-quicksight/</guid>
       <description>
         
           
@@ -245,7 +245,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1171&#34;
         height=&#34;750&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
+        src=&#34;https://airplanecraft.github.io/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
       
       
     /&gt;
@@ -287,10 +287,10 @@
     
     <item>
       <title>Difference between user pool and identity pool(Federated Identities)</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-difference-between-userpool-and-identitypool/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-difference-between-userpool-and-identitypool/</link>
       <pubDate>Fri, 06 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-difference-between-userpool-and-identitypool/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-difference-between-userpool-and-identitypool/</guid>
       <description>
         
           
@@ -329,7 +329,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;720&#34;
         height=&#34;461&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
+        src=&#34;https://airplanecraft.github.io/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
       
       
     /&gt;
@@ -356,7 +356,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;768&#34;
         height=&#34;312&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
+        src=&#34;https://airplanecraft.github.io/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
       
       
     /&gt;
@@ -383,7 +383,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1368&#34;
         height=&#34;1344&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
+        src=&#34;https://airplanecraft.github.io/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
       
       
     /&gt;
@@ -402,10 +402,10 @@
     
     <item>
       <title>Aws cognito sample</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cognito-sample/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-cognito-sample/</link>
       <pubDate>Fri, 06 Sep 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cognito-sample/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-cognito-sample/</guid>
       <description>
         
           
@@ -436,7 +436,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;901&#34;
         height=&#34;501&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
+        src=&#34;https://airplanecraft.github.io/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
       
       
     /&gt;
@@ -472,7 +472,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;782&#34;
         height=&#34;201&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/scenario-authentication-cup_7617407613548709477.png&#34;
+        src=&#34;https://airplanecraft.github.io/scenario-authentication-cup_7617407613548709477.png&#34;
       
       
     /&gt;
@@ -499,10 +499,10 @@
     
     <item>
       <title>Aws cloudformation deploy lambda and apigateway</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cloudformation-lambda-apigateway/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-cloudformation-lambda-apigateway/</link>
       <pubDate>Thu, 05 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cloudformation-lambda-apigateway/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-cloudformation-lambda-apigateway/</guid>
       <description>
         
           
@@ -550,10 +550,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>Aws ecs tutorial</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-ecs-tutorial/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-ecs-tutorial/</link>
       <pubDate>Wed, 04 Sep 2019 09:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-ecs-tutorial/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-ecs-tutorial/</guid>
       <description>
         
           
@@ -598,7 +598,7 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;668&#34;
         height=&#34;254&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
+        src=&#34;https://airplanecraft.github.io/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
       
       
     /&gt;
@@ -709,10 +709,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>aws数据库迁移工具简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sct-dms-tutorial/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sct-dms-tutorial/</link>
       <pubDate>Tue, 03 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sct-dms-tutorial/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sct-dms-tutorial/</guid>
       <description>
         
           
@@ -762,10 +762,10 @@ id  name
     
     <item>
       <title>eni or eip can not be deleted</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-eni-can-not-be-deleted/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-eni-can-not-be-deleted/</link>
       <pubDate>Mon, 02 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-eni-can-not-be-deleted/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-eni-can-not-be-deleted/</guid>
       <description>
         
           
@@ -785,10 +785,10 @@ id  name
     
     <item>
       <title>一个ec2 instance上配置多个eni</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-multi-eni-on-one-ec2-instance/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-multi-eni-on-one-ec2-instance/</link>
       <pubDate>Mon, 02 Sep 2019 08:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-multi-eni-on-one-ec2-instance/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-multi-eni-on-one-ec2-instance/</guid>
       <description>
         
           
@@ -842,10 +842,10 @@ lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
     
     <item>
       <title>使用Aws sts创建临时credential</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-sts-service/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-sts-service/</link>
       <pubDate>Mon, 26 Aug 2019 08:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-sts-service/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-sts-service/</guid>
       <description>
         
           
@@ -961,10 +961,10 @@ upload failed: ./abc.txt to s3://xxxxx/abc.txt An error occurred (AccessDenied) 
     
     <item>
       <title> 使用Aws System Manager 统一管理 aws resource </title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-system-manager/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-system-manager/</link>
       <pubDate>Sun, 25 Aug 2019 16:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-system-manager/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-system-manager/</guid>
       <description>
         
           
@@ -1013,10 +1013,10 @@ sudo systemctl start amazon-ssm-agent
     
     <item>
       <title>NAT instance setup 简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-nat-instance-setup/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-nat-instance-setup/</link>
       <pubDate>Tue, 20 Aug 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-nat-instance-setup/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-nat-instance-setup/</guid>
       <description>
         
           

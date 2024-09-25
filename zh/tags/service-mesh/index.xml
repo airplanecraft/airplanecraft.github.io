@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Service Mesh on 飞机模型</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/service-mesh/</link>
+    <link>https://airplanecraft.github.io/zh/tags/service-mesh/</link>
     <description>Recent content in Service Mesh on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Nov 2023 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/tags/service-mesh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Nov 2023 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/service-mesh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是service mesh</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/service-mesh/</link>
+      <link>https://airplanecraft.github.io/zh/posts/service-mesh/</link>
       <pubDate>Thu, 23 Nov 2023 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/service-mesh/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/service-mesh/</guid>
       <description>
         
           
@@ -75,10 +75,10 @@ Istio控制平面仅在Kubernetes容器中受支持，没有可用于Istio数据
     
     <item>
       <title>企业为什么选择使用openshift</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-openshift/</link>
+      <link>https://airplanecraft.github.io/zh/posts/why-openshift/</link>
       <pubDate>Wed, 23 Nov 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-openshift/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/why-openshift/</guid>
       <description>
         
           

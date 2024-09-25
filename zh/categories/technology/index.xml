@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on 飞机模型</title>
-    <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/categories/technology/</link>
+    <link>https://airplanecraft.github.io/zh/categories/technology/</link>
     <description>Recent content in Technology on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Dec 2023 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/website-airplanecraft-publish/zh/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 10:30:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是生成式ai</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/generative-ai/</link>
+      <link>https://airplanecraft.github.io/zh/posts/generative-ai/</link>
       <pubDate>Sun, 03 Dec 2023 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/generative-ai/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/generative-ai/</guid>
       <description>
         
           
@@ -59,10 +59,10 @@
     
     <item>
       <title>什么是service mesh</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/service-mesh/</link>
+      <link>https://airplanecraft.github.io/zh/posts/service-mesh/</link>
       <pubDate>Thu, 23 Nov 2023 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/service-mesh/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/service-mesh/</guid>
       <description>
         
           
@@ -125,10 +125,10 @@ Istio控制平面仅在Kubernetes容器中受支持，没有可用于Istio数据
     
     <item>
       <title>企业为什么选择使用openshift</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-openshift/</link>
+      <link>https://airplanecraft.github.io/zh/posts/why-openshift/</link>
       <pubDate>Wed, 23 Nov 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-openshift/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/why-openshift/</guid>
       <description>
         
           
@@ -188,10 +188,10 @@ OpenShift Online服务构建在Red Hat Enterprise Linux上。Red Hat Enterprise 
     
     <item>
       <title>linux 临时文件的管理</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tmpfiles-clean/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-tmpfiles-clean/</link>
       <pubDate>Sat, 07 May 2022 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tmpfiles-clean/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-tmpfiles-clean/</guid>
       <description>
         
           
@@ -224,10 +224,10 @@ systemctl cat systemd-tmpfiles-clean.service可以查看。
     
     <item>
       <title>把最近一些东西aws东西画出来</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-best-practise-financial/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</link>
       <pubDate>Tue, 26 Apr 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-best-practise-financial/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</guid>
       <description>
         
           
@@ -339,10 +339,10 @@ systemctl cat systemd-tmpfiles-clean.service可以查看。
     
     <item>
       <title>Centos 8維護已經停止了</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/centos-8-maintenance-stopped/</link>
+      <link>https://airplanecraft.github.io/zh/posts/centos-8-maintenance-stopped/</link>
       <pubDate>Tue, 15 Feb 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/centos-8-maintenance-stopped/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/centos-8-maintenance-stopped/</guid>
       <description>
         
           
@@ -382,10 +382,10 @@ AlmaLinux (initially known as Project Lenix) is a CentOS alternative backed by t
     
     <item>
       <title>JWT、JWE、JWS 、JWK 到底是什么</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jwt-jwe-jwk-jws/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jwt-jwe-jwk-jws/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jwt-jwe-jwk-jws/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jwt-jwe-jwk-jws/</guid>
       <description>
         
           
@@ -456,10 +456,10 @@ signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有
     
     <item>
       <title>Polygon在websoket的连接串数据的经常中断</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/polygon-websoket-data-transfer-issue/</link>
+      <link>https://airplanecraft.github.io/zh/posts/polygon-websoket-data-transfer-issue/</link>
       <pubDate>Sat, 20 Nov 2021 11:40:30 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/polygon-websoket-data-transfer-issue/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/polygon-websoket-data-transfer-issue/</guid>
       <description>
         
           
@@ -538,10 +538,10 @@ spring.kafka.producer.properties.linger.ms=200
     
     <item>
       <title>交换机故障导致线程阻塞</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/application-network-issue-caused-thread-block/</link>
+      <link>https://airplanecraft.github.io/zh/posts/application-network-issue-caused-thread-block/</link>
       <pubDate>Sat, 21 Aug 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/application-network-issue-caused-thread-block/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/application-network-issue-caused-thread-block/</guid>
       <description>
         
           
@@ -598,10 +598,10 @@ spring.kafka.producer.properties.linger.ms=200
     
     <item>
       <title>阿里云架构-使用privatelink让不同的vpc的服务可以访问</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/alicloud_privatelink/</link>
+      <link>https://airplanecraft.github.io/zh/posts/alicloud_privatelink/</link>
       <pubDate>Wed, 28 Jul 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/alicloud_privatelink/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/alicloud_privatelink/</guid>
       <description>
         
           
@@ -683,10 +683,10 @@ spring.kafka.producer.properties.linger.ms=200
     
     <item>
       <title>網絡服務器點對點的網速測試</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/point-to-point-network-transfer-speed-test/</link>
+      <link>https://airplanecraft.github.io/zh/posts/point-to-point-network-transfer-speed-test/</link>
       <pubDate>Wed, 02 Jun 2021 10:00:30 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/point-to-point-network-transfer-speed-test/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/point-to-point-network-transfer-speed-test/</guid>
       <description>
         
           
@@ -741,10 +741,10 @@ Connecting to host 172.16.10.101, port 5201
     
     <item>
       <title>aws cdk introduction</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cdk/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-cdk/</link>
       <pubDate>Fri, 26 Feb 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cdk/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-cdk/</guid>
       <description>
         
           
@@ -801,10 +801,10 @@ Connecting to host 172.16.10.101, port 5201
     
     <item>
       <title>本地数据中心和云的对比</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/local-datacenter-vs-cloud/</link>
+      <link>https://airplanecraft.github.io/zh/posts/local-datacenter-vs-cloud/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:30 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/local-datacenter-vs-cloud/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/local-datacenter-vs-cloud/</guid>
       <description>
         
           
@@ -933,10 +933,10 @@ Connecting to host 172.16.10.101, port 5201
     
     <item>
       <title>kafka cluster的搭建</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/kafka-cluster-setup/</link>
+      <link>https://airplanecraft.github.io/zh/posts/kafka-cluster-setup/</link>
       <pubDate>Thu, 30 Jul 2020 11:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/kafka-cluster-setup/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/kafka-cluster-setup/</guid>
       <description>
         
           
@@ -1196,10 +1196,10 @@ group.initial.rebalance.delay.ms=0
     
     <item>
       <title>使用terraform创建阿里ecs用ansible完成主机配置</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</link>
+      <link>https://airplanecraft.github.io/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</link>
       <pubDate>Fri, 29 May 2020 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/alicloud-terraform-create-ecs-ansible-provision/</guid>
       <description>
         
           
@@ -1449,10 +1449,10 @@ group.initial.rebalance.delay.ms=0
     
     <item>
       <title>使用ansible在多台客户机安装docker</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-deploy-docker-container/</link>
+      <link>https://airplanecraft.github.io/zh/posts/ansible-deploy-docker-container/</link>
       <pubDate>Fri, 22 May 2020 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-deploy-docker-container/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/ansible-deploy-docker-container/</guid>
       <description>
         
           
@@ -1569,10 +1569,10 @@ ssh-copy-id ansible@node ip
     
     <item>
       <title>给nginx安装免费的证书</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-cerbot/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-cerbot/</link>
       <pubDate>Fri, 08 May 2020 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-cerbot/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-cerbot/</guid>
       <description>
         
           
@@ -1612,10 +1612,10 @@ echo &amp;#34;0 0,12 * * * root python -c &amp;#39;import random; import time; t
     
     <item>
       <title>vagrant使用介绍</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/vagrant-windows-template/</link>
+      <link>https://airplanecraft.github.io/zh/posts/vagrant-windows-template/</link>
       <pubDate>Wed, 22 Apr 2020 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/vagrant-windows-template/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/vagrant-windows-template/</guid>
       <description>
         
           
@@ -1692,10 +1692,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>手把手使用Hugo搭建网站-高级篇</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-advanced-level-lesson/</link>
+      <link>https://airplanecraft.github.io/zh/posts/hugo-advanced-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-advanced-level-lesson/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/hugo-advanced-level-lesson/</guid>
       <description>
         
           
@@ -1736,10 +1736,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>手把手使用Hugo搭建网站-中级篇</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-medium-level-lesson/</link>
+      <link>https://airplanecraft.github.io/zh/posts/hugo-medium-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 11:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-medium-level-lesson/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/hugo-medium-level-lesson/</guid>
       <description>
         
           
@@ -1847,10 +1847,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>手把手使用Hugo搭建网站-初级篇</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-entry-level-lesson/</link>
+      <link>https://airplanecraft.github.io/zh/posts/hugo-entry-level-lesson/</link>
       <pubDate>Tue, 26 Nov 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/hugo-entry-level-lesson/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/hugo-entry-level-lesson/</guid>
       <description>
         
           
@@ -1940,10 +1940,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>SAA-CO1考试之路</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-saa-pass/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-saa-pass/</link>
       <pubDate>Thu, 03 Oct 2019 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-saa-pass/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-saa-pass/</guid>
       <description>
         
           
@@ -1999,10 +1999,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>aws sap passed</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-passed/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-passed/</link>
       <pubDate>Wed, 02 Oct 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-passed/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-passed/</guid>
       <description>
         
           
@@ -2042,10 +2042,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>aws x-ray</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-x-ray/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-x-ray/</link>
       <pubDate>Thu, 12 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-x-ray/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-x-ray/</guid>
       <description>
         
           
@@ -2071,7 +2071,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1462&#34;
         height=&#34;488&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
+        src=&#34;https://airplanecraft.github.io/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
       
       
     /&gt;
@@ -2122,7 +2122,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;925&#34;
         height=&#34;418&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
+        src=&#34;https://airplanecraft.github.io/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
       
       
     /&gt;
@@ -2140,10 +2140,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>accelerating aws migration</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-migration/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-migration/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-migration/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-migration/</guid>
       <description>
         
           
@@ -2171,7 +2171,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;926&#34;
         height=&#34;373&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
+        src=&#34;https://airplanecraft.github.io/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
       
       
     /&gt;
@@ -2198,10 +2198,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>aws online analytical processing (or OLAP)</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-glue-athena-quicksight/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-glue-athena-quicksight/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-glue-athena-quicksight/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-glue-athena-quicksight/</guid>
       <description>
         
           
@@ -2235,7 +2235,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1171&#34;
         height=&#34;750&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
+        src=&#34;https://airplanecraft.github.io/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
       
       
     /&gt;
@@ -2277,10 +2277,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>Difference between user pool and identity pool(Federated Identities)</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-difference-between-userpool-and-identitypool/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-difference-between-userpool-and-identitypool/</link>
       <pubDate>Fri, 06 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-difference-between-userpool-and-identitypool/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-difference-between-userpool-and-identitypool/</guid>
       <description>
         
           
@@ -2319,7 +2319,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;720&#34;
         height=&#34;461&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
+        src=&#34;https://airplanecraft.github.io/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
       
       
     /&gt;
@@ -2346,7 +2346,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;768&#34;
         height=&#34;312&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
+        src=&#34;https://airplanecraft.github.io/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
       
       
     /&gt;
@@ -2373,7 +2373,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1368&#34;
         height=&#34;1344&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
+        src=&#34;https://airplanecraft.github.io/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
       
       
     /&gt;
@@ -2392,10 +2392,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>Aws cognito sample</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cognito-sample/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-cognito-sample/</link>
       <pubDate>Fri, 06 Sep 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cognito-sample/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-cognito-sample/</guid>
       <description>
         
           
@@ -2426,7 +2426,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;901&#34;
         height=&#34;501&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
+        src=&#34;https://airplanecraft.github.io/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
       
       
     /&gt;
@@ -2462,7 +2462,7 @@ vagrant up  2&amp;gt; vagrant.log
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;782&#34;
         height=&#34;201&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/scenario-authentication-cup_7617407613548709477.png&#34;
+        src=&#34;https://airplanecraft.github.io/scenario-authentication-cup_7617407613548709477.png&#34;
       
       
     /&gt;
@@ -2489,10 +2489,10 @@ vagrant up  2&amp;gt; vagrant.log
     
     <item>
       <title>Aws cloudformation deploy lambda and apigateway</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cloudformation-lambda-apigateway/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-cloudformation-lambda-apigateway/</link>
       <pubDate>Thu, 05 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-cloudformation-lambda-apigateway/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-cloudformation-lambda-apigateway/</guid>
       <description>
         
           
@@ -2540,10 +2540,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>Aws ecs tutorial</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-ecs-tutorial/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-ecs-tutorial/</link>
       <pubDate>Wed, 04 Sep 2019 09:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-ecs-tutorial/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-ecs-tutorial/</guid>
       <description>
         
           
@@ -2588,7 +2588,7 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;668&#34;
         height=&#34;254&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
+        src=&#34;https://airplanecraft.github.io/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
       
       
     /&gt;
@@ -2699,10 +2699,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>aws数据库迁移工具简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sct-dms-tutorial/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sct-dms-tutorial/</link>
       <pubDate>Tue, 03 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sct-dms-tutorial/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sct-dms-tutorial/</guid>
       <description>
         
           
@@ -2752,10 +2752,10 @@ id  name
     
     <item>
       <title>eni or eip can not be deleted</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-eni-can-not-be-deleted/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-eni-can-not-be-deleted/</link>
       <pubDate>Mon, 02 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-eni-can-not-be-deleted/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-eni-can-not-be-deleted/</guid>
       <description>
         
           
@@ -2775,10 +2775,10 @@ id  name
     
     <item>
       <title>一个ec2 instance上配置多个eni</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-multi-eni-on-one-ec2-instance/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-multi-eni-on-one-ec2-instance/</link>
       <pubDate>Mon, 02 Sep 2019 08:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-multi-eni-on-one-ec2-instance/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-multi-eni-on-one-ec2-instance/</guid>
       <description>
         
           
@@ -2832,10 +2832,10 @@ lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
     
     <item>
       <title>使用Aws sts创建临时credential</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-sts-service/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-sts-service/</link>
       <pubDate>Mon, 26 Aug 2019 08:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-sts-service/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-sts-service/</guid>
       <description>
         
           
@@ -2951,10 +2951,10 @@ upload failed: ./abc.txt to s3://xxxxx/abc.txt An error occurred (AccessDenied) 
     
     <item>
       <title> 使用Aws System Manager 统一管理 aws resource </title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-system-manager/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-sap-system-manager/</link>
       <pubDate>Sun, 25 Aug 2019 16:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-sap-system-manager/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-sap-system-manager/</guid>
       <description>
         
           
@@ -3003,10 +3003,10 @@ sudo systemctl start amazon-ssm-agent
     
     <item>
       <title>NAT instance setup 简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-nat-instance-setup/</link>
+      <link>https://airplanecraft.github.io/zh/posts/aws-nat-instance-setup/</link>
       <pubDate>Tue, 20 Aug 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/aws-nat-instance-setup/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/aws-nat-instance-setup/</guid>
       <description>
         
           
@@ -3051,10 +3051,10 @@ iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
     
     <item>
       <title>我们为什么需要K8S</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-do-we-need-k8s/</link>
+      <link>https://airplanecraft.github.io/zh/posts/why-do-we-need-k8s/</link>
       <pubDate>Fri, 03 May 2019 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-do-we-need-k8s/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/why-do-we-need-k8s/</guid>
       <description>
         
           
@@ -3099,10 +3099,10 @@ iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
     
     <item>
       <title>如何配置jenkins新节点</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins_create_new_node/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jenkins_create_new_node/</link>
       <pubDate>Sat, 13 Oct 2018 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins_create_new_node/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jenkins_create_new_node/</guid>
       <description>
         
           
@@ -3144,10 +3144,10 @@ e&lt;/li&gt;
     
     <item>
       <title>面试问题集合</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/interview_questions/</link>
+      <link>https://airplanecraft.github.io/zh/posts/interview_questions/</link>
       <pubDate>Sat, 28 Jul 2018 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/interview_questions/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/interview_questions/</guid>
       <description>
         
           
@@ -3187,10 +3187,10 @@ e&lt;/li&gt;
     
     <item>
       <title>k8s使用ingress总结</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/k8s-install-ingress/</link>
+      <link>https://airplanecraft.github.io/zh/posts/k8s-install-ingress/</link>
       <pubDate>Thu, 03 May 2018 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/k8s-install-ingress/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/k8s-install-ingress/</guid>
       <description>
         
           
@@ -3250,10 +3250,10 @@ EOF
     
     <item>
       <title>裸金属服务器使用</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/bare-metal-server/</link>
+      <link>https://airplanecraft.github.io/zh/posts/bare-metal-server/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/bare-metal-server/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/bare-metal-server/</guid>
       <description>
         
           
@@ -3289,7 +3289,7 @@ EOF
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/huaweibaremetal.png&#34;
+        src=&#34;https://airplanecraft.github.io/huaweibaremetal.png&#34;
       
       
     /&gt;
@@ -3315,7 +3315,7 @@ EOF
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/huaweicompare.png&#34;
+        src=&#34;https://airplanecraft.github.io/huaweicompare.png&#34;
       
       
     /&gt;
@@ -3340,10 +3340,10 @@ EOF
     
     <item>
       <title>裸金属服务器遇到的docker容器访问问题</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/firewalld-block-docker/</link>
+      <link>https://airplanecraft.github.io/zh/posts/firewalld-block-docker/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/firewalld-block-docker/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/firewalld-block-docker/</guid>
       <description>
         
           
@@ -3373,7 +3373,7 @@ EOF
       alt=&#34;pic&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/website-airplanecraft-publish/firewall-docker.png&#34;
+        src=&#34;https://airplanecraft.github.io/firewall-docker.png&#34;
       
       
     /&gt;
@@ -3394,10 +3394,10 @@ EOF
     
     <item>
       <title>JDk版本問題造成的cglib運行時候出錯</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jdk-version-caused-dynamic-proxy-issue/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jdk-version-caused-dynamic-proxy-issue/</link>
       <pubDate>Tue, 29 Aug 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jdk-version-caused-dynamic-proxy-issue/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jdk-version-caused-dynamic-proxy-issue/</guid>
       <description>
         
           
@@ -3447,10 +3447,10 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
     
     <item>
       <title>如何测试linux的tcp和udp端口</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tcp-udp-port-test/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-tcp-udp-port-test/</link>
       <pubDate>Fri, 02 Jun 2017 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tcp-udp-port-test/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-tcp-udp-port-test/</guid>
       <description>
         
           
@@ -3473,10 +3473,10 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protect
     
     <item>
       <title>为什么要使用epel</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-epel/</link>
+      <link>https://airplanecraft.github.io/zh/posts/why-epel/</link>
       <pubDate>Mon, 22 May 2017 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/why-epel/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/why-epel/</guid>
       <description>
         
           
@@ -3513,10 +3513,10 @@ rtld(GNU_HASH)
     
     <item>
       <title>Openvpn最简单的安装方式</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-openvpn-install/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-openvpn-install/</link>
       <pubDate>Mon, 08 May 2017 12:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-openvpn-install/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-openvpn-install/</guid>
       <description>
         
           
@@ -3547,10 +3547,10 @@ rtld(GNU_HASH)
     
     <item>
       <title>python一些集合</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/pythyon_collection/</link>
+      <link>https://airplanecraft.github.io/zh/posts/pythyon_collection/</link>
       <pubDate>Thu, 04 May 2017 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/pythyon_collection/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/pythyon_collection/</guid>
       <description>
         
           
@@ -3707,10 +3707,10 @@ rtld(GNU_HASH)
     
     <item>
       <title>Ansible简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-devops-tools/</link>
+      <link>https://airplanecraft.github.io/zh/posts/ansible-devops-tools/</link>
       <pubDate>Mon, 06 Mar 2017 11:40:00 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/ansible-devops-tools/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/ansible-devops-tools/</guid>
       <description>
         
           
@@ -3785,10 +3785,10 @@ IP2
     
     <item>
       <title>linux最大文件打开数</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-file-max-open/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-file-max-open/</link>
       <pubDate>Sat, 07 May 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-file-max-open/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-file-max-open/</guid>
       <description>
         
           
@@ -3827,10 +3827,10 @@ vim /etc/security/limits.conf
     
     <item>
       <title>linux的tree命令</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tree/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-tree/</link>
       <pubDate>Fri, 06 May 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-tree/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-tree/</guid>
       <description>
         
           
@@ -3875,10 +3875,10 @@ vim /etc/security/limits.conf
     
     <item>
       <title>vpn客户端工具pptp介绍</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/pptp-client/</link>
+      <link>https://airplanecraft.github.io/zh/posts/pptp-client/</link>
       <pubDate>Wed, 04 May 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/pptp-client/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/pptp-client/</guid>
       <description>
         
           
@@ -3919,10 +3919,10 @@ vim /etc/security/limits.conf
     
     <item>
       <title>lvm空间扩容</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-lvm-resize/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-lvm-resize/</link>
       <pubDate>Wed, 20 Apr 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-lvm-resize/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-lvm-resize/</guid>
       <description>
         
           
@@ -3958,10 +3958,10 @@ mount /home
     
     <item>
       <title>centos使用ssh-key免密登录</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-key-gen/</link>
+      <link>https://airplanecraft.github.io/zh/posts/linux-key-gen/</link>
       <pubDate>Sun, 03 Apr 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/linux-key-gen/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/linux-key-gen/</guid>
       <description>
         
           
@@ -3996,10 +3996,10 @@ mount /home
     
     <item>
       <title>jvm参数优化</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jvm-optimize-related/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</link>
       <pubDate>Fri, 26 Jun 2015 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jvm-optimize-related/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</guid>
       <description>
         
           
@@ -4018,10 +4018,10 @@ mount /home
     
     <item>
       <title>jenkins简介</title>
-      <link>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins-devops-tools/</link>
+      <link>https://airplanecraft.github.io/zh/posts/jenkins-devops-tools/</link>
       <pubDate>Wed, 06 May 2015 11:40:00 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/website-airplanecraft-publish/zh/posts/jenkins-devops-tools/</guid>
+      <guid>https://airplanecraft.github.io/zh/posts/jenkins-devops-tools/</guid>
       <description>
         
           

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cdk on 飞机模型</title>
-    <link>https://airplanecraft.github.io/zh/tags/cdk/</link>
+    <link>https://www.airplanecraft.com/zh/tags/cdk/</link>
     <description>Recent content in Cdk on 飞机模型</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="https://airplanecraft.github.io/zh/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把最近一些东西aws东西画出来</title>
-      <link>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</link>
+      <link>https://www.airplanecraft.com/zh/posts/aws-best-practise-financial/</link>
       <pubDate>Tue, 26 Apr 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/aws-best-practise-financial/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/aws-best-practise-financial/</guid>
       <description>
         
           
@@ -33,7 +33,7 @@
       alt=&#34;1&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/Best_practice_eventbridge.jpg&#34;
+        src=&#34;https://www.airplanecraft.com/images/Best_practice_eventbridge.jpg&#34;
       
       
     /&gt;
@@ -58,7 +58,7 @@
       alt=&#34;2&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/Best_practice_finicial_industry.jpg&#34;
+        src=&#34;https://www.airplanecraft.com/images/Best_practice_finicial_industry.jpg&#34;
       
       
     /&gt;
@@ -83,7 +83,7 @@
       alt=&#34;3&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/vpc-connectivity-overview.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/vpc-connectivity-overview.png&#34;
       
       
     /&gt;
@@ -108,7 +108,7 @@
       alt=&#34;4&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/dmz.jpg&#34;
+        src=&#34;https://www.airplanecraft.com/images/dmz.jpg&#34;
       
       
     /&gt;
@@ -124,10 +124,10 @@
     
     <item>
       <title>aws cdk introduction</title>
-      <link>https://airplanecraft.github.io/zh/posts/aws-cdk/</link>
+      <link>https://www.airplanecraft.com/zh/posts/aws-cdk/</link>
       <pubDate>Fri, 26 Feb 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/aws-cdk/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/aws-cdk/</guid>
       <description>
         
           
@@ -151,7 +151,7 @@
       alt=&#34;cdkstatck&#34;
       
         class=&#34;image_figure image_internal image_unprocessed&#34;
-        src=&#34;https://airplanecraft.github.io/images/awscdk.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/awscdk.png&#34;
       
       
     /&gt;
@@ -184,10 +184,10 @@
     
     <item>
       <title>jvm参数优化</title>
-      <link>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</link>
+      <link>https://www.airplanecraft.com/zh/posts/jvm-optimize-related/</link>
       <pubDate>Fri, 26 Jun 2015 12:40:37 +0800</pubDate>
       
-      <guid>https://airplanecraft.github.io/zh/posts/jvm-optimize-related/</guid>
+      <guid>https://www.airplanecraft.com/zh/posts/jvm-optimize-related/</guid>
       <description>
         
           

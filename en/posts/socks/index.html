@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Oauth2.0 | Airplane Craft</title>
+<title>How to setup sock5 proxy on ubuntu | Airplane Craft</title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,25 +19,26 @@
 
 
 
+  
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="oauth2.0" />
+<meta name="description" content="setup sock5 proxy on ubuntu" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Oauth2.0" />
+<meta name="twitter:title" content="How to setup sock5 proxy on ubuntu" />
 <meta name="twitter:image" content="https://www.airplanecraft.com/"/>
-<meta property="og:url" content="https://www.airplanecraft.com/en/posts/oauth2.0/" />
-<meta property="og:title" content="Oauth2.0" />
-<meta property="og:description" content="oauth2.0" />
+<meta property="og:url" content="https://www.airplanecraft.com/en/posts/socks/" />
+<meta property="og:title" content="How to setup sock5 proxy on ubuntu" />
+<meta property="og:description" content="setup sock5 proxy on ubuntu" />
 <meta property="og:image" content="https://www.airplanecraft.com/" />
-  <meta name="keywords" content="security,oidc,oauth2.0" />
+  <meta name="keywords" content="Proxy Socks5" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.airplanecraft.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.airplanecraft.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.airplanecraft.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.airplanecraft.com/en/posts/oauth2.0/">
+<link rel="canonical" href="https://www.airplanecraft.com/en/posts/socks/">
 
 
 
@@ -135,7 +136,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Oauth2.0</h1>
+    <h1 class="post_title">How to setup sock5 proxy on ubuntu</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -143,23 +144,21 @@
 </svg>
 </span>
     <span class="post_date">
-      Oct 23, 2022</span>
-    <span class="post_time"> · 4 min read</span><span>&nbsp;· <a href='https://www.airplanecraft.com/en/tags/security/' title="security" class="post_tag button button_translucent">security
-        </a><a href='https://www.airplanecraft.com/en/tags/oidc/' title="oidc" class="post_tag button button_translucent">oidc
-        </a><a href='https://www.airplanecraft.com/en/tags/oauth2.0/' title="oauth2.0" class="post_tag button button_translucent">oauth2.0
+      Sep 24, 2024</span>
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://www.airplanecraft.com/en/tags/proxy-socks5/' title="Proxy Socks5" class="post_tag button button_translucent">Proxy Socks5
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Oauth2.0&url=https%3a%2f%2fwww.airplanecraft.com%2fen%2fposts%2foauth2.0%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=How%20to%20setup%20sock5%20proxy%20on%20ubuntu&url=https%3a%2f%2fwww.airplanecraft.com%2fen%2fposts%2fsocks%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fen%2fposts%2foauth2.0%2f&t=Oauth2.0" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fen%2fposts%2fsocks%2f&t=How%20to%20setup%20sock5%20proxy%20on%20ubuntu" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -173,7 +172,7 @@
 </svg>
 
     </a>
-    <a href="https://www.airplanecraft.com/en/posts/oauth2.0/" title="Copy Link" class="link link_yank">
+    <a href="https://www.airplanecraft.com/en/posts/socks/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -184,64 +183,71 @@
   </span>
   </div>
 
-      <div class="post_toc">
-        <h2>Overview</h2>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#what-is-oauth20">what is oauth2.0</a></li>
-    <li><a href="#architecture">architecture</a></li>
-    <li><a href="#oauth20-roles">OAuth2.0 Roles</a></li>
-    <li><a href="#oauth-20-access-tokens-and-authorization-code">OAuth 2.0 Access Tokens and Authorization Code</a></li>
-    <li><a href="#grant-types-in-oauth-20">Grant Types in OAuth 2.0</a></li>
-  </ul>
-</nav>
-      </div>
-    
-    <div class="post_body"><h2 id="what-is-oauth20">what is oauth2.0</h2>
-<p>OAuth 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. It replaced OAuth 1.0 in 2012 and is now the d industry standard for online authorization. OAuth 2.0 provides consented access and restricts actions of what the client app can perform on resources on behalf of the user, without ever sharing the user&rsquo;s credentials.</p>
-<h2 id="architecture">architecture</h2>
-<p><figure>
-  <picture>
+    <div class="post_body"><h2 id="setup-socks5sh">setup socks5.sh</h2>
+<pre tabindex="0"><code>
+#!/bin/bash
 
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="PrivateLink"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="https://www.airplanecraft.com/images/oauth2.0.jpeg"
-      
-      
-    />
+echo -e &#34;Please enter the username for the socks5 proxy:&#34;
+read username
+echo -e &#34;Please enter the password for the socks5 proxy:&#34;
+read -s password
 
-    </picture>
-</figure>
-</p>
-<h2 id="oauth20-roles">OAuth2.0 Roles</h2>
-<p><a href="https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html">https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html</a></p>
-<p>Resource Owner: The user or system that owns the protected resources and can grant access to them.</p>
-<p>Client: The client is the system that requires access to the protected resources. To access resources, the Client must hold the appropriate Access Token.</p>
-<p>Authorization Server: This server receives requests from the Client for Access Tokens and issues them upon successful authentication and consent by the Resource Owner. The authorization server exposes two endpoints: the Authorization endpoint, which handles the interactive authentication and consent of the user, and the Token endpoint, which is involved in a machine to machine interaction.</p>
-<p>Resource Server: A server that protects the user’s resources and receives access requests from the Client. It accepts and validates an Access Token from the Client and returns the appropriate resources to it.</p>
-<h2 id="oauth-20-access-tokens-and-authorization-code">OAuth 2.0 Access Tokens and Authorization Code</h2>
-<p>The OAuth 2 Authorization server may not directly return an Access Token after the Resource Owner has authorized access. Instead, and for better security, an Authorization Code may be returned, which is then exchanged for an Access Token. In addition, the Authorization server may also issue a Refresh Token with the Access Token. Unlike Access Tokens, Refresh Tokens normally have long expiry times and may be exchanged for new Access Tokens when the latter expires. Because Refresh Tokens have these properties, they have to be stored securely by clients.</p>
-<h2 id="grant-types-in-oauth-20">Grant Types in OAuth 2.0</h2>
-<p>In OAuth 2.0, grants are the set of steps a Client has to perform to get resource access authorization. The authorization framework provides several grant types to address different scenarios:</p>
-<p>Authorization Code grant: The Authorization server returns a single-use Authorization Code to the Client, which is then exchanged for an Access Token. This is the best option for traditional web apps where the exchange can securely happen on the server side. The Authorization Code flow might be used by Single Page Apps (SPA) and mobile/native apps. However, here, the client secret cannot be stored securely, and so authentication, during the exchange, is limited to the use of client id alone. A better alternative is the Authorization Code with PKCE grant, below.</p>
-<p>Implicit Grant: A simplified flow where the Access Token is returned directly to the Client. In the Implicit flow, the authorization server may return the Access Token as a parameter in the callback URI or as a response to a form post. The first option is now deprecated due to potential token leakage.</p>
-<p>Authorization Code Grant with Proof Key for Code Exchange (PKCE): This authorization flow is similar to the Authorization Code grant, but with additional steps that make it more secure for mobile/native apps and SPAs.</p>
-<p>Resource Owner Credentials Grant Type: This grant requires the Client first to acquire the resource owner’s credentials, which are passed to the Authorization server. It is, therefore, limited to Clients that are completely trusted. It has the advantage that no redirect to the Authorization server is involved, so it is applicable in the use cases where a redirect is infeasible.</p>
-<p>Client Credentials Grant Type: Used for non-interactive applications e.g., automated processes, microservices, etc. In this case, the application is authenticated per se by using its client id and secret.</p>
-<p>Device Authorization Flow: A grant that enables use by apps on input-constrained devices, such as smart TVs.</p>
-<p>Refresh Token Grant: The flow that involves the exchange of a Refresh Token for a new Access Token.</p>
+# Update repositories
+sudo apt update -y
+
+# Install dante-server
+sudo apt install dante-server -y
+
+# Create the configuration file
+sudo bash -c &#39;cat &lt;&lt;EOF &gt; /etc/danted.conf
+logoutput: /var/log/danted.log
+internal: 0.0.0.0 port = 1080
+external: eth0
+method: username none
+user.privileged: root
+user.notprivileged: nobody
+client pass {
+    from: 0.0.0.0/0 to: 0.0.0.0/0
+    log: connect disconnect error
+}
+socks pass {
+    from: 0.0.0.0/0 to: 0.0.0.0/0
+    log: connect disconnect error
+}
+EOF&#39;
+
+# Add user with password
+sudo useradd --shell /usr/sbin/nologin $username
+echo &#34;$username:$password&#34; | sudo chpasswd
+
+# Check if UFW is active and open port 1080 if needed
+if sudo ufw status | grep -q &#34;Status: active&#34;; then
+    sudo ufw allow 1080/tcp
+fi
+
+# Check if iptables is active and open port 1080 if needed
+if sudo iptables -L | grep -q &#34;ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:1080&#34;; then
+    echo &#34;Port 1080 is already open in iptables.&#34;
+else
+    sudo iptables -A INPUT -p tcp --dport 1080 -j ACCEPT
+fi
+
+# Restart dante-server
+sudo systemctl restart danted
+
+# Enable dante-server to start at boot
+sudo systemctl enable danted
+</code></pre><h2 id="open-port-1080-on-firewall">open port 1080 on firewall</h2>
+<h2 id="run-sock5sh">run sock5.sh</h2>
+<pre tabindex="0"><code>sudo bash socks5.sh
+</code></pre><h2 id="testing-the-proxy">Testing the Proxy</h2>
+<pre tabindex="0"><code>
+apt-get install nc
+
+nc -zv proxyServerIP 1080
+
+curl -x socks5://username:password@proxyServerIP:1080 https://ifconfig.me
+</code></pre><p>if the IP is the proxyServerIP ,then it works</p>
 
     </div>
 <div class="post_comments">

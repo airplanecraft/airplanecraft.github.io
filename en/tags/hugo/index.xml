@@ -6,7 +6,23 @@
     <description>Recent content in Hugo on Airplane Craft</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.airplanecraft.com/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.airplanecraft.com/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate site from yunduan.io to www.airplanecraft.com</title>
+      <link>https://www.airplanecraft.com/en/posts/migration/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/en/posts/migration/</guid>
+      <description>
+        
+          
+            Migrate site from yunduan.io to www.airplanecraft.com.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Using Hugo page bundles english</title>
       <link>https://www.airplanecraft.com/en/posts/bundle/</link>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.airplanecraft.com/en/</loc>
+    <loc>https://www.airplanecraft.com/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,13 +12,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/"
+                href="https://www.airplanecraft.com/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/animation/</loc>
+    <loc>https://www.airplanecraft.com/tags/animation/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/</loc>
+    <loc>https://www.airplanecraft.com/categories/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,13 +28,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/"
+                href="https://www.airplanecraft.com/categories/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/animation/</loc>
+    <loc>https://www.airplanecraft.com/posts/animation/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/index/</loc>
+    <loc>https://www.airplanecraft.com/tags/index/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -44,10 +44,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/index/"
+                href="https://www.airplanecraft.com/tags/index/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/</loc>
+    <loc>https://www.airplanecraft.com/posts/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -57,10 +57,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/posts/"
+                href="https://www.airplanecraft.com/posts/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/</loc>
+    <loc>https://www.airplanecraft.com/tags/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -70,10 +70,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/"
+                href="https://www.airplanecraft.com/tags/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/technology/</loc>
+    <loc>https://www.airplanecraft.com/categories/technology/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -83,10 +83,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/technology/"
+                href="https://www.airplanecraft.com/categories/technology/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/hugo/</loc>
+    <loc>https://www.airplanecraft.com/tags/hugo/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -96,34 +96,34 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/hugo/"
+                href="https://www.airplanecraft.com/tags/hugo/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/migration/</loc>
+    <loc>https://www.airplanecraft.com/posts/migration/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/socks/</loc>
+    <loc>https://www.airplanecraft.com/posts/socks/</loc>
     <lastmod>2024-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/proxy-socks5/</loc>
+    <loc>https://www.airplanecraft.com/tags/proxy-socks5/</loc>
     <lastmod>2024-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/bundle/</loc>
+    <loc>https://www.airplanecraft.com/posts/bundle/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/oauth2.0/</loc>
+    <loc>https://www.airplanecraft.com/tags/oauth2.0/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/oauth2.0/</loc>
+    <loc>https://www.airplanecraft.com/posts/oauth2.0/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/oidc/</loc>
+    <loc>https://www.airplanecraft.com/tags/oidc/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/security/</loc>
+    <loc>https://www.airplanecraft.com/tags/security/</loc>
     <lastmod>2022-10-23T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/starting_recording_my_airplanecraft_life/</loc>
+    <loc>https://www.airplanecraft.com/posts/starting_recording_my_airplanecraft_life/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -133,10 +133,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/posts/starting_recording_my_airplanecraft_life/"
+                href="https://www.airplanecraft.com/posts/starting_recording_my_airplanecraft_life/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/airplanecraft/</loc>
+    <loc>https://www.airplanecraft.com/tags/airplanecraft/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -146,10 +146,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/airplanecraft/"
+                href="https://www.airplanecraft.com/tags/airplanecraft/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/categories/airplanecraft/</loc>
+    <loc>https://www.airplanecraft.com/categories/airplanecraft/</loc>
     <lastmod>2022-09-22T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -159,10 +159,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/categories/airplanecraft/"
+                href="https://www.airplanecraft.com/categories/airplanecraft/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/devops/</loc>
+    <loc>https://www.airplanecraft.com/tags/devops/</loc>
     <lastmod>2022-06-17T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -172,37 +172,37 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/devops/"
+                href="https://www.airplanecraft.com/tags/devops/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/devops-traning-slide/</loc>
+    <loc>https://www.airplanecraft.com/posts/devops-traning-slide/</loc>
     <lastmod>2022-06-17T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/architect/</loc>
+    <loc>https://www.airplanecraft.com/tags/architect/</loc>
     <lastmod>2022-06-15T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/architect-design-principle/</loc>
+    <loc>https://www.airplanecraft.com/posts/architect-design-principle/</loc>
     <lastmod>2022-06-15T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</loc>
+    <loc>https://www.airplanecraft.com/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</loc>
     <lastmod>2022-06-10T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/css/</loc>
+    <loc>https://www.airplanecraft.com/tags/css/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/featured/</loc>
+    <loc>https://www.airplanecraft.com/tags/featured/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/html/</loc>
+    <loc>https://www.airplanecraft.com/tags/html/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/markdown/</loc>
+    <loc>https://www.airplanecraft.com/tags/markdown/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/markdown-syntax/</loc>
+    <loc>https://www.airplanecraft.com/posts/markdown-syntax/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/themes/</loc>
+    <loc>https://www.airplanecraft.com/tags/themes/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -212,13 +212,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/themes/"
+                href="https://www.airplanecraft.com/tags/themes/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/map/</loc>
-    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/jwt/</loc>
+    <loc>https://www.airplanecraft.com/tags/jwt/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -228,13 +225,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/jwt/"
+                href="https://www.airplanecraft.com/tags/jwt/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/jwt/</loc>
+    <loc>https://www.airplanecraft.com/posts/jwt/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/token/</loc>
+    <loc>https://www.airplanecraft.com/tags/token/</loc>
     <lastmod>2021-12-03T10:30:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -244,13 +241,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/token/"
+                href="https://www.airplanecraft.com/tags/token/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/notices/</loc>
-    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.airplanecraft.com/en/about/</loc>
+    <loc>https://www.airplanecraft.com/about/</loc>
     <lastmod>2020-08-18T18:03:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -260,10 +254,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/about/"
+                href="https://www.airplanecraft.com/about/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/aws/</loc>
+    <loc>https://www.airplanecraft.com/tags/aws/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -273,10 +267,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/aws/"
+                href="https://www.airplanecraft.com/tags/aws/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/sap/</loc>
+    <loc>https://www.airplanecraft.com/tags/sap/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -286,42 +280,42 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.airplanecraft.com/en/tags/sap/"
+                href="https://www.airplanecraft.com/tags/sap/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-service-catalog/</loc>
+    <loc>https://www.airplanecraft.com/posts/aws-service-catalog/</loc>
     <lastmod>2019-08-29T10:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-infrastructure-as-code/</loc>
+    <loc>https://www.airplanecraft.com/posts/aws-infrastructure-as-code/</loc>
     <lastmod>2019-08-29T08:30:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/archives/</loc>
+    <loc>https://www.airplanecraft.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/privacy/</loc>
+    <loc>https://www.airplanecraft.com/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/rich-content/</loc>
+    <loc>https://www.airplanecraft.com/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/shortcodes/</loc>
+    <loc>https://www.airplanecraft.com/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/placeholder-text/</loc>
+    <loc>https://www.airplanecraft.com/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/tags/text/</loc>
+    <loc>https://www.airplanecraft.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/math-typesetting/</loc>
+    <loc>https://www.airplanecraft.com/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/emoji-support/</loc>
+    <loc>https://www.airplanecraft.com/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/posts/aws-secutirygroup-networkacl/</loc>
+    <loc>https://www.airplanecraft.com/posts/aws-secutirygroup-networkacl/</loc>
     <lastmod>2019-02-26T12:40:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.airplanecraft.com/en/search/</loc>
+    <loc>https://www.airplanecraft.com/search/</loc>
   </url>
 </urlset>

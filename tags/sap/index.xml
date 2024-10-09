@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sap on Airplane Craft</title>
+    <link>https://www.airplanecraft.com/tags/sap/</link>
+    <description>Recent content in Sap on Airplane Craft</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Aug 2019 10:40:37 +0800</lastBuildDate>
+    <atom:link href="https://www.airplanecraft.com/tags/sap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>service catalog 简介</title>
+      <link>https://www.airplanecraft.com/posts/aws-service-catalog/</link>
+      <pubDate>Thu, 29 Aug 2019 10:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/aws-service-catalog/</guid>
+      <description>&lt;h3 id=&#34;aws-service-catalog-简介&#34;&gt;Aws service catalog 简介&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;aws service catalog 从字面上看就是服务目录,也就是说一些服务放入一组，进行统一的规划，那里一些可以进行统一的规划呢？&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;几个关键词&#34;&gt;几个关键词&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;portfolio&lt;/li&gt;&#xA;&lt;li&gt;product&lt;/li&gt;&#xA;&lt;li&gt;constraint&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;傳統資源創建存在問題&#34;&gt;傳統資源創建存在問題&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;傳統資源創建&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/11/usecase-example.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;上圖存在的幾個問題非常明顯&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;創建了一組資源，資源與資源之間無法互訪&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;EC2要訪問s3 ，那麼需要管理員授權&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;管理授權就要破壞兩個原則：service self-sufficient不滿足，最小權利原則(那就要定義允許ec2訪問s3的policy，所有的實例都可以訪問)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;如何做到產品內部服務可以互訪而產品外部的服務無權訪問呢&#34;&gt;如何做到產品內部服務可以互訪，而產品外部的服務無權訪問呢？&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;service catalog 創建產品&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/11/concept.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A和B是兩個portfolio ，組內可以互訪，但是A和B之間無法訪問&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;一個使用場景介紹&#34;&gt;一個使用場景介紹&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;service catalog 創建產品&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/03/policy_and_role_as_partition_border.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;比如產品添加了一個s3-08的一個bucket，如果做到允許EC2_04訪問，而不允許其他產品或者本產品內部其他EC2訪問的呢？這就要用到 service catalog來解決&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;具體例子請看 (&lt;a href=&#34;https://aws.amazon.com/blogs/mt/create-a-security-partition-for-your-applications-using-aws-service-catalog-and-aws-lambda/&#34;&gt;https://aws.amazon.com/blogs/mt/create-a-security-partition-for-your-applications-using-aws-service-catalog-and-aws-lambda/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>aws infrastructure as code</title>
+      <link>https://www.airplanecraft.com/posts/aws-infrastructure-as-code/</link>
+      <pubDate>Thu, 29 Aug 2019 08:30:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/aws-infrastructure-as-code/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;aws infrastructure as code&#34; src=&#34;https://raw.githubusercontent.com/clouda3/aws/master/Screenshot_2019-08-29%20infrastructure-as-code.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

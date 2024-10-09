@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airplane Craft</title>
+    <link>https://www.airplanecraft.com/</link>
+    <description>Recent content on Airplane Craft</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.airplanecraft.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create animated diagram</title>
+      <link>https://www.airplanecraft.com/posts/animation/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/animation/</guid>
+      <description>sHow to create animated diagram</description>
+    </item>
+    <item>
+      <title>Migrate site from yunduan.io to www.airplanecraft.com</title>
+      <link>https://www.airplanecraft.com/posts/migration/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/migration/</guid>
+      <description>Migrate site from yunduan.io to &lt;a href=&#34;https://www.airplanecraft.com&#34;&gt;www.airplanecraft.com&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>How to setup sock5 proxy on ubuntu</title>
+      <link>https://www.airplanecraft.com/posts/socks/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/socks/</guid>
+      <description>setup sock5 proxy on ubuntu</description>
+    </item>
+    <item>
+      <title>Using Hugo page bundles english</title>
+      <link>https://www.airplanecraft.com/posts/bundle/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/bundle/</guid>
+      <description>Page bundles are an optional way to organize page resources within Hugo. You can opt-in to using page bundles in Hugo Clarity with &lt;code&gt;usePageBundles&lt;/code&gt; in your site configuration &amp;mdash; or in a page&amp;rsquo;s front matter.</description>
+    </item>
+    <item>
+      <title>Oauth2.0</title>
+      <link>https://www.airplanecraft.com/posts/oauth2.0/</link>
+      <pubDate>Sun, 23 Oct 2022 12:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/oauth2.0/</guid>
+      <description>&lt;h2 id=&#34;what-is-oauth20&#34;&gt;what is oauth2.0&lt;/h2&gt;&#xA;&lt;p&gt;OAuth 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. It replaced OAuth 1.0 in 2012 and is now the d industry standard for online authorization. OAuth 2.0 provides consented access and restricts actions of what the client app can perform on resources on behalf of the user, without ever sharing the user&amp;rsquo;s credentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>airplancraft</title>
+      <link>https://www.airplanecraft.com/posts/starting_recording_my_airplanecraft_life/</link>
+      <pubDate>Thu, 22 Sep 2022 10:30:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/starting_recording_my_airplanecraft_life/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;I will use this site to record my air plane craft life including:share teaching docs/videos,materials ,airplane models,electronic things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Devops traning</title>
+      <link>https://www.airplanecraft.com/posts/devops-traning-slide/</link>
+      <pubDate>Fri, 17 Jun 2022 10:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/devops-traning-slide/</guid>
+      <description>&lt;h1 id=&#34;devops&#34;&gt;Devops&lt;/h1&gt;&#xA;&lt;p&gt;DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.DevOps is complementary with Agile software development;&lt;/p&gt;&#xA;&lt;p&gt;CI/CD is a best practice for devops and agile development. CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications. CI/CD services compile the incremental code changes made by developers, then link and package them into software deliverables. Automated tests verify the software functionality, and automated deployment services deliver them to end users. The aim is to increase early defect discovery, increase productivity, and provide faster release cycles. The process contrasts with traditional methods where a collection of software updates were integrated into one large batch before deploying the newer version.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>architect design principle</title>
+      <link>https://www.airplanecraft.com/posts/architect-design-principle/</link>
+      <pubDate>Wed, 15 Jun 2022 10:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/architect-design-principle/</guid>
+      <description>&lt;h2 id=&#34;architect-design-principle&#34;&gt;Architect design principle&lt;/h2&gt;&#xA;&lt;h3 id=&#34;techinical-part&#34;&gt;Techinical part&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Scaling workload&lt;/li&gt;&#xA;&lt;li&gt;Building resilient architecture&lt;/li&gt;&#xA;&lt;li&gt;Design for performance&lt;/li&gt;&#xA;&lt;li&gt;Loose coupling&lt;/li&gt;&#xA;&lt;li&gt;Data-driven design&lt;/li&gt;&#xA;&lt;li&gt;Security everywhere&lt;/li&gt;&#xA;&lt;li&gt;Automating everything&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;function-part&#34;&gt;Function part&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Design for compliance&lt;/li&gt;&#xA;&lt;li&gt;Design for operation&lt;/li&gt;&#xA;&lt;li&gt;Design for System monitoring&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;methodology-part&#34;&gt;Methodology part&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Design for agile dev&lt;/li&gt;&#xA;&lt;li&gt;Design for agile devops&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>enterprise atchitect/solution architect/technical architect difference</title>
+      <link>https://www.airplanecraft.com/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</link>
+      <pubDate>Fri, 10 Jun 2022 10:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/enterprise-arichitect--solution-arichitect-technical-architect-difference/</guid>
+      <description>&lt;h2 id=&#34;architect&#34;&gt;Architect&lt;/h2&gt;&#xA;&lt;h3 id=&#34;different-architect&#34;&gt;Different architect&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Enterprise Architect&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;play a key role when it comes to identifying business needs in context with external factors like competitors and internal factors like a company’s IT landscape. &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Solution Architect&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;focused on details and solution technologies to address a specific business problem, it provides a channel between enterprise architecture and technical architecture&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Techinical Architect&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;focused more on designing and implementing technical solutions. &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;image&#34; src=&#34;https://www.airplanecraft.com/images/architect-types.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;image&#34; src=&#34;https://www.airplanecraft.com/images/architect-role-detail.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://www.airplanecraft.com/posts/markdown-syntax/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JWT</title>
+      <link>https://www.airplanecraft.com/posts/jwt/</link>
+      <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/jwt/</guid>
+      <description>&lt;h3 id=&#34;what-is-jwt&#34;&gt;what is jwt&lt;/h3&gt;&#xA;&lt;p&gt;JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.&lt;/p&gt;&#xA;&lt;h3 id=&#34;jwt-structure&#34;&gt;jwt structure&lt;/h3&gt;&#xA;&lt;p&gt;A well-formed JWT consists of three concatenated Base64url-encoded strings, separated by dots (.):&lt;/p&gt;&#xA;&lt;p&gt;JOSE Header: contains metadata about the type of token and the cryptographic algorithms used to secure its contents.&lt;/p&gt;&#xA;&lt;p&gt;JWS payload (set of claims): contains verifiable security statements, such as the identity of the user and the permissions they are allowed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://www.airplanecraft.com/about/</link>
+      <pubDate>Tue, 18 Aug 2020 18:03:46 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/about/</guid>
+      <description>&lt;h3 id=&#34;about-me&#34;&gt;About me&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IT Solution Architect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;certification&#34;&gt;Certification&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AWS Certified Devops Engineer Professional  2022&lt;/li&gt;&#xA;&lt;li&gt;AWS solution architect association 2019&lt;/li&gt;&#xA;&lt;li&gt;AWS solution architect professional 2019&lt;/li&gt;&#xA;&lt;li&gt;Rdhat certified engineer 2013&lt;/li&gt;&#xA;&lt;li&gt;Alibaba Cloud Certified Professional  2021-12-25&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes CKA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;recent-work&#34;&gt;Recent work&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FPS project Architect&lt;/li&gt;&#xA;&lt;li&gt;Wealth Management Project&lt;/li&gt;&#xA;&lt;li&gt;Air Plane Craft&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>service catalog 简介</title>
+      <link>https://www.airplanecraft.com/posts/aws-service-catalog/</link>
+      <pubDate>Thu, 29 Aug 2019 10:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/aws-service-catalog/</guid>
+      <description>&lt;h3 id=&#34;aws-service-catalog-简介&#34;&gt;Aws service catalog 简介&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;aws service catalog 从字面上看就是服务目录,也就是说一些服务放入一组，进行统一的规划，那里一些可以进行统一的规划呢？&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;几个关键词&#34;&gt;几个关键词&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;portfolio&lt;/li&gt;&#xA;&lt;li&gt;product&lt;/li&gt;&#xA;&lt;li&gt;constraint&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;傳統資源創建存在問題&#34;&gt;傳統資源創建存在問題&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;傳統資源創建&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/11/usecase-example.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;上圖存在的幾個問題非常明顯&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;創建了一組資源，資源與資源之間無法互訪&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;EC2要訪問s3 ，那麼需要管理員授權&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;管理授權就要破壞兩個原則：service self-sufficient不滿足，最小權利原則(那就要定義允許ec2訪問s3的policy，所有的實例都可以訪問)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;如何做到產品內部服務可以互訪而產品外部的服務無權訪問呢&#34;&gt;如何做到產品內部服務可以互訪，而產品外部的服務無權訪問呢？&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;service catalog 創建產品&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/11/concept.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A和B是兩個portfolio ，組內可以互訪，但是A和B之間無法訪問&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;一個使用場景介紹&#34;&gt;一個使用場景介紹&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;從亞馬遜的blog上盜圖&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;service catalog 創建產品&#34; src=&#34;https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2018/10/03/policy_and_role_as_partition_border.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;比如產品添加了一個s3-08的一個bucket，如果做到允許EC2_04訪問，而不允許其他產品或者本產品內部其他EC2訪問的呢？這就要用到 service catalog來解決&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;具體例子請看 (&lt;a href=&#34;https://aws.amazon.com/blogs/mt/create-a-security-partition-for-your-applications-using-aws-service-catalog-and-aws-lambda/&#34;&gt;https://aws.amazon.com/blogs/mt/create-a-security-partition-for-your-applications-using-aws-service-catalog-and-aws-lambda/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>aws infrastructure as code</title>
+      <link>https://www.airplanecraft.com/posts/aws-infrastructure-as-code/</link>
+      <pubDate>Thu, 29 Aug 2019 08:30:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/aws-infrastructure-as-code/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;aws infrastructure as code&#34; src=&#34;https://raw.githubusercontent.com/clouda3/aws/master/Screenshot_2019-08-29%20infrastructure-as-code.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.airplanecraft.com/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>https://www.airplanecraft.com/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://www.airplanecraft.com/posts/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://www.airplanecraft.com/posts/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://www.airplanecraft.com/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>security group vs network acl</title>
+      <link>https://www.airplanecraft.com/posts/aws-secutirygroup-networkacl/</link>
+      <pubDate>Tue, 26 Feb 2019 12:40:37 +0800</pubDate>
+      <guid>https://www.airplanecraft.com/posts/aws-secutirygroup-networkacl/</guid>
+      <description>&lt;h2 id=&#34;difference-between-security-groups-and-network-access-control-list-nacl&#34;&gt;Difference between Security Groups and Network Access Control List (NACL)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;scope&#34;&gt;Scope&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Network ACLs are applicable at the subnet level, so any instance in the subnet with an associated NACL will follow rules of NACL&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Security groups has to be assigned explicitly to the instance.&#xA;This means any instances within the subnet group gets the rule applied.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;state-stateful-or-stateless&#34;&gt;State: Stateful or Stateless&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Security groups are stateful.If you allow an incoming port 80,the outgoing port will be automatically opened&lt;/li&gt;&#xA;&lt;li&gt;Network ACLs are stateless .If you allow an incoming port 80, you would also need to apply the rule for outgoing traffic.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;allow-or-deny&#34;&gt;Allow or Deny&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Security group supports allow rules only (by default all rules are denied)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://www.airplanecraft.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.airplanecraft.com/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

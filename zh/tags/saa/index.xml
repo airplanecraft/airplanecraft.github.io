@@ -4,67 +4,16 @@
     <title>Saa on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/saa/</link>
     <description>Recent content in Saa on 飞机模型</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 03 Oct 2019 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/saa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2019 10:30:37 +0800</lastBuildDate>
+    <atom:link href="https://www.airplanecraft.com/zh/tags/saa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SAA-CO1考试之路</title>
       <link>https://www.airplanecraft.com/zh/posts/aws-saa-pass/</link>
       <pubDate>Thu, 03 Oct 2019 10:30:37 +0800</pubDate>
-      
       <guid>https://www.airplanecraft.com/zh/posts/aws-saa-pass/</guid>
-      <description>
-        
-          
-            &lt;h2 id=&#34;考试心得&#34;&gt;考试心得&lt;/h2&gt;
-&lt;h3 id=&#34;考试成绩&#34;&gt;考试成绩&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;852&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;背景&#34;&gt;背景&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;工作用到aws不到1年&lt;/li&gt;
-&lt;li&gt;有多年java开发经验&lt;/li&gt;
-&lt;li&gt;linux管理员,持有RHCE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;准备周期&#34;&gt;准备周期&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;3周從準備到考試&lt;/li&gt;
-&lt;li&gt;每天8-12小时&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;做过实验的知识点列表&#34;&gt;做过实验的知识点列表&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;VPN endpoint/nat gateway/internet gateway/vpn/subnet/ACL&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;RDS/Aurora/Reshift/Aurora/DynamoDB (snaphost copy az or cross region,ebs type change ,autoscaling ,entryption ,backup/replica ,Multi A-z,read/write unit)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cloudfront (OAI,SSL certificat ,validation TTL ,pre-signed URL)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;S3 (static websit ,ACL ,bucket policy,lifecyle)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ec2 (Cloudwath agent install,ebs mount/unmount,snapshot,elasticip binding)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cloud53 (A/alias .routing policy)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Athena on S3 SQL QUERY&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Kenisis stream /firehouse/analytic&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cloudwatch custom metric(ec2 momory/disk usage),alarm config -&amp;gt;sns/log export to s3&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>&lt;h2 id=&#34;考试心得&#34;&gt;考试心得&lt;/h2&gt;&#xA;&lt;h3 id=&#34;考试成绩&#34;&gt;考试成绩&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;852&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;背景&#34;&gt;背景&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工作用到aws不到1年&lt;/li&gt;&#xA;&lt;li&gt;有多年java开发经验&lt;/li&gt;&#xA;&lt;li&gt;linux管理员,持有RHCE&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;准备周期&#34;&gt;准备周期&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3周從準備到考試&lt;/li&gt;&#xA;&lt;li&gt;每天8-12小时&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;做过实验的知识点列表&#34;&gt;做过实验的知识点列表&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;VPN endpoint/nat gateway/internet gateway/vpn/subnet/ACL&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;RDS/Aurora/Reshift/Aurora/DynamoDB (snaphost copy az or cross region,ebs type change ,autoscaling ,entryption ,backup/replica ,Multi A-z,read/write unit)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Cloudfront (OAI,SSL certificat ,validation TTL ,pre-signed URL)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;S3 (static websit ,ACL ,bucket policy,lifecyle)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ec2 (Cloudwath agent install,ebs mount/unmount,snapshot,elasticip binding)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Cloud53 (A/alias .routing policy)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Athena on S3 SQL QUERY&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kenisis stream /firehouse/analytic&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Cloudwatch custom metric(ec2 momory/disk usage),alarm config -&amp;gt;sns/log export to s3&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

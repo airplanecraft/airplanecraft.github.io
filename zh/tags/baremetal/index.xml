@@ -4,23 +4,152 @@
     <title>Baremetal on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/baremetal/</link>
     <description>Recent content in Baremetal on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 06 Sep 2017 10:40:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/baremetal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2017 10:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/baremetal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>裸金属服务器使用</title>
       <link>https://www.airplanecraft.com/zh/posts/bare-metal-server/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/bare-metal-server/</guid>
-      <description>&lt;h2 id=&#34;什么裸金属服务器&#34;&gt;什么裸金属服务器&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;裸金属服务器（Bare Metal Server，BMS）是一款兼具弹性云服务器和物理机性能的计算类服务，为您和您的企业提供专属的云上物理服务器，为核心数据库、关键应用系统、高性能计算、大数据等业务提供卓越的计算性能以及数据安全。租户可灵活申请，按需使用。&#xA;&#xA;裸金属服务器的开通是自助完成的，您只需要指定具体的服务器类型、镜像、所需要的网络配置等，即可在短时间内获得所需的裸金属服务器。服务器供应、运维工作交由华为云，您可以专注于业务创新。&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;产品架构&#34;&gt;产品架构&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;裸金属服务器在不同可用区中部署（可用区之间通过内网连接），部分可用区发生故障后不会影响同一区域内的其他可用区。&lt;/li&gt;&#xA;&lt;li&gt;可以通过虚拟私有云建立专属的网络环境，设置子网、安全组，并通过弹性公网IP实现外网链接（需带宽支持）。&lt;/li&gt;&#xA;&lt;li&gt;通过镜像服务，可以对裸金属服务器安装镜像，也可以通过私有镜像批量创建裸金属服务器，实现快速的业务部署。&lt;/li&gt;&#xA;&lt;li&gt;通过云硬盘服务实现数据存储，并通过云硬盘备份服务实现数据的备份和恢复。&lt;/li&gt;&#xA;&lt;li&gt;云监控是保持裸金属服务器可靠性、可用性和性能的重要部分，通过云监控，用户可以观察裸金属服务器资源。&lt;/li&gt;&#xA;&lt;li&gt;云备份提供对云硬盘和裸金属服务器的备份保护服务，支持基于快照技术的备份服务，并支持利用备份数据恢复服务器和磁盘的数据。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;华为裸金属的服务器的架构&#34;&gt;华为裸金属的服务器的架构&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;pic&#34; src=&#34;huaweibaremetal.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;与物理机和虚拟机的对比&#34;&gt;与物理机和虚拟机的对比&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;pic&#34; src=&#34;huaweicompare.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;什么场景下使用裸金属服务器&#34;&gt;什么场景下使用裸金属服务器&lt;/h2&gt;&#xA;&lt;p&gt;裸金属服务与一般云服务器最大的区别是是虚拟化与非虚拟化，虚拟化的缺点就是性能损失，操作系统和应用程序在调用硬件资源的时候，没有直接掌控，而是通过虚拟化软件间接管理的。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;高安全性和法规要求&lt;/li&gt;&#xA;&lt;li&gt;高性能计算场景&lt;/li&gt;&#xA;&lt;li&gt;资源独占的场景&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;不同厂家的裸金属服务器的服务差别&#34;&gt;不同厂家的裸金属服务器的服务差别&lt;/h2&gt;&#xA;&lt;p&gt;有很多小厂的裸金属服务器，说实话就是一台独立主机，独立的独享宽带的网络（可以定制宽带），但是网络无法定制，比如没有VPC的选项，没有安全组，要自己通过防火墙软件管安全，也没有网络硬盘，说白了就是一台独立的远程主机。阿里云华为云这些已经非常成熟了，跟网络主机的区别不是太大，区别就是一个非虚拟化的主机而已，其他的地方基本上区别不大。&lt;/p&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;什么裸金属服务器&#34;&gt;什么裸金属服务器&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;裸金属服务器（Bare Metal Server，BMS）是一款兼具弹性云服务器和物理机性能的计算类服务，为您和您的企业提供专属的云上物理服务器，为核心数据库、关键应用系统、高性能计算、大数据等业务提供卓越的计算性能以及数据安全。租户可灵活申请，按需使用。
+
+裸金属服务器的开通是自助完成的，您只需要指定具体的服务器类型、镜像、所需要的网络配置等，即可在短时间内获得所需的裸金属服务器。服务器供应、运维工作交由华为云，您可以专注于业务创新。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;产品架构&#34;&gt;产品架构&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;裸金属服务器在不同可用区中部署（可用区之间通过内网连接），部分可用区发生故障后不会影响同一区域内的其他可用区。&lt;/li&gt;
+&lt;li&gt;可以通过虚拟私有云建立专属的网络环境，设置子网、安全组，并通过弹性公网IP实现外网链接（需带宽支持）。&lt;/li&gt;
+&lt;li&gt;通过镜像服务，可以对裸金属服务器安装镜像，也可以通过私有镜像批量创建裸金属服务器，实现快速的业务部署。&lt;/li&gt;
+&lt;li&gt;通过云硬盘服务实现数据存储，并通过云硬盘备份服务实现数据的备份和恢复。&lt;/li&gt;
+&lt;li&gt;云监控是保持裸金属服务器可靠性、可用性和性能的重要部分，通过云监控，用户可以观察裸金属服务器资源。&lt;/li&gt;
+&lt;li&gt;云备份提供对云硬盘和裸金属服务器的备份保护服务，支持基于快照技术的备份服务，并支持利用备份数据恢复服务器和磁盘的数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;华为裸金属的服务器的架构&#34;&gt;华为裸金属的服务器的架构&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;pic&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://www.airplanecraft.com/huaweibaremetal.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;与物理机和虚拟机的对比&#34;&gt;与物理机和虚拟机的对比&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;pic&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://www.airplanecraft.com/huaweicompare.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;什么场景下使用裸金属服务器&#34;&gt;什么场景下使用裸金属服务器&lt;/h2&gt;
+&lt;p&gt;裸金属服务与一般云服务器最大的区别是是虚拟化与非虚拟化，虚拟化的缺点就是性能损失，操作系统和应用程序在调用硬件资源的时候，没有直接掌控，而是通过虚拟化软件间接管理的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;高安全性和法规要求&lt;/li&gt;
+&lt;li&gt;高性能计算场景&lt;/li&gt;
+&lt;li&gt;资源独占的场景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;不同厂家的裸金属服务器的服务差别&#34;&gt;不同厂家的裸金属服务器的服务差别&lt;/h2&gt;
+&lt;p&gt;有很多小厂的裸金属服务器，说实话就是一台独立主机，独立的独享宽带的网络（可以定制宽带），但是网络无法定制，比如没有VPC的选项，没有安全组，要自己通过防火墙软件管安全，也没有网络硬盘，说白了就是一台独立的远程主机。阿里云华为云这些已经非常成熟了，跟网络主机的区别不是太大，区别就是一个非虚拟化的主机而已，其他的地方基本上区别不大。&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>裸金属服务器遇到的docker容器访问问题</title>
       <link>https://www.airplanecraft.com/zh/posts/firewalld-block-docker/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/firewalld-block-docker/</guid>
-      <description>&lt;h2 id=&#34;问题描述&#34;&gt;问题描述&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;我们本地数据中心服务器处理与客户的接口的时候发现网络有严重的延迟，然后我们又有数据合规方面的问题，我们就采用云端的裸金属服务器，安装了docker后发现docker无法访问到主机。&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;问题发现&#34;&gt;问题发现&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker exec -ti docker-id bash 进入主机&lt;/li&gt;&#xA;&lt;li&gt;在docker主机内部telnet 主机IP 端口&lt;/li&gt;&#xA;&lt;li&gt;发现无法访问&lt;/li&gt;&#xA;&lt;li&gt;退出虚拟主机在主机执行telnet 主机IP 端口 ，是可以访问的&lt;/li&gt;&#xA;&lt;li&gt;检查网络 &lt;img alt=&#34;pic&#34; src=&#34;firewall-docker.png&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;原来是docker0 与主机eth0 之间通信问题被firewall屏蔽了&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; firewall-cmd --permanent --add-rich-rule=&amp;#34;rule family=&amp;#34;ipv4&amp;#34; source address=&amp;#34;172.17.0.1/16&amp;#34; accept&amp;#34;&#xA; firewall-cmd --reload &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;问题描述&#34;&gt;问题描述&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;我们本地数据中心服务器处理与客户的接口的时候发现网络有严重的延迟，然后我们又有数据合规方面的问题，我们就采用云端的裸金属服务器，安装了docker后发现docker无法访问到主机。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;问题发现&#34;&gt;问题发现&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docker exec -ti docker-id bash 进入主机&lt;/li&gt;
+&lt;li&gt;在docker主机内部telnet 主机IP 端口&lt;/li&gt;
+&lt;li&gt;发现无法访问&lt;/li&gt;
+&lt;li&gt;退出虚拟主机在主机执行telnet 主机IP 端口 ，是可以访问的&lt;/li&gt;
+&lt;li&gt;检查网络 &lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;pic&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://www.airplanecraft.com/firewall-docker.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;原来是docker0 与主机eth0 之间通信问题被firewall屏蔽了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; firewall-cmd --permanent --add-rich-rule=&amp;#34;rule family=&amp;#34;ipv4&amp;#34; source address=&amp;#34;172.17.0.1/16&amp;#34; accept&amp;#34;
+ firewall-cmd --reload 
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

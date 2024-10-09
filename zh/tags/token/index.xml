@@ -4,16 +4,82 @@
     <title>Token on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/token/</link>
     <description>Recent content in Token on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/token/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/token/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JWT、JWE、JWS 、JWK 到底是什么</title>
       <link>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</guid>
-      <description>&lt;h3 id=&#34;什么是-jwt&#34;&gt;什么是 JWT&lt;/h3&gt;&#xA;&lt;p&gt;一个JWT，应该是如下形式的：&lt;/p&gt;&#xA;&lt;p&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.&lt;br&gt;&#xA;eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.&lt;br&gt;&#xA;TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ&lt;/p&gt;&#xA;&lt;h3 id=&#34;jwt-解决什么问题&#34;&gt;JWT 解决什么问题？&lt;/h3&gt;&#xA;&lt;p&gt;JWT的主要目的是在服务端和客户端之间以安全的方式来转移声明。主要的应用场景如下所示：&lt;/p&gt;&#xA;&lt;p&gt;认证 Authentication；&#xA;授权 Authorization // 注意这两个单词的区别；&#xA;联合识别；&#xA;客户端会话（无状态的会话）；&#xA;客户端机密。&lt;/p&gt;&#xA;&lt;h3 id=&#34;jwt-的一些名词解释&#34;&gt;JWT 的一些名词解释&lt;/h3&gt;&#xA;&lt;p&gt;JWS：Signed JWT签名过的jwt&#xA;JWE：Encrypted JWT部分payload经过加密的jwt；目前加密payload的操作不是很普及；&#xA;JWK：JWT的密钥，也就是我们常说的 scret；&#xA;JWKset：JWT key set在非对称加密中，需要的是密钥对而非单独的密钥，在后文中会阐释；&#xA;JWA：当前JWT所用到的密码学算法；&#xA;nonsecure JWT：当头部的签名算法被设定为none的时候，该JWT是不安全的；因为签名的部分空缺，所有人都可以修改。&lt;/p&gt;&#xA;&lt;h3 id=&#34;jwt的组成&#34;&gt;JWT的组成&lt;/h3&gt;&#xA;&lt;p&gt;一个通常你看到的jwt，由以下三部分组成，它们分别是：&lt;/p&gt;&#xA;&lt;p&gt;header：主要声明了JWT的签名算法；&#xA;payload：主要承载了各种声明并传递明文数据；&#xA;signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有该部分的JWT被称为nonsecure JWT 也就是不安全的JWT，此时header中声明的签名算法为none。&#xA;三个部分用·分割。形如 xxxxx.yyyyy.zzzzz的样式。&lt;/p&gt;&#xA;&lt;h4 id=&#34;jwt-header&#34;&gt;JWT header&lt;/h4&gt;&#xA;&lt;p&gt;{&lt;br&gt;&#xA;&amp;ldquo;typ&amp;rdquo;: &amp;ldquo;JWT&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;alg&amp;rdquo;: &amp;ldquo;none&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;jwt header 的组成&lt;/p&gt;&#xA;&lt;p&gt;头通常由两部分组成：令牌的类型，即JWT，以及正在使用的散列算法，例如HMAC SHA256或RSA。&lt;/p&gt;&#xA;&lt;p&gt;当然，还有两个可选的部分，一个是jti，也就是JWT ID，代表了正在使用JWT的编号，这个编号在对应服务端应当唯一。当然，jti也可以放在payload中。&lt;/p&gt;&#xA;&lt;p&gt;另一个是cty，也就是content type。这个比较少见，当payload为任意数据的时候，这个头无需设置，但是当内容也带有jwt的时候。也就是嵌套JWT的时候，这个值必须设定为jwt。这种情况比较少见。&lt;/p&gt;&#xA;&lt;p&gt;jwt header 的加密算法&lt;/p&gt;&#xA;&lt;p&gt;加密的方式如下：&lt;/p&gt;&#xA;&lt;p&gt;base64UrlEncode(header)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIiwianRpIjoiNGYxZzIzYTEyYWEifQ&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h4 id=&#34;jwt-payload&#34;&gt;JWT payload&lt;/h4&gt;&#xA;&lt;p&gt;{&lt;br&gt;&#xA;&amp;ldquo;iss&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn&#34;&gt;http://shaobaobaoer.cn&lt;/a&gt;&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;aud&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn/webtest/jwt_auth/%22&#34;&gt;http://shaobaobaoer.cn/webtest/jwt_auth/&#34;&lt;/a&gt;,&lt;br&gt;&#xA;&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;iat&amp;rdquo;: 1534070547,&lt;br&gt;&#xA;&amp;ldquo;nbf&amp;rdquo;: 1534070607,&lt;br&gt;&#xA;&amp;ldquo;exp&amp;rdquo;: 1534074147,&lt;br&gt;&#xA;&amp;ldquo;uid&amp;rdquo;: 1,&lt;br&gt;&#xA;&amp;ldquo;data&amp;rdquo;: {&lt;br&gt;&#xA;&amp;ldquo;uname&amp;rdquo;: &amp;ldquo;shaobao&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;uEmail&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;mailto:shaobaobaoer@126.com&#34;&gt;shaobaobaoer@126.com&lt;/a&gt;&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;uID&amp;rdquo;: &amp;ldquo;0xA0&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;uGroup&amp;rdquo;: &amp;ldquo;guest&amp;rdquo;&lt;br&gt;&#xA;}&lt;br&gt;&#xA;}&lt;/p&gt;</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;什么是-jwt&#34;&gt;什么是 JWT&lt;/h3&gt;
+&lt;p&gt;一个JWT，应该是如下形式的：&lt;/p&gt;
+&lt;p&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.&lt;br&gt;
+eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.&lt;br&gt;
+TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ&lt;/p&gt;
+&lt;h3 id=&#34;jwt-解决什么问题&#34;&gt;JWT 解决什么问题？&lt;/h3&gt;
+&lt;p&gt;JWT的主要目的是在服务端和客户端之间以安全的方式来转移声明。主要的应用场景如下所示：&lt;/p&gt;
+&lt;p&gt;认证 Authentication；
+授权 Authorization // 注意这两个单词的区别；
+联合识别；
+客户端会话（无状态的会话）；
+客户端机密。&lt;/p&gt;
+&lt;h3 id=&#34;jwt-的一些名词解释&#34;&gt;JWT 的一些名词解释&lt;/h3&gt;
+&lt;p&gt;JWS：Signed JWT签名过的jwt
+JWE：Encrypted JWT部分payload经过加密的jwt；目前加密payload的操作不是很普及；
+JWK：JWT的密钥，也就是我们常说的 scret；
+JWKset：JWT key set在非对称加密中，需要的是密钥对而非单独的密钥，在后文中会阐释；
+JWA：当前JWT所用到的密码学算法；
+nonsecure JWT：当头部的签名算法被设定为none的时候，该JWT是不安全的；因为签名的部分空缺，所有人都可以修改。&lt;/p&gt;
+&lt;h3 id=&#34;jwt的组成&#34;&gt;JWT的组成&lt;/h3&gt;
+&lt;p&gt;一个通常你看到的jwt，由以下三部分组成，它们分别是：&lt;/p&gt;
+&lt;p&gt;header：主要声明了JWT的签名算法；
+payload：主要承载了各种声明并传递明文数据；
+signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有该部分的JWT被称为nonsecure JWT 也就是不安全的JWT，此时header中声明的签名算法为none。
+三个部分用·分割。形如 xxxxx.yyyyy.zzzzz的样式。&lt;/p&gt;
+&lt;h4 id=&#34;jwt-header&#34;&gt;JWT header&lt;/h4&gt;
+&lt;p&gt;{&lt;br&gt;
+&amp;ldquo;typ&amp;rdquo;: &amp;ldquo;JWT&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;alg&amp;rdquo;: &amp;ldquo;none&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;jwt header 的组成&lt;/p&gt;
+&lt;p&gt;头通常由两部分组成：令牌的类型，即JWT，以及正在使用的散列算法，例如HMAC SHA256或RSA。&lt;/p&gt;
+&lt;p&gt;当然，还有两个可选的部分，一个是jti，也就是JWT ID，代表了正在使用JWT的编号，这个编号在对应服务端应当唯一。当然，jti也可以放在payload中。&lt;/p&gt;
+&lt;p&gt;另一个是cty，也就是content type。这个比较少见，当payload为任意数据的时候，这个头无需设置，但是当内容也带有jwt的时候。也就是嵌套JWT的时候，这个值必须设定为jwt。这种情况比较少见。&lt;/p&gt;
+&lt;p&gt;jwt header 的加密算法&lt;/p&gt;
+&lt;p&gt;加密的方式如下：&lt;/p&gt;
+&lt;p&gt;base64UrlEncode(header)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIiwianRpIjoiNGYxZzIzYTEyYWEifQ&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;jwt-payload&#34;&gt;JWT payload&lt;/h4&gt;
+&lt;p&gt;{&lt;br&gt;
+&amp;ldquo;iss&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn&#34;&gt;http://shaobaobaoer.cn&lt;/a&gt;&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;aud&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn/webtest/jwt_auth/%22&#34;&gt;http://shaobaobaoer.cn/webtest/jwt_auth/&#34;&lt;/a&gt;,&lt;br&gt;
+&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;iat&amp;rdquo;: 1534070547,&lt;br&gt;
+&amp;ldquo;nbf&amp;rdquo;: 1534070607,&lt;br&gt;
+&amp;ldquo;exp&amp;rdquo;: 1534074147,&lt;br&gt;
+&amp;ldquo;uid&amp;rdquo;: 1,&lt;br&gt;
+&amp;ldquo;data&amp;rdquo;: {&lt;br&gt;
+&amp;ldquo;uname&amp;rdquo;: &amp;ldquo;shaobao&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;uEmail&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;mailto:shaobaobaoer@126.com&#34;&gt;shaobaobaoer@126.com&lt;/a&gt;&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;uID&amp;rdquo;: &amp;ldquo;0xA0&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;uGroup&amp;rdquo;: &amp;ldquo;guest&amp;rdquo;&lt;br&gt;
+}&lt;br&gt;
+}&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

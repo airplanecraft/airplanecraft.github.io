@@ -4,16 +4,42 @@
     <title>Openvpn on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/openvpn/</link>
     <description>Recent content in Openvpn on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 08 May 2017 12:30:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2017 12:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openvpn最简单的安装方式</title>
       <link>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</link>
       <pubDate>Mon, 08 May 2017 12:30:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</guid>
-      <description>&lt;h2 id=&#34;为什么会用到vpn&#34;&gt;为什么会用到vpn&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;vpn是我们经常会用到的工具，比如有些程序不允许我们在某些地区下载，有些网站我们没有办法看之类的，我们就vpn不管是pptp还是vpn无非改变都是路由问题，也就是你上网的出口的问题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;openvpn&#34;&gt;openvpn&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;openvpn是一款开源vpn软件，功能非常强大，用户非常多，遵循的是openvpn协议&lt;/li&gt;&#xA;&lt;li&gt;缺点搭建有些复杂，但是有第三方的脚本协助搭建会非常简单&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;openvpn搭建借助于第三方脚本&#34;&gt;openvpn搭建借助于第三方脚本&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;作者git：https://github.com/Nyr/openvpn-install&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;最后生成一个*.ovpn文件&lt;/li&gt;&#xA;&lt;li&gt;下载并安装openvpn gui：https://openvpn.net/community-downloads/&lt;/li&gt;&#xA;&lt;li&gt;用安装好的客户端打开*.ovpn就可以登录远程的vpn服务器了&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;为什么会用到vpn&#34;&gt;为什么会用到vpn&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;vpn是我们经常会用到的工具，比如有些程序不允许我们在某些地区下载，有些网站我们没有办法看之类的，我们就vpn不管是pptp还是vpn无非改变都是路由问题，也就是你上网的出口的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openvpn&#34;&gt;openvpn&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;openvpn是一款开源vpn软件，功能非常强大，用户非常多，遵循的是openvpn协议&lt;/li&gt;
+&lt;li&gt;缺点搭建有些复杂，但是有第三方的脚本协助搭建会非常简单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openvpn搭建借助于第三方脚本&#34;&gt;openvpn搭建借助于第三方脚本&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;作者git：https://github.com/Nyr/openvpn-install&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;最后生成一个*.ovpn文件&lt;/li&gt;
+&lt;li&gt;下载并安装openvpn gui：https://openvpn.net/community-downloads/&lt;/li&gt;
+&lt;li&gt;用安装好的客户端打开*.ovpn就可以登录远程的vpn服务器了&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

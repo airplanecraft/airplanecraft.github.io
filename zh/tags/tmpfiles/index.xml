@@ -4,16 +4,44 @@
     <title>Tmpfiles on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/tmpfiles/</link>
     <description>Recent content in Tmpfiles on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 May 2022 10:30:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/tmpfiles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/tmpfiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux 临时文件的管理</title>
       <link>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</link>
       <pubDate>Sat, 07 May 2022 10:30:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</guid>
-      <description>&lt;h2 id=&#34;centos临时目录的系统管理&#34;&gt;Centos临时目录的系统管理&lt;/h2&gt;&#xA;&lt;p&gt;Linux产生大量的临时文件和目录，例如/tmp、/run 。RHEL7或者CentOS7中，systemd提供了一个结构化的可配置方法来管理临时文件和目录，即systemd-tmpfiles，可以创建、删除和管理临时文件的服务。旧版本系统使用watchtmp+cron来共同实现管理临时文件。&lt;/p&gt;&#xA;&lt;p&gt;systemd启动后，其中一个启动的服务单元是systemd-tmpfiles-setup，该服务的命令为:systemd-tmpfiles &amp;ndash;creat/&amp;ndash;clean  *conf  , *conf是可选的，不写默认是使用所有配置文件&lt;/p&gt;&#xA;&lt;h2 id=&#34;配置文件优先级从上到下&#34;&gt;配置文件，优先级从上到下。&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;/etc/tmpfiles.d/*conf  ，管理员可修改的配置文件&#xA;&#xA;/run/tmpfiles.d/*conf ，daemon应用程序自己管理的配置文件，不建议更改&#xA;&#xA;/usr/lib/tmpfiles.d/*conf，rpm软件安装时，自动更新的配置文件，不能更改&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;定期清理timer&#34;&gt;定期清理timer&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;systemd定时器单元会按固定间隔调用systemd-tmpfiles --clean  。&#xA;&#xA;systemctl status systemd-tmpfiles-clean.timer 查看timer状态。&#xA;&#xA;systemctl cat systemd-tmpfiles-clean.timer  查看timer具体内容，也可以进入/usr/lib/systemd/system目录后使用more  systemd-tmpfiles-clean.timer 来查看。&#xA;&#xA;从timer具体内容可以知道系统启动15分钟后和每天会运行一次systemd-tmpfiles --clean.那么timer定时运行的是哪些服务呢？ 是在systemd-tmpfiles-clean.service里面定义的：&#xA;&#xA;systemctl cat systemd-tmpfiles-clean.service可以查看。&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;centos临时目录的系统管理&#34;&gt;Centos临时目录的系统管理&lt;/h2&gt;
+&lt;p&gt;Linux产生大量的临时文件和目录，例如/tmp、/run 。RHEL7或者CentOS7中，systemd提供了一个结构化的可配置方法来管理临时文件和目录，即systemd-tmpfiles，可以创建、删除和管理临时文件的服务。旧版本系统使用watchtmp+cron来共同实现管理临时文件。&lt;/p&gt;
+&lt;p&gt;systemd启动后，其中一个启动的服务单元是systemd-tmpfiles-setup，该服务的命令为:systemd-tmpfiles &amp;ndash;creat/&amp;ndash;clean  *conf  , *conf是可选的，不写默认是使用所有配置文件&lt;/p&gt;
+&lt;h2 id=&#34;配置文件优先级从上到下&#34;&gt;配置文件，优先级从上到下。&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;/etc/tmpfiles.d/*conf  ，管理员可修改的配置文件
+
+/run/tmpfiles.d/*conf ，daemon应用程序自己管理的配置文件，不建议更改
+
+/usr/lib/tmpfiles.d/*conf，rpm软件安装时，自动更新的配置文件，不能更改
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;定期清理timer&#34;&gt;定期清理timer&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;systemd定时器单元会按固定间隔调用systemd-tmpfiles --clean  。
+
+systemctl status systemd-tmpfiles-clean.timer 查看timer状态。
+
+systemctl cat systemd-tmpfiles-clean.timer  查看timer具体内容，也可以进入/usr/lib/systemd/system目录后使用more  systemd-tmpfiles-clean.timer 来查看。
+
+从timer具体内容可以知道系统启动15分钟后和每天会运行一次systemd-tmpfiles --clean.那么timer定时运行的是哪些服务呢？ 是在systemd-tmpfiles-clean.service里面定义的：
+
+systemctl cat systemd-tmpfiles-clean.service可以查看。
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

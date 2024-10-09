@@ -4,16 +4,168 @@
     <title>Pip on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/pip/</link>
     <description>Recent content in Pip on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 May 2017 10:30:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/pip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2017 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/pip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python一些集合</title>
       <link>https://www.airplanecraft.com/zh/posts/pythyon_collection/</link>
       <pubDate>Thu, 04 May 2017 10:30:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/pythyon_collection/</guid>
-      <description>&lt;h3 id=&#34;python-面試題目&#34;&gt;Python 面試題目&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;列表（list）和元组（tuple）有什么区别？&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;列表是可变的。创建后可以对其进行修改&lt;/li&gt;&#xA;&lt;li&gt;元组是不可变的。元组一旦创建，就不能对其进行更改&lt;/li&gt;&#xA;&lt;li&gt;列表表示的是顺序。它们是有序序列，通常是同一类型的对象 [&amp;ldquo;APPLE&amp;rdquo;,&amp;ldquo;PEAR&amp;rdquo;,&amp;ldquo;ORANGE&amp;rdquo;]&lt;/li&gt;&#xA;&lt;li&gt;元组表示的是结构。可以用来存储不同数据类型的元素 [1,&amp;ldquo;eric&amp;rdquo;,1999-08-10,24]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;什么是装饰器（decorator）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解释Range函数&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解释map函数的工作原理&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解释reduce函数的工作原理。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解释filter函数的工作原理&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python是按引用调用还是按值调用？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;列表乘法是如何工作的?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;类中的“self”指的是什么？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如何在Python中连接列表？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;列表和数组有什么区别？ list vs array&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Pandas&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;举出几个可变和不可变对象的例子&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;模块（module）和包（package）有什么区别？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在迭代序列时，为什么要使用enumerate？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;pass、continue和break之间有什么区别?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如何将for循环转换为使用递推式构造列表（list comprehension）？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中的异常处理是如何进行的？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;什么是__init__?__init__是Python中的方法或者结构。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;什么是lambda函数？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中的self是什么？self是类的实例或对象。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中的函数方法是什么？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;python中是否需要缩进？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;python是否区分大小写？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中的局部变量和全局变量是什么？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;什么是python模块？Python中有哪些常用的内置模块？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中的命名空间是什么？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如何在Python中管理内存？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;什么是pep？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;这两个参数是什么意思：*args，**kwargs？我们为什么要使用它们？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;简要描述Python的垃圾回收机制（garbage collection）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python多线程（multi-threading） 多进程(multi-process)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;说明os,sys模块不同，并列举常用的模块方法？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python里面如何拷贝一个对象？ 浅拷贝深拷贝&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;__new__和__init__的区别。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python中单下划线和双下划线分别是什么？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;说一说Python自省 反射&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;“猴子补丁”（monkey patching）指的是什么？这种做法好吗？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;下面这些是什么意思：@classmethod, @staticmethod, @property？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python 中类方法、类实例方法、静态方法有何区别？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python 中如何动态获取和设置对象的属性？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python 的内存管理机制及调优手段？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;内存泄露是什么？如何避免？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;为什么函数名字可以当做参数用?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;回调函数，如何通信的?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Python 主要的内置数据类型都有哪些？print dir( ‘a ’) 的输出？&lt;/p&gt;</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;python-面試題目&#34;&gt;Python 面試題目&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;列表（list）和元组（tuple）有什么区别？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;列表是可变的。创建后可以对其进行修改&lt;/li&gt;
+&lt;li&gt;元组是不可变的。元组一旦创建，就不能对其进行更改&lt;/li&gt;
+&lt;li&gt;列表表示的是顺序。它们是有序序列，通常是同一类型的对象 [&amp;ldquo;APPLE&amp;rdquo;,&amp;ldquo;PEAR&amp;rdquo;,&amp;ldquo;ORANGE&amp;rdquo;]&lt;/li&gt;
+&lt;li&gt;元组表示的是结构。可以用来存储不同数据类型的元素 [1,&amp;ldquo;eric&amp;rdquo;,1999-08-10,24]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是装饰器（decorator）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解释Range函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解释map函数的工作原理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解释reduce函数的工作原理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解释filter函数的工作原理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python是按引用调用还是按值调用？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;列表乘法是如何工作的?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类中的“self”指的是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如何在Python中连接列表？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;列表和数组有什么区别？ list vs array&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pandas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;举出几个可变和不可变对象的例子&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模块（module）和包（package）有什么区别？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在迭代序列时，为什么要使用enumerate？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pass、continue和break之间有什么区别?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如何将for循环转换为使用递推式构造列表（list comprehension）？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中的异常处理是如何进行的？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是__init__?__init__是Python中的方法或者结构。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是lambda函数？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中的self是什么？self是类的实例或对象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中的函数方法是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;python中是否需要缩进？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;python是否区分大小写？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中的局部变量和全局变量是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是python模块？Python中有哪些常用的内置模块？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中的命名空间是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如何在Python中管理内存？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是pep？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这两个参数是什么意思：*args，**kwargs？我们为什么要使用它们？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;简要描述Python的垃圾回收机制（garbage collection）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python多线程（multi-threading） 多进程(multi-process)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;说明os,sys模块不同，并列举常用的模块方法？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python里面如何拷贝一个对象？ 浅拷贝深拷贝&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;__new__和__init__的区别。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python中单下划线和双下划线分别是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;说一说Python自省 反射&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“猴子补丁”（monkey patching）指的是什么？这种做法好吗？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下面这些是什么意思：@classmethod, @staticmethod, @property？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python 中类方法、类实例方法、静态方法有何区别？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python 中如何动态获取和设置对象的属性？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python 的内存管理机制及调优手段？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内存泄露是什么？如何避免？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为什么函数名字可以当做参数用?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;回调函数，如何通信的?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python 主要的内置数据类型都有哪些？print dir( ‘a ’) 的输出？&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

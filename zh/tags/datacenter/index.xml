@@ -4,16 +4,140 @@
     <title>Datacenter on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/datacenter/</link>
     <description>Recent content in Datacenter on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/datacenter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/datacenter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本地数据中心和云的对比</title>
       <link>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:30 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</guid>
-      <description>&lt;h2 id=&#34;本文简介&#34;&gt;本文简介&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;本来主要介绍云和本地的数据中心的对比，主要用阿里云来对比，作为aws和alicloud的认证工程师，我对云上的和自有数据中心架构系统做个详细的对比，本文，仅仅用alicloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;本系统简介&#34;&gt;本系统简介&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;本系统主要是做美股和港股的数据处理，美股数据来源是polygon（基于websocket数据推送和restful查询api）,港股的数据来源是港交所（UDP广播）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;本系统功能：接收美股和港股的数据，并作本地的消息存储，用消息中间件来存储交易所数据，然用以一部分数据用来做大数据实时计算，一部数据用来做持久化的存储&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;本系统的架构图&#34;&gt;本系统的架构图&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;架構圖&#34; src=&#34;https://www.airplanecraft.com/images/photo_2022-02-05_22-04-06.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;本系統本地使用硬件&#34;&gt;本系統本地使用硬件&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;軟件&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;狀態&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;服務器&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;數量&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;存儲&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;數量&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kafka&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Elatic search&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Flink&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Polygon subscriber&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;single&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;APP&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;single&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;本地數據中心存在的主要問題&#34;&gt;本地數據中心存在的主要問題&lt;/h2&gt;&#xA;&lt;h3 id=&#34;硬件的問題&#34;&gt;硬件的問題&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt; 1. 硬盤如果寫滿，可擴展性非常的差，或者説磁盤出現損壞，需要更新磁盤都會有數據丟失的風險，并且服務會中斷&#xA; 2. 網絡設備沒有redundency&#xA; 3. 如果内存不夠用都需要定制内存，然後安裝，需要消耗大量的人力物力&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;軟件的問題&#34;&gt;軟件的問題&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt; 1. centos的系統的優化，包括swap,硬盤的分區，文件句柄數等等&#xA; 2. kafka flink elasticsearch 等軟件的優化需要非常專業的知識&#xA; 3. 如果要遷移kafka 或者es裏面的數據只能停止服務，然後進行數據的遷移&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;如果選擇阿里雲或者aws這裏拿阿里雲來説&#34;&gt;如果選擇阿里雲或者aws（這裏拿阿里雲來説）&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. 定制vpc網絡，阿里雲網絡外網基於bgp的，vpc本身就保障HA，redundency.&#xA;2. ECS的磁盤是scalable的，多大都是可以彈性擴展&#xA;3. network bandwith 可以 custome，多大的可以&#xA;4. ecs 的 cpu+mem 可以隨時升級&#xA;5. 不需要搭建kafka es 和flink 軟件cluster平臺，阿里雲有相關的服務，都是優化過的paas，性能非常的高，還可以按需隨時升級&#xA;6 .數據不用擔心丟失和遷移困難&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;總結&#34;&gt;總結&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. 作爲云架構師，很不幸的是我目前既要寫大量的code，還要管理綫下30多台服務器，花費了大量的時間去處理很多問題&#xA;2. 下一步要遷移服務到aws或者阿里雲上面&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;本文简介&#34;&gt;本文简介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;本来主要介绍云和本地的数据中心的对比，主要用阿里云来对比，作为aws和alicloud的认证工程师，我对云上的和自有数据中心架构系统做个详细的对比，本文，仅仅用alicloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;本系统简介&#34;&gt;本系统简介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本系统主要是做美股和港股的数据处理，美股数据来源是polygon（基于websocket数据推送和restful查询api）,港股的数据来源是港交所（UDP广播）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本系统功能：接收美股和港股的数据，并作本地的消息存储，用消息中间件来存储交易所数据，然用以一部分数据用来做大数据实时计算，一部数据用来做持久化的存储&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;本系统的架构图&#34;&gt;本系统的架构图&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;架構圖&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://www.airplanecraft.com/images/photo_2022-02-05_22-04-06.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;本系統本地使用硬件&#34;&gt;本系統本地使用硬件&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;軟件&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;狀態&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;服務器&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;數量&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;存儲&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;數量&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kafka&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Elatic search&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Flink&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;cluster&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Polygon subscriber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;single&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;APP&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;single&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;centos8.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ssd&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4 raid5&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;本地數據中心存在的主要問題&#34;&gt;本地數據中心存在的主要問題&lt;/h2&gt;
+&lt;h3 id=&#34;硬件的問題&#34;&gt;硬件的問題&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt; 1. 硬盤如果寫滿，可擴展性非常的差，或者説磁盤出現損壞，需要更新磁盤都會有數據丟失的風險，并且服務會中斷
+ 2. 網絡設備沒有redundency
+ 3. 如果内存不夠用都需要定制内存，然後安裝，需要消耗大量的人力物力
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;軟件的問題&#34;&gt;軟件的問題&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt; 1. centos的系統的優化，包括swap,硬盤的分區，文件句柄數等等
+ 2. kafka flink elasticsearch 等軟件的優化需要非常專業的知識
+ 3. 如果要遷移kafka 或者es裏面的數據只能停止服務，然後進行數據的遷移
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;如果選擇阿里雲或者aws這裏拿阿里雲來説&#34;&gt;如果選擇阿里雲或者aws（這裏拿阿里雲來説）&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1. 定制vpc網絡，阿里雲網絡外網基於bgp的，vpc本身就保障HA，redundency.
+2. ECS的磁盤是scalable的，多大都是可以彈性擴展
+3. network bandwith 可以 custome，多大的可以
+4. ecs 的 cpu+mem 可以隨時升級
+5. 不需要搭建kafka es 和flink 軟件cluster平臺，阿里雲有相關的服務，都是優化過的paas，性能非常的高，還可以按需隨時升級
+6 .數據不用擔心丟失和遷移困難
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;總結&#34;&gt;總結&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;1. 作爲云架構師，很不幸的是我目前既要寫大量的code，還要管理綫下30多台服務器，花費了大量的時間去處理很多問題
+2. 下一步要遷移服務到aws或者阿里雲上面
+&lt;/code&gt;&lt;/pre&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -4,16 +4,51 @@
     <title>Cert on 飞机模型</title>
     <link>https://www.airplanecraft.com/zh/tags/cert/</link>
     <description>Recent content in Cert on 飞机模型</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 May 2020 14:40:37 +0800</lastBuildDate>
-    <atom:link href="https://www.airplanecraft.com/zh/tags/cert/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2020 14:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/cert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给nginx安装免费的证书</title>
       <link>https://www.airplanecraft.com/zh/posts/linux-cerbot/</link>
       <pubDate>Fri, 08 May 2020 14:40:37 +0800</pubDate>
+      
       <guid>https://www.airplanecraft.com/zh/posts/linux-cerbot/</guid>
-      <description>&lt;h2 id=&#34;https-vs-http&#34;&gt;https vs http&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;https比http安全原因是传输的过程中使用了加密，因为https在服务器端使用证书&lt;/li&gt;&#xA;&lt;li&gt;证书的认证需要认证机构，随便一个https的证书阿里巴巴云最便宜的一年要2000多，aws更是贵到天上，所以对于个人程序员来来说最好有免费的证书&lt;/li&gt;&#xA;&lt;li&gt;cerbot就是你的选择&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cerbot简介&#34;&gt;cerbot简介&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cerbot就是Electronic Frontier Foundation (EFF)这个机构给大家发的福利，简单的一句话来说就是给你提供3个月的免费证书，证书到期后继续免费续约，个人网站是用最方便，每三个月更新一次就可以了&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cerbot-使用&#34;&gt;cerbot 使用&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cerbot 安装脚本&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum -y install yum-utils&#xA;&#xA;yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional&#xA;&#xA;sudo yum install certbot python2-certbot-nginx&#xA;&#xA;sudo certbot --nginx(sudo certbot certonly --nginx)&#xA;&#xA;&#xA;echo &amp;#34;0 0,12 * * * root python -c &amp;#39;import random; import time; time.sleep(random.random() * 3600)&amp;#39; &amp;amp;&amp;amp; certbot renew -q&amp;#34; | sudo tee -a /etc/crontab &amp;gt; /dev/null (auto renewal)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cerbot-证书验证&#34;&gt;cerbot 证书验证&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To confirm that your site is set up properly, visit &lt;a href=&#34;https://yourwebsite.com/&#34;&gt;https://yourwebsite.com/&lt;/a&gt; in your browser and look for the lock icon in the URL bar. If you want to check that you have the top-of-the-line installation, you can head to &lt;a href=&#34;https://www.ssllabs.com/ssltest/&#34;&gt;https://www.ssllabs.com/ssltest/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>
+        
+          
+            &lt;h2 id=&#34;https-vs-http&#34;&gt;https vs http&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https比http安全原因是传输的过程中使用了加密，因为https在服务器端使用证书&lt;/li&gt;
+&lt;li&gt;证书的认证需要认证机构，随便一个https的证书阿里巴巴云最便宜的一年要2000多，aws更是贵到天上，所以对于个人程序员来来说最好有免费的证书&lt;/li&gt;
+&lt;li&gt;cerbot就是你的选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cerbot简介&#34;&gt;cerbot简介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cerbot就是Electronic Frontier Foundation (EFF)这个机构给大家发的福利，简单的一句话来说就是给你提供3个月的免费证书，证书到期后继续免费续约，个人网站是用最方便，每三个月更新一次就可以了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cerbot-使用&#34;&gt;cerbot 使用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cerbot 安装脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum -y install yum-utils
+
+yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+
+sudo yum install certbot python2-certbot-nginx
+
+sudo certbot --nginx(sudo certbot certonly --nginx)
+
+
+echo &amp;#34;0 0,12 * * * root python -c &amp;#39;import random; import time; time.sleep(random.random() * 3600)&amp;#39; &amp;amp;&amp;amp; certbot renew -q&amp;#34; | sudo tee -a /etc/crontab &amp;gt; /dev/null (auto renewal)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cerbot-证书验证&#34;&gt;cerbot 证书验证&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;To confirm that your site is set up properly, visit &lt;a href=&#34;https://yourwebsite.com/&#34;&gt;https://yourwebsite.com/&lt;/a&gt; in your browser and look for the lock icon in the URL bar. If you want to check that you have the top-of-the-line installation, you can head to &lt;a href=&#34;https://www.ssllabs.com/ssltest/&#34;&gt;https://www.ssllabs.com/ssltest/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Datacenter on 飞机模型</title>
+    <title>Datacenter on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/datacenter/</link>
-    <description>Recent content in Datacenter on 飞机模型</description>
+    <description>Recent content in Datacenter on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/datacenter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本地数据中心和云的对比</title>
-      <link>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</link>
+      <link>https://www.airplanecraft.com/zh/post/local-datacenter-vs-cloud/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:30 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/local-datacenter-vs-cloud/</guid>
       <description>
         
           

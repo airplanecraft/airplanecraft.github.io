@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cert on 飞机模型</title>
+    <title>Cert on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/cert/</link>
-    <description>Recent content in Cert on 飞机模型</description>
+    <description>Recent content in Cert on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Fri, 08 May 2020 14:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/cert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给nginx安装免费的证书</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-cerbot/</link>
+      <link>https://www.airplanecraft.com/zh/post/linux-cerbot/</link>
       <pubDate>Fri, 08 May 2020 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-cerbot/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/linux-cerbot/</guid>
       <description>
         
           
@@ -30,17 +30,17 @@
 &lt;ul&gt;
 &lt;li&gt;cerbot 安装脚本&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum -y install yum-utils
-
-yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
-
-sudo yum install certbot python2-certbot-nginx
-
-sudo certbot --nginx(sudo certbot certonly --nginx)
-
-
-echo &amp;#34;0 0,12 * * * root python -c &amp;#39;import random; import time; time.sleep(random.random() * 3600)&amp;#39; &amp;amp;&amp;amp; certbot renew -q&amp;#34; | sudo tee -a /etc/crontab &amp;gt; /dev/null (auto renewal)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cerbot-证书验证&#34;&gt;cerbot 证书验证&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;yum -y install yum-utils
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo yum install certbot python2-certbot-nginx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo certbot --nginx(sudo certbot certonly --nginx)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#34;0 0,12 * * * root python -c &amp;#39;import random; import time; time.sleep(random.random() * 3600)&amp;#39; &amp;amp;&amp;amp; certbot renew -q&amp;#34; | sudo tee -a /etc/crontab &amp;gt; /dev/null (auto renewal)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;cerbot-证书验证&#34;&gt;cerbot 证书验证&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;To confirm that your site is set up properly, visit &lt;a href=&#34;https://yourwebsite.com/&#34;&gt;https://yourwebsite.com/&lt;/a&gt; in your browser and look for the lock icon in the URL bar. If you want to check that you have the top-of-the-line installation, you can head to &lt;a href=&#34;https://www.ssllabs.com/ssltest/&#34;&gt;https://www.ssllabs.com/ssltest/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

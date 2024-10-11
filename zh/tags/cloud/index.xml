@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud on 飞机模型</title>
+    <title>Cloud on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/cloud/</link>
-    <description>Recent content in Cloud on 飞机模型</description>
+    <description>Recent content in Cloud on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Tue, 02 Feb 2021 10:00:30 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本地数据中心和云的对比</title>
-      <link>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</link>
+      <link>https://www.airplanecraft.com/zh/post/local-datacenter-vs-cloud/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:30 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/local-datacenter-vs-cloud/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/local-datacenter-vs-cloud/</guid>
       <description>
         
           
@@ -141,10 +141,10 @@
     
     <item>
       <title>裸金属服务器使用</title>
-      <link>https://www.airplanecraft.com/zh/posts/bare-metal-server/</link>
+      <link>https://www.airplanecraft.com/zh/post/bare-metal-server/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/bare-metal-server/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/bare-metal-server/</guid>
       <description>
         
           
@@ -231,10 +231,10 @@
     
     <item>
       <title>裸金属服务器遇到的docker容器访问问题</title>
-      <link>https://www.airplanecraft.com/zh/posts/firewalld-block-docker/</link>
+      <link>https://www.airplanecraft.com/zh/post/firewalld-block-docker/</link>
       <pubDate>Wed, 06 Sep 2017 10:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/firewalld-block-docker/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/firewalld-block-docker/</guid>
       <description>
         
           
@@ -274,9 +274,9 @@
 &lt;/li&gt;
 &lt;li&gt;原来是docker0 与主机eth0 之间通信问题被firewall屏蔽了&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; firewall-cmd --permanent --add-rich-rule=&amp;#34;rule family=&amp;#34;ipv4&amp;#34; source address=&amp;#34;172.17.0.1/16&amp;#34; accept&amp;#34;
- firewall-cmd --reload 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;firewall&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cmd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;permanent&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rich&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;rule family=&amp;#34;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ipv4&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34; source address=&amp;#34;&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;172.17&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34; accept&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;firewall&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cmd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reload&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           
           
         

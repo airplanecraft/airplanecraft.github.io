@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Token on 飞机模型</title>
+    <title>Token on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/token/</link>
-    <description>Recent content in Token on 飞机模型</description>
+    <description>Recent content in Token on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Fri, 03 Dec 2021 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/token/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JWT、JWE、JWS 、JWK 到底是什么</title>
-      <link>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</link>
+      <link>https://www.airplanecraft.com/zh/post/jwt-jwe-jwk-jws/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/jwt-jwe-jwk-jws/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/jwt-jwe-jwk-jws/</guid>
       <description>
         
           
@@ -43,9 +43,9 @@ signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有
 三个部分用·分割。形如 xxxxx.yyyyy.zzzzz的样式。&lt;/p&gt;
 &lt;h4 id=&#34;jwt-header&#34;&gt;JWT header&lt;/h4&gt;
 &lt;p&gt;{&lt;br&gt;
-&amp;ldquo;typ&amp;rdquo;: &amp;ldquo;JWT&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;alg&amp;rdquo;: &amp;ldquo;none&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;&lt;br&gt;
+&amp;quot;typ&amp;quot;: &amp;quot;JWT&amp;quot;,&lt;br&gt;
+&amp;quot;alg&amp;quot;: &amp;quot;none&amp;quot;,&lt;br&gt;
+&amp;quot;jti&amp;quot;: &amp;quot;4f1g23a12aa&amp;quot;&lt;br&gt;
 }&lt;/p&gt;
 &lt;p&gt;jwt header 的组成&lt;/p&gt;
 &lt;p&gt;头通常由两部分组成：令牌的类型，即JWT，以及正在使用的散列算法，例如HMAC SHA256或RSA。&lt;/p&gt;
@@ -61,18 +61,18 @@ signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;jwt-payload&#34;&gt;JWT payload&lt;/h4&gt;
 &lt;p&gt;{&lt;br&gt;
-&amp;ldquo;iss&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn&#34;&gt;http://shaobaobaoer.cn&lt;/a&gt;&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;aud&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;http://shaobaobaoer.cn/webtest/jwt_auth/%22&#34;&gt;http://shaobaobaoer.cn/webtest/jwt_auth/&#34;&lt;/a&gt;,&lt;br&gt;
-&amp;ldquo;jti&amp;rdquo;: &amp;ldquo;4f1g23a12aa&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;iat&amp;rdquo;: 1534070547,&lt;br&gt;
-&amp;ldquo;nbf&amp;rdquo;: 1534070607,&lt;br&gt;
-&amp;ldquo;exp&amp;rdquo;: 1534074147,&lt;br&gt;
-&amp;ldquo;uid&amp;rdquo;: 1,&lt;br&gt;
-&amp;ldquo;data&amp;rdquo;: {&lt;br&gt;
-&amp;ldquo;uname&amp;rdquo;: &amp;ldquo;shaobao&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;uEmail&amp;rdquo;: &amp;ldquo;&lt;a href=&#34;mailto:shaobaobaoer@126.com&#34;&gt;shaobaobaoer@126.com&lt;/a&gt;&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;uID&amp;rdquo;: &amp;ldquo;0xA0&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;uGroup&amp;rdquo;: &amp;ldquo;guest&amp;rdquo;&lt;br&gt;
+&amp;quot;iss&amp;quot;: &amp;quot;http://shaobaobaoer.cn&amp;quot;,&lt;br&gt;
+&amp;quot;aud&amp;quot;: &amp;quot;http://shaobaobaoer.cn/webtest/jwt_auth/&amp;quot;,&lt;br&gt;
+&amp;quot;jti&amp;quot;: &amp;quot;4f1g23a12aa&amp;quot;,&lt;br&gt;
+&amp;quot;iat&amp;quot;: 1534070547,&lt;br&gt;
+&amp;quot;nbf&amp;quot;: 1534070607,&lt;br&gt;
+&amp;quot;exp&amp;quot;: 1534074147,&lt;br&gt;
+&amp;quot;uid&amp;quot;: 1,&lt;br&gt;
+&amp;quot;data&amp;quot;: {&lt;br&gt;
+&amp;quot;uname&amp;quot;: &amp;quot;shaobao&amp;quot;,&lt;br&gt;
+&amp;quot;uEmail&amp;quot;: &amp;quot;shaobaobaoer@126.com&amp;quot;,&lt;br&gt;
+&amp;quot;uID&amp;quot;: &amp;quot;0xA0&amp;quot;,&lt;br&gt;
+&amp;quot;uGroup&amp;quot;: &amp;quot;guest&amp;quot;&lt;br&gt;
 }&lt;br&gt;
 }&lt;/p&gt;
           

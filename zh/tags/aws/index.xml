@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws on 飞机模型</title>
+    <title>Aws on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/aws/</link>
-    <description>Recent content in Aws on 飞机模型</description>
+    <description>Recent content in Aws on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Tue, 26 Apr 2022 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把最近一些东西aws东西画出来</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-best-practise-financial/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-best-practise-financial/</link>
       <pubDate>Tue, 26 Apr 2022 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-best-practise-financial/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-best-practise-financial/</guid>
       <description>
         
           
@@ -124,10 +124,10 @@
     
     <item>
       <title>aws cdk introduction</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-cdk/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-cdk/</link>
       <pubDate>Fri, 26 Feb 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-cdk/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-cdk/</guid>
       <description>
         
           
@@ -184,10 +184,10 @@
     
     <item>
       <title>SAA-CO1考试之路</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-saa-pass/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-saa-pass/</link>
       <pubDate>Thu, 03 Oct 2019 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-saa-pass/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-saa-pass/</guid>
       <description>
         
           
@@ -243,10 +243,10 @@
     
     <item>
       <title>aws x-ray</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-x-ray/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-x-ray/</link>
       <pubDate>Thu, 12 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-x-ray/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-x-ray/</guid>
       <description>
         
           
@@ -272,7 +272,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1462&#34;
         height=&#34;488&#34;
-        src=&#34;https://www.airplanecraft.com/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/product-page-diagram_AWS-X-Ray_how-it-works.2922edd4bfe011e997dbf32fdf8bd520bcbc85fb_9836458994471346904.png&#34;
       
       
     /&gt;
@@ -323,7 +323,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;925&#34;
         height=&#34;418&#34;
-        src=&#34;https://www.airplanecraft.com/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/0%2AJm9tsR7HNq1Ew2-C_14389612573526594243.png&#34;
       
       
     /&gt;
@@ -341,10 +341,10 @@
     
     <item>
       <title>accelerating aws migration</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-migration/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-migration/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-migration/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-migration/</guid>
       <description>
         
           
@@ -372,7 +372,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;926&#34;
         height=&#34;373&#34;
-        src=&#34;https://www.airplanecraft.com/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/0%2ASLKhR418WaZctIPI_12814727873364100845.png&#34;
       
       
     /&gt;
@@ -399,10 +399,10 @@
     
     <item>
       <title>aws online analytical processing (or OLAP)</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-glue-athena-quicksight/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-glue-athena-quicksight/</link>
       <pubDate>Tue, 10 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-glue-athena-quicksight/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-glue-athena-quicksight/</guid>
       <description>
         
           
@@ -436,7 +436,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1171&#34;
         height=&#34;750&#34;
-        src=&#34;https://www.airplanecraft.com/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/1%2AMiZKdlJBIC8nTTeEsPomLQ_1549877427038419921.png&#34;
       
       
     /&gt;
@@ -478,10 +478,10 @@
     
     <item>
       <title>Difference between user pool and identity pool(Federated Identities)</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-difference-between-userpool-and-identitypool/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-difference-between-userpool-and-identitypool/</link>
       <pubDate>Fri, 06 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-difference-between-userpool-and-identitypool/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-difference-between-userpool-and-identitypool/</guid>
       <description>
         
           
@@ -490,7 +490,7 @@
 &lt;li&gt;identity pool 裡面有autenticated provider裡面也有user pool ID!&lt;/li&gt;
 &lt;li&gt;納尼?這是什麼鬼?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;lets-forget-the-connection-between-them&#34;&gt;let&amp;rsquo;s forget the connection between them&lt;/h4&gt;
+&lt;h4 id=&#34;lets-forget-the-connection-between-them&#34;&gt;let&#39;s forget the connection between them&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;user pool 簡單來說就是提供一個用戶驗證的服務，比如用戶自定義用戶，用fb,GOOGLE，twitter等賬戶登錄，登錄後獲取一個token，用戶的每次請求帶著這個token就可以了，用戶登錄後獲取的是你個人應用的resource! ,比如你自己做了一個網站，登錄後可以管理自己用戶，權限，圖片等等，你有權限去訪問這些資源&lt;/li&gt;
 &lt;li&gt;identity pool 也是提供一個用戶認證的服務，用戶可以在裡面設置aws 的role，也就說用戶登錄後得到的aws的resource 的訪問權限，比如你可以訪問s3.只是這個登錄可以跟 user pool提供的服務去綁定，也可以不用user pool的服務直接用 identity pool裡面的provider去對接，也就說，如果你有google的id也可以登錄後獲取aws resource 資源的訪問權限，這個是登錄後aws通過sts生成臨時credential 來做到的&lt;/li&gt;
@@ -520,7 +520,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;720&#34;
         height=&#34;461&#34;
-        src=&#34;https://www.airplanecraft.com/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/amazon-cognito-ext-auth-basic-flow_7254584813439612501.png&#34;
       
       
     /&gt;
@@ -542,12 +542,12 @@
     &lt;img
       loading=&#34;lazy&#34;
       decoding=&#34;async&#34;
-      alt=&#34;https://gorillalogic.com/wp-content/uploads/2018/09/Sign-Up-Implementation-7&amp;amp;amp;ndash;768x312.png&#34;
+      alt=&#34;https://gorillalogic.com/wp-content/uploads/2018/09/Sign-Up-Implementation-7--768x312.png&#34;
       
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;768&#34;
         height=&#34;312&#34;
-        src=&#34;https://www.airplanecraft.com/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/Sign-Up-Implementation-7--768x312_15683792732263294091.png&#34;
       
       
     /&gt;
@@ -574,7 +574,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;1368&#34;
         height=&#34;1344&#34;
-        src=&#34;https://www.airplanecraft.com/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/cognito-user-pool-vs-identity-pool_7921973143523750630.png&#34;
       
       
     /&gt;
@@ -593,10 +593,10 @@
     
     <item>
       <title>Aws cognito sample</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-cognito-sample/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-cognito-sample/</link>
       <pubDate>Fri, 06 Sep 2019 10:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-cognito-sample/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-cognito-sample/</guid>
       <description>
         
           
@@ -627,7 +627,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;901&#34;
         height=&#34;501&#34;
-        src=&#34;https://www.airplanecraft.com/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/Serverless_Web_App_LP_assets-16.7cbed9781201a79b9efa761807c4312e68b23485_10296272764832932471.png&#34;
       
       
     /&gt;
@@ -663,7 +663,7 @@
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;782&#34;
         height=&#34;201&#34;
-        src=&#34;https://www.airplanecraft.com/scenario-authentication-cup_7617407613548709477.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/scenario-authentication-cup_7617407613548709477.png&#34;
       
       
     /&gt;
@@ -690,10 +690,10 @@
     
     <item>
       <title>Aws cloudformation deploy lambda and apigateway</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-cloudformation-lambda-apigateway/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-cloudformation-lambda-apigateway/</link>
       <pubDate>Thu, 05 Sep 2019 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-cloudformation-lambda-apigateway/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-cloudformation-lambda-apigateway/</guid>
       <description>
         
           
@@ -715,24 +715,24 @@
 &lt;li&gt;测试代码&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;安装sam&#34;&gt;安装sam&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pip3 install --user aws-sam-cli
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;git-克隆代码&#34;&gt;git 克隆代码&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/gemerick/spring-boot-lambda -b lambda
-
-mvn clean package
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;创建s3-bucket&#34;&gt;创建s3 bucket&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;aws s3 mb s3://spring-boot-lambda-20100905
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;拷贝jar-到s3-更新sam的template&#34;&gt;拷贝jar 到S3 ，更新sam的template&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;aws cloudformation package --template-file sam.yaml --output-template-file target/output-sam.yaml --s3-bucket spring-boot-lambda-20100905
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;deploy-a-cloudformation-stack-from-the-sam-template&#34;&gt;Deploy a Cloudformation stack from the SAM template&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;aws cloudformation deploy --template-file target/output-sam.yaml --stack-name spring-boot-lambda --capabilities CAPABILITY_IAM
-
-aws cloudformation describe-stacks --stack-name spring-boot-lambda
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;测试部署结果&#34;&gt;测试部署结果&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl   https://xxx.execute-api.ap-southeast-1.amazonaws.com/Prod/languages
-
-[{&amp;#34;name&amp;#34;:&amp;#34;node&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;java&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;python&amp;#34;}]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;pip3 install --user aws-sam-cli
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;git-克隆代码&#34;&gt;git 克隆代码&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/gemerick/spring-boot-lambda -b lambda
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;mvn clean package
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;创建s3-bucket&#34;&gt;创建s3 bucket&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws s3 mb s3://spring-boot-lambda-20100905
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;拷贝jar-到s3-更新sam的template&#34;&gt;拷贝jar 到S3 ，更新sam的template&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;aws&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cloudformation&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;file&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sam&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;yaml&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;file&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sam&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;yaml&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;bucket&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;spring&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;boot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lambda&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20100905&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;deploy-a-cloudformation-stack-from-the-sam-template&#34;&gt;Deploy a Cloudformation stack from the SAM template&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws cloudformation deploy --template-file target/output-sam.yaml --stack-name spring-boot-lambda --capabilities CAPABILITY_IAM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws cloudformation describe-stacks --stack-name spring-boot-lambda
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;测试部署结果&#34;&gt;测试部署结果&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;curl   https://xxx.execute-api.ap-southeast-1.amazonaws.com/Prod/languages
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;[{&amp;#34;name&amp;#34;:&amp;#34;node&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;java&amp;#34;},{&amp;#34;name&amp;#34;:&amp;#34;python&amp;#34;}]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           
           
         
@@ -741,10 +741,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>Aws ecs tutorial</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-ecs-tutorial/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-ecs-tutorial/</link>
       <pubDate>Wed, 04 Sep 2019 09:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-ecs-tutorial/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-ecs-tutorial/</guid>
       <description>
         
           
@@ -789,7 +789,7 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
         class=&#34;image_figure image_external image_processed&#34;
         width=&#34;668&#34;
         height=&#34;254&#34;
-        src=&#34;https://www.airplanecraft.com/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
+        src=&#34;https://www.airplanecraft.com/images/1%2Ak29gxIwwhDaP-Ge-G-yXCQ_6496974866164419964.png&#34;
       
       
     /&gt;
@@ -810,8 +810,8 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
 &lt;h4 id=&#34;创建一个ecs-cluster&#34;&gt;创建一个ecs cluster&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;创建secrutiry group my-ecs-sg
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;aws ec2 create-security-group --group-name my-ecs-sg --description my-ecs-sg
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws ec2 create-security-group --group-name my-ecs-sg --description my-ecs-sg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;创建ecs cluster：选择vpc subnet多个&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;创建-ecsservicerole&#34;&gt;创建 ecsServiceRole&lt;/h4&gt;
@@ -819,67 +819,67 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
 &lt;li&gt;attach policy ：AmazonEC2ContainerServiceRole&lt;/li&gt;
 &lt;li&gt;trusted relationship：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  {
-  &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;,
-  &amp;#34;Statement&amp;#34;: [
-    {
-      &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;,
-      &amp;#34;Principal&amp;#34;: {
-        &amp;#34;Service&amp;#34;: &amp;#34;ecs.amazonaws.com&amp;#34;
-      },
-      &amp;#34;Action&amp;#34;: &amp;#34;sts:AssumeRole&amp;#34;
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;创建-task-defination&#34;&gt;创建 task defination&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;task-definition.json
-{
-  &amp;#34;family&amp;#34;: &amp;#34;sinatra-hi&amp;#34;,
-  &amp;#34;containerDefinitions&amp;#34;: [
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;web&amp;#34;,
-      &amp;#34;image&amp;#34;: &amp;#34;tongueroo/sinatra:latest&amp;#34;,
-      &amp;#34;cpu&amp;#34;: 128,
-      &amp;#34;memoryReservation&amp;#34;: 128,
-      &amp;#34;portMappings&amp;#34;: [
-        {
-          &amp;#34;containerPort&amp;#34;: 4567,
-          &amp;#34;protocol&amp;#34;: &amp;#34;tcp&amp;#34;
-        }
-      ],
-      &amp;#34;command&amp;#34;: [
-        &amp;#34;ruby&amp;#34;, &amp;#34;hi.rb&amp;#34;
-      ],
-      &amp;#34;essential&amp;#34;: true
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    aws ec2 authorize-security-group-ingress --group-name my-ecs-sg --protocol tcp --port 1-65535 --source-group my-elb-sg  --vpc-id vpc-xxxmyid
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;创建elb-和-target-group&#34;&gt;创建elb 和 target group&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;Statement&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Principal&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;Service&amp;#34;: &amp;#34;ecs.amazonaws.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Action&amp;#34;: &amp;#34;sts:AssumeRole&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;创建-task-defination&#34;&gt;创建 task defination&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;task-definition.json
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;family&amp;#34;: &amp;#34;sinatra-hi&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;containerDefinitions&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;name&amp;#34;: &amp;#34;web&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;image&amp;#34;: &amp;#34;tongueroo/sinatra:latest&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;cpu&amp;#34;: 128,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;memoryReservation&amp;#34;: 128,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;portMappings&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;          &amp;#34;containerPort&amp;#34;: 4567,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;          &amp;#34;protocol&amp;#34;: &amp;#34;tcp&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      ],
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;command&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;ruby&amp;#34;, &amp;#34;hi.rb&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      ],
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;essential&amp;#34;: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    aws ec2 authorize-security-group-ingress --group-name my-ecs-sg --protocol tcp --port 1-65535 --source-group my-elb-sg  --vpc-id vpc-xxxmyid
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;创建elb-和-target-group&#34;&gt;创建elb 和 target group&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;create： my-elb  with a HTTP protocol and Port 80&lt;/li&gt;
 &lt;li&gt;为elb 配置 security group： my-elb-sg ，inbound allowed port 80 and source 0.0.0.0/0&lt;/li&gt;
-&lt;li&gt;为my-ecs-sg 配置 inbound security group,允许来自elb的请求  aws ec2 authorize-security-group-ingress &amp;ndash;group-id sg-xxxyyy &amp;ndash;protocol tcp &amp;ndash;port 1-65535 &amp;ndash;source-group sg-xxxxx&lt;/li&gt;
+&lt;li&gt;为my-ecs-sg 配置 inbound security group,允许来自elb的请求  aws ec2 authorize-security-group-ingress --group-id sg-xxxyyy --protocol tcp --port 1-65535 --source-group sg-xxxxx&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;创建-service&#34;&gt;创建 service&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ecs-service.json
-{
-  &amp;#34;cluster&amp;#34;: &amp;#34;my-cluster&amp;#34;,
-  &amp;#34;serviceName&amp;#34;: &amp;#34;my-service&amp;#34;,
-  &amp;#34;taskDefinition&amp;#34;: &amp;#34;sinatra-hi&amp;#34;,
-  &amp;#34;loadBalancers&amp;#34;: [
-      {
-          &amp;#34;targetGroupArn&amp;#34;: &amp;#34;FILL-IN-YOUR-TARGET-GROUP&amp;#34;,
-          &amp;#34;containerName&amp;#34;: &amp;#34;web&amp;#34;,
-          &amp;#34;containerPort&amp;#34;: 4567
-      }
-  ],
-  &amp;#34;desiredCount&amp;#34;: 1,
-  &amp;#34;role&amp;#34;: &amp;#34;ecsServiceRole&amp;#34;
-}
-
- aws ecs create-service --cli-input-json file://ecs-service.json
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;检查运行情况&#34;&gt;检查运行情况&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ecs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;service&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;json&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;cluster&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;my-cluster&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;serviceName&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;my-service&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;taskDefinition&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;sinatra-hi&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;loadBalancers&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;s2&#34;&gt;&amp;#34;targetGroupArn&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;FILL-IN-YOUR-TARGET-GROUP&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;s2&#34;&gt;&amp;#34;containerName&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;web&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;s2&#34;&gt;&amp;#34;containerPort&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4567&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;desiredCount&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;role&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ecsServiceRole&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;aws&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ecs&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;service&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cli&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;json&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ecs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;service&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;json&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;检查运行情况&#34;&gt;检查运行情况&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;找到elb的dns&lt;/li&gt;
 &lt;li&gt;执行curl ：dns address&lt;/li&gt;
@@ -887,8 +887,8 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
 &lt;h4 id=&#34;把service的节点扩展为4个&#34;&gt;把service的节点扩展为4个&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;找到cluster 的pulibc dns
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh -i xxx.perm cluster-public-dns-address
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ssh -i xxx.perm cluster-public-dns-address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;进入ecs 的container&lt;/li&gt;
 &lt;li&gt;执行docker ps -a 发现有4个容器在running&lt;/li&gt;
 &lt;/ul&gt;
@@ -900,10 +900,10 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
     
     <item>
       <title>aws数据库迁移工具简介</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-sct-dms-tutorial/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-sct-dms-tutorial/</link>
       <pubDate>Tue, 03 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-sct-dms-tutorial/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-sct-dms-tutorial/</guid>
       <description>
         
           
@@ -929,11 +929,11 @@ aws cloudformation describe-stacks --stack-name spring-boot-lambda
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;create database：test and table myclass with 2 column:id name&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;test 
-id  name
-1   hello
-2   kitty
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;test 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;id  name
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;1   hello
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;2   kitty
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;create postgresql database on aws&lt;/p&gt;
 &lt;/li&gt;
@@ -953,10 +953,10 @@ id  name
     
     <item>
       <title>eni or eip can not be deleted</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-eni-can-not-be-deleted/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-eni-can-not-be-deleted/</link>
       <pubDate>Mon, 02 Sep 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-eni-can-not-be-deleted/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-eni-can-not-be-deleted/</guid>
       <description>
         
           
@@ -976,10 +976,10 @@ id  name
     
     <item>
       <title>一个ec2 instance上配置多个eni</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-multi-eni-on-one-ec2-instance/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-multi-eni-on-one-ec2-instance/</link>
       <pubDate>Mon, 02 Sep 2019 08:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-multi-eni-on-one-ec2-instance/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-multi-eni-on-one-ec2-instance/</guid>
       <description>
         
           
@@ -997,34 +997,34 @@ id  name
 &lt;li&gt;在ec2 instance 页面,看到iP里面公网IP只有一个，private ip 有2个&lt;/li&gt;
 &lt;li&gt;为什么少了一个?用putty connnect 这个两个ip，都是没有问题，ec2 的console不显示而已&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[ec2-user@ip-172-31-1-176 ~]$ ifconfig
-eth0: flags=4163&amp;lt;UP,BROADCAST,RUNNING,MULTICAST&amp;gt;  mtu 9001
-        inet 172.31.1.176  netmask 255.255.255.0  broadcast 172.31.1.255
-        inet6 fe80::8a:93ff:fefd:ef5c  prefixlen 64  scopeid 0x20&amp;lt;link&amp;gt;
-        ether 02:8a:93:fd:ef:5c  txqueuelen 1000  (Ethernet)
-        RX packets 4115218  bytes 1170825027 (1.0 GiB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 3592874  bytes 8202330562 (7.6 GiB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-eth1: flags=4163&amp;lt;UP,BROADCAST,RUNNING,MULTICAST&amp;gt;  mtu 9001
-        inet 172.31.1.87  netmask 255.255.255.0  broadcast 172.31.1.255
-        inet6 fe80::f1:16ff:fefa:1bba  prefixlen 64  scopeid 0x20&amp;lt;link&amp;gt;
-        ether 02:f1:16:fa:1b:ba  txqueuelen 1000  (Ethernet)
-        RX packets 333  bytes 26643 (26.0 KiB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 286  bytes 33695 (32.9 KiB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10&amp;lt;host&amp;gt;
-        loop  txqueuelen 1000  (Local Loopback)
-        RX packets 10549  bytes 8263339 (7.8 MiB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 10549  bytes 8263339 (7.8 MiB)
-        TX errors 0  dropped 0 overruns 0  carrier 0 collisions 0
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;[ec2-user@ip-172-31-1-176 ~]$ ifconfig
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;eth0: flags=4163&amp;lt;UP,BROADCAST,RUNNING,MULTICAST&amp;gt;  mtu 9001
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet 172.31.1.176  netmask 255.255.255.0  broadcast 172.31.1.255
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet6 fe80::8a:93ff:fefd:ef5c  prefixlen 64  scopeid 0x20&amp;lt;link&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        ether 02:8a:93:fd:ef:5c  txqueuelen 1000  (Ethernet)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX packets 4115218  bytes 1170825027 (1.0 GiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX errors 0  dropped 0  overruns 0  frame 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX packets 3592874  bytes 8202330562 (7.6 GiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;eth1: flags=4163&amp;lt;UP,BROADCAST,RUNNING,MULTICAST&amp;gt;  mtu 9001
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet 172.31.1.87  netmask 255.255.255.0  broadcast 172.31.1.255
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet6 fe80::f1:16ff:fefa:1bba  prefixlen 64  scopeid 0x20&amp;lt;link&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        ether 02:f1:16:fa:1b:ba  txqueuelen 1000  (Ethernet)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX packets 333  bytes 26643 (26.0 KiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX errors 0  dropped 0  overruns 0  frame 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX packets 286  bytes 33695 (32.9 KiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet 127.0.0.1  netmask 255.0.0.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        inet6 ::1  prefixlen 128  scopeid 0x10&amp;lt;host&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        loop  txqueuelen 1000  (Local Loopback)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX packets 10549  bytes 8263339 (7.8 MiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        RX errors 0  dropped 0  overruns 0  frame 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX packets 10549  bytes 8263339 (7.8 MiB)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;27&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        TX errors 0  dropped 0 overruns 0  carrier 0 collisions 0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           
           
         
@@ -1033,10 +1033,10 @@ lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
     
     <item>
       <title>使用Aws sts创建临时credential</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-sap-sts-service/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-sap-sts-service/</link>
       <pubDate>Mon, 26 Aug 2019 08:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-sap-sts-service/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-sap-sts-service/</guid>
       <description>
         
           
@@ -1072,20 +1072,20 @@ lo: flags=73&amp;lt;UP,LOOPBACK,RUNNING&amp;gt;  mtu 65536
 &lt;li&gt;replace (this is the arn of the user what you created) with
 arn:aws:iam::XXXX:user/mystsuser&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
-  &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;,
-  &amp;#34;Statement&amp;#34;: [
-    {
-      &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;,
-      &amp;#34;Principal&amp;#34;: {
-        &amp;#34;AWS&amp;#34;: &amp;#34;this is the arn of the user what you created&amp;#34;
-      },
-      &amp;#34;Action&amp;#34;: &amp;#34;sts:AssumeRole&amp;#34;,
-      &amp;#34;Condition&amp;#34;: {}
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;Statement&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Principal&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;AWS&amp;#34;: &amp;#34;this is the arn of the user what you created&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Action&amp;#34;: &amp;#34;sts:AssumeRole&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;Condition&amp;#34;: {}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;创建完毕&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;为user创建sts-assumerole-的访问策略&#34;&gt;为User创建sts assumeRole 的访问策略&lt;/h3&gt;
@@ -1098,52 +1098,52 @@ arn:aws:iam::XXXX:user/mystsuser&lt;/li&gt;
 &lt;li&gt;done&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;ec2-配置刚才创建的用户的profile&#34;&gt;Ec2 配置刚才创建的用户的profile&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; aws configure --profile stsgeneratedprofile
-AWS Access Key ID [****************QL74]:
-AWS Secret Access Key [****************/soA]:
-Default region name [ap-southeast-1]:
-Default output format [json]:
-
-aws sts assume-role --role-arn  arn:aws:iam::xxxx:role/sts-s3-read-only --role-session-name &amp;#34;mytestsession&amp;#34;  --profile ststestprofile --DurationSeconds 3600
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; aws configure --profile stsgeneratedprofile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;AWS Access Key ID [****************QL74]:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;AWS Secret Access Key [****************/soA]:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Default region name [ap-southeast-1]:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Default output format [json]:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws sts assume-role --role-arn  arn:aws:iam::xxxx:role/sts-s3-read-only --role-session-name &amp;#34;mytestsession&amp;#34;  --profile ststestprofile --DurationSeconds 3600
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;生成用户的有效时间为3600秒，生成以下文件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
-    &amp;#34;AssumedRoleUser&amp;#34;: {
-        &amp;#34;AssumedRoleId&amp;#34;: &amp;#34;AROAWNQJOZK2KCBLXLQZW:mytestsession&amp;#34;,
-        &amp;#34;Arn&amp;#34;: &amp;#34;arn:aws:sts::xxx:assumed-role/sts-s3-read-only/mytestsession&amp;#34;
-    },
-    &amp;#34;Credentials&amp;#34;: {
-        &amp;#34;SecretAccessKey&amp;#34;: &amp;#34;sss&amp;#34;,
-        &amp;#34;SessionToken&amp;#34;: &amp;#34;sss&amp;#34;,
-        &amp;#34;Expiration&amp;#34;: &amp;#34;2019-08-26T04:26:04Z&amp;#34;,
-        &amp;#34;AccessKeyId&amp;#34;: &amp;#34;sss&amp;#34;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;AssumedRoleUser&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;AssumedRoleId&amp;#34;: &amp;#34;AROAWNQJOZK2KCBLXLQZW:mytestsession&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;Arn&amp;#34;: &amp;#34;arn:aws:sts::xxx:assumed-role/sts-s3-read-only/mytestsession&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;Credentials&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;SecretAccessKey&amp;#34;: &amp;#34;sss&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;SessionToken&amp;#34;: &amp;#34;sss&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;Expiration&amp;#34;: &amp;#34;2019-08-26T04:26:04Z&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;AccessKeyId&amp;#34;: &amp;#34;sss&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;根据上面的文件创建新的profile&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;aws configure --profile stsgeneratedprofile 
---测出略去
---最终.aws/credential 里面
-
-[stsgeneratedprofile]
-aws_access_key_id = sss
-aws_secret_access_key = sss
-aws_session_token = ssss
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws configure --profile stsgeneratedprofile 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;--测出略去
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;--最终.aws/credential 里面
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;[stsgeneratedprofile]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws_access_key_id = sss
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws_secret_access_key = sss
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;aws_session_token = ssss
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;最后测试&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
- aws s3 ls --profile stsgeneratedprofile
-
---output
-2019-08-11 22:02:41 www.xxx.com
-
-
- aws s3 cp abc.txt s3://xxxxx --profile stsgeneratedprofile
-upload failed: ./abc.txt to s3://xxxxx/abc.txt An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;aws&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;profile&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stsgeneratedprofile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;output&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;2019&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;08&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;11&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;02&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;41&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;www&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xxx&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;aws&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cp&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;abc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;txt&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xxxxx&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;profile&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stsgeneratedprofile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;upload&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;failed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;./&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;abc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;txt&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xxxxx&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;abc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;txt&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;An&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;error&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;occurred&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AccessDenied&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;calling&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PutObject&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;operation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Access&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Denied&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           
           
         
@@ -1152,10 +1152,10 @@ upload failed: ./abc.txt to s3://xxxxx/abc.txt An error occurred (AccessDenied) 
     
     <item>
       <title> 使用Aws System Manager 统一管理 aws resource </title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-sap-system-manager/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-sap-system-manager/</link>
       <pubDate>Sun, 25 Aug 2019 16:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-sap-system-manager/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-sap-system-manager/</guid>
       <description>
         
           
@@ -1179,20 +1179,20 @@ upload failed: ./abc.txt to s3://xxxxx/abc.txt An error occurred (AccessDenied) 
 &lt;li&gt;你的EC2的role 必须具有 AmazonEC2RoleforSSM 的policy attach上去&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;安装ssm-agent&#34;&gt;安装SSM agent&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Intel (x86_64) 64 位实例：
-
-sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
-
-ARM (arm64) 64 位实例：
-
-sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_arm64/amazon-ssm-agent.rpm
-Intel (x86) 32 位实例：
-
-sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_386/amazon-ssm-agent.rpm
-
-
-sudo systemctl start amazon-ssm-agent
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;给ec2-创建一个role具有-amazonec2roleforssm-的policy&#34;&gt;给EC2 创建一个role具有 AmazonEC2RoleforSSM 的policy&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Intel&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x86_64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;位实例：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SSMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_amd64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ARM&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arm64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;位实例：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SSMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_arm64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Intel&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x86&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;位实例：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SSMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_386&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;systemctl&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;start&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;给ec2-创建一个role具有-amazonec2roleforssm-的policy&#34;&gt;给EC2 创建一个role具有 AmazonEC2RoleforSSM 的policy&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;创建role  ssmrole，选择policy AmazonEC2RoleforSSM&lt;/p&gt;
@@ -1204,10 +1204,10 @@ sudo systemctl start amazon-ssm-agent
     
     <item>
       <title>NAT instance setup 简介</title>
-      <link>https://www.airplanecraft.com/zh/posts/aws-nat-instance-setup/</link>
+      <link>https://www.airplanecraft.com/zh/post/aws-nat-instance-setup/</link>
       <pubDate>Tue, 20 Aug 2019 14:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/aws-nat-instance-setup/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/aws-nat-instance-setup/</guid>
       <description>
         
           
@@ -1225,25 +1225,16 @@ sudo systemctl start amazon-ssm-agent
 &lt;li&gt;public  subnet2/ instance2 / sg2(sercirity group) / internal IP2 /public ip2 -&amp;gt; proxy node2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;配置proxy-node&#34;&gt;配置proxy node&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vi /etc/sysctl.conf
-net.ipv4.ip_forward=1
-
-iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;vi /etc/sysctl.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;net.ipv4.ip_forward=1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;192.168.1.0/24 為本地網絡CIDR&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;EC2 頁面，選中proxy node2 -&amp;gt;Action -&amp;gt;Networking -&amp;gt;Disable source/Desk Check&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;配置-local-node-1&#34;&gt;配置 local node 1&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;選擇 subnet1  -&amp;gt;Route Table&lt;/li&gt;
-&lt;li&gt;點擊route table id  -&amp;gt;Routes&lt;/li&gt;
-&lt;li&gt;Edit routes ：add 0.0.0.0/0  -&amp;gt;target 選中instance -&amp;gt;選中 proxy node2&lt;/li&gt;
-&lt;li&gt;ssh 進入node1 :ping 8.8.8.8 -&amp;gt; 沒有為子網配置igw，有沒有配置 nat gateway, 但是可以訪問 internet&lt;/li&gt;
-&lt;/ul&gt;
           
           
         
@@ -1252,10 +1243,10 @@ iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.0/24 -j MASQUERADE
     
     <item>
       <title>jvm参数优化</title>
-      <link>https://www.airplanecraft.com/zh/posts/jvm-optimize-related/</link>
+      <link>https://www.airplanecraft.com/zh/post/jvm-optimize-related/</link>
       <pubDate>Fri, 26 Jun 2015 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/jvm-optimize-related/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/jvm-optimize-related/</guid>
       <description>
         
           

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privatelink on 飞机模型</title>
+    <title>Privatelink on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/privatelink/</link>
-    <description>Recent content in Privatelink on 飞机模型</description>
+    <description>Recent content in Privatelink on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Wed, 28 Jul 2021 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/privatelink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>阿里云架构-使用privatelink让不同的vpc的服务可以访问</title>
-      <link>https://www.airplanecraft.com/zh/posts/alicloud_privatelink/</link>
+      <link>https://www.airplanecraft.com/zh/post/alicloud_privatelink/</link>
       <pubDate>Wed, 28 Jul 2021 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/alicloud_privatelink/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/alicloud_privatelink/</guid>
       <description>
         
           

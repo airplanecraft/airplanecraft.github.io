@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lvm on 飞机模型</title>
+    <title>Lvm on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/lvm/</link>
-    <description>Recent content in Lvm on 飞机模型</description>
+    <description>Recent content in Lvm on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Fri, 06 May 2016 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux的tree命令</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-tree/</link>
+      <link>https://www.airplanecraft.com/zh/post/linux-tree/</link>
       <pubDate>Fri, 06 May 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-tree/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/linux-tree/</guid>
       <description>
         
           
@@ -20,35 +20,35 @@
 &lt;ul&gt;
 &lt;li&gt;Centos 是默认不带tree 命令的，如果要使用首先要install tree command&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install -y tree
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;yum install -y tree
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;使用tree 显示目录的深度为2级&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; tree -L 2
-.
-├── easy-rsa-old-2.3.3
-│   ├── configure.ac
-│   ├── COPYING
-│   ├── COPYRIGHT.GPL
-│   ├── distro
-│   ├── doc
-│   ├── easy-rsa
-│   └── Makefile.am
-├── frgs.log
-├── frp_0.32.1_linux_amd64
-│   ├── frgs.log
-│   ├── frpc
-│   ├── frpc_full.ini
-│   ├── frpc.ini
-│   ├── frps
-│   ├── frps_full.ini
-│   ├── frps.ini
-│   ├── frps.log
-│   ├── LICENSE
-│   ├── nohup.out
-│   └── systemd
-├── frp_0.32.1_linux_amd64.tar.gz
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; tree -L 2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;├── easy-rsa-old-2.3.3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── configure.ac
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── COPYING
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── COPYRIGHT.GPL
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── distro
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── doc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── easy-rsa
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   └── Makefile.am
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;├── frgs.log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;├── frp_0.32.1_linux_amd64
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frgs.log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frpc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frpc_full.ini
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frpc.ini
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frps
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frps_full.ini
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frps.ini
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── frps.log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── LICENSE
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── nohup.out
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;│   └── systemd
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;├── frp_0.32.1_linux_amd64.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           
           
         
@@ -57,37 +57,25 @@
     
     <item>
       <title>lvm空间扩容</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-lvm-resize/</link>
+      <link>https://www.airplanecraft.com/zh/post/linux-lvm-resize/</link>
       <pubDate>Wed, 20 Apr 2016 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-lvm-resize/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/linux-lvm-resize/</guid>
       <description>
         
           
-            &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@localhost ~]# df -H
-Filesystem               Size  Used Avail Use% Mounted on
-devtmpfs                  17G     0   17G   0% /dev
-tmpfs                     17G     0   17G   0% /dev/shm
-tmpfs                     17G  9.1M   17G   1% /run
-tmpfs                     17G     0   17G   0% /sys/fs/cgroup
-/dev/mapper/centos-root   54G  1.4G   53G   3% /
-/dev/sda2                1.1G  148M  916M  14% /boot
-/dev/sda1                210M   12M  198M   6% /boot/efi
-/dev/mapper/centos-home   12T   35M   12T   1% /home
-tmpfs                    3.4G     0  3.4G   0% /run/user/0
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;分区不够合理 root 下面空间不够用&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;umount /home
-
-lvreduce -L 5T /dev/mapper/centos-home
-
-lvextend -L +5T /dev/mapper/centos-root
-
-xfs_growfs /dev/mapper/centos-root
-
-mkfs.xfs -f /dev/mapper/centos-home
-
-mount /home
-&lt;/code&gt;&lt;/pre&gt;
+            &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;[root@localhost ~]# df -H
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Filesystem               Size  Used Avail Use% Mounted on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;devtmpfs                  17G     0   17G   0% /dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs                     17G     0   17G   0% /dev/shm
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs                     17G  9.1M   17G   1% /run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs                     17G     0   17G   0% /sys/fs/cgroup
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;/dev/mapper/centos-root   54G  1.4G   53G   3% /
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;/dev/sda2                1.1G  148M  916M  14% /boot
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;/dev/sda1                210M   12M  198M   6% /boot/efi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;/dev/mapper/centos-home   12T   35M   12T   1% /home
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;tmpfs                    3.4G     0  3.4G   0% /run/user/0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;分区不够合理 root 下面空间不够用&lt;/p&gt;
           
           
         

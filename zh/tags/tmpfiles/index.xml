@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tmpfiles on 飞机模型</title>
+    <title>Tmpfiles on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/tmpfiles/</link>
-    <description>Recent content in Tmpfiles on 飞机模型</description>
+    <description>Recent content in Tmpfiles on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Sat, 07 May 2022 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/tmpfiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux 临时文件的管理</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</link>
+      <link>https://www.airplanecraft.com/zh/post/linux-tmpfiles-clean/</link>
       <pubDate>Sat, 07 May 2022 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-tmpfiles-clean/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/linux-tmpfiles-clean/</guid>
       <description>
         
           
             &lt;h2 id=&#34;centos临时目录的系统管理&#34;&gt;Centos临时目录的系统管理&lt;/h2&gt;
 &lt;p&gt;Linux产生大量的临时文件和目录，例如/tmp、/run 。RHEL7或者CentOS7中，systemd提供了一个结构化的可配置方法来管理临时文件和目录，即systemd-tmpfiles，可以创建、删除和管理临时文件的服务。旧版本系统使用watchtmp+cron来共同实现管理临时文件。&lt;/p&gt;
-&lt;p&gt;systemd启动后，其中一个启动的服务单元是systemd-tmpfiles-setup，该服务的命令为:systemd-tmpfiles &amp;ndash;creat/&amp;ndash;clean  *conf  , *conf是可选的，不写默认是使用所有配置文件&lt;/p&gt;
+&lt;p&gt;systemd启动后，其中一个启动的服务单元是systemd-tmpfiles-setup，该服务的命令为:systemd-tmpfiles --creat/--clean  *conf  , *conf是可选的，不写默认是使用所有配置文件&lt;/p&gt;
 &lt;h2 id=&#34;配置文件优先级从上到下&#34;&gt;配置文件，优先级从上到下。&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;/etc/tmpfiles.d/*conf  ，管理员可修改的配置文件
 

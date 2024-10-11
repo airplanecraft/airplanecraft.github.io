@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on 飞机模型</title>
+    <title>Docker on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/docker/</link>
-    <description>Recent content in Docker on 飞机模型</description>
+    <description>Recent content in Docker on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Fri, 22 May 2020 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用ansible在多台客户机安装docker</title>
-      <link>https://www.airplanecraft.com/zh/posts/ansible-deploy-docker-container/</link>
+      <link>https://www.airplanecraft.com/zh/post/ansible-deploy-docker-container/</link>
       <pubDate>Fri, 22 May 2020 12:40:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/ansible-deploy-docker-container/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/ansible-deploy-docker-container/</guid>
       <description>
         
           
@@ -34,93 +34,39 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;为了使Ansible与客户端通信，需要使用用户帐户配置管理机和客户机。为了方便快捷安全，一般会配置证书方式连接客户机&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-keygen
-ssh-copy-id ansible@node ip
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ssh-copy-id ansible@node ip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用ad-hoc-在客户执行命令相当于命令行&#34;&gt;使用ad-hoc 在客户执行命令，相当于命令行&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;/etc/ansible/hosts,最好谨慎使用hosts配置，安全问题需要解决&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[docker]
-
- 192.168.25.173 ansible_ssh_port=22 ansible_ssh_user=root ansible_ssh_pass=&amp;#34;xxx&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;[docker]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt; 192.168.25.173 ansible_ssh_port=22 ansible_ssh_user=root ansible_ssh_pass=&amp;#34;xxx&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;执行以下ping,命令里面的docker对应的上面文件的docker&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -m ping
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ansible docker -m ping
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;使用ad-hoc命令管理软件包,安装&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -m yum -a &amp;#34;name=docker state=present&amp;#34; -b
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ansible docker -m yum -a &amp;#34;name=docker state=present&amp;#34; -b
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;使用ad-hoc命令管理软件包,设置默认启动&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -b -m service -a &amp;#34;name=docker  enabled=yes&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ansible docker -b -m service -a &amp;#34;name=docker  enabled=yes&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;使用ad-hoc命令管理软件包,启动&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ansible docker -b -m service -a &amp;#34;name=httpd state=started&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;ansible docker -b -m service -a &amp;#34;name=httpd state=started&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用ansible-playbook-部署docker&#34;&gt;使用ansible-playbook 部署docker&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;test-ansile.yml 文件内容&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  ---
-  - hosts: docker
-  remote_user: docker
-  become: yes
-  become_method: sudo
-  vars:
-      container_name: &amp;#34;robotic&amp;#34;
-      container_image: &amp;#34;test-prod:{{container_version}}&amp;#34;
-      registry_url: &amp;#34;ecr.test.amazonaws.com&amp;#34;
-      working_dir: &amp;#34;/data/docker_test&amp;#34;
-
-  tasks:
-      - name: remove container
-      docker_container:
-          name: &amp;#34;{{ container_name }}&amp;#34;
-          state: absent
-
-      - name: install aws cli
-      shell: |
-          yum install awscli -y
-      - name: rm config
-      shell: |
-          rm -rf /root/.aws;mkdir /root/.aws
-      - name: create config for aws user
-      shell: |
-          echo &amp;#34;[profile ecr]&amp;#34; &amp;gt;&amp;gt;/root/.aws/config
-          echo &amp;#34;region = ap-southeast-1&amp;#34; &amp;gt;&amp;gt;/root/.aws/config
-      - name: create credential
-      shell: |
-          echo &amp;#34;[ecr]&amp;#34; &amp;gt;&amp;gt;/root/.aws/credentials
-          echo &amp;#34;aws_access_key_id = xxx&amp;#34;  &amp;gt;&amp;gt;/root/.aws/credentials
-          echo &amp;#34;aws_secret_access_key = xxx&amp;#34;  &amp;gt;&amp;gt;/root/.aws/credentials
-      - name: docker login
-      shell: |
-          loginstr=`aws ecr get-login --no-include-email --profile ecr`
-          bash $loginstr
-      - name: create working_dir directory
-      file:
-          path: &amp;#34;{{ item }}&amp;#34;
-          state: directory
-      with_items:
-          - &amp;#34;{{ working_dir }}&amp;#34;
-
-      - name: create container
-      docker_container:
-          name: &amp;#34;{{ container_name }}&amp;#34;
-          image: &amp;#34;{{registry_url}}/{{ container_image }}&amp;#34;
-          privileged: yes
-          restart_policy: always
-          ports:
-          - &amp;#34;80:80&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;执行ansible文件&lt;/p&gt;
           
           
         

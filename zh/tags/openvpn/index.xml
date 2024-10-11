@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openvpn on 飞机模型</title>
+    <title>Openvpn on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/openvpn/</link>
-    <description>Recent content in Openvpn on 飞机模型</description>
+    <description>Recent content in Openvpn on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Mon, 08 May 2017 12:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openvpn最简单的安装方式</title>
-      <link>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</link>
+      <link>https://www.airplanecraft.com/zh/post/linux-openvpn-install/</link>
       <pubDate>Mon, 08 May 2017 12:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/linux-openvpn-install/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/linux-openvpn-install/</guid>
       <description>
         
           
@@ -29,8 +29,8 @@
 &lt;ul&gt;
 &lt;li&gt;作者git：https://github.com/Nyr/openvpn-install&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;最后生成一个*.ovpn文件&lt;/li&gt;
 &lt;li&gt;下载并安装openvpn gui：https://openvpn.net/community-downloads/&lt;/li&gt;
 &lt;li&gt;用安装好的客户端打开*.ovpn就可以登录远程的vpn服务器了&lt;/li&gt;

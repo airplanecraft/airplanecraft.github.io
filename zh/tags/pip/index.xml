@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pip on 飞机模型</title>
+    <title>Pip on Claridade</title>
     <link>https://www.airplanecraft.com/zh/tags/pip/</link>
-    <description>Recent content in Pip on 飞机模型</description>
+    <description>Recent content in Pip on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Thu, 04 May 2017 10:30:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/pip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python一些集合</title>
-      <link>https://www.airplanecraft.com/zh/posts/pythyon_collection/</link>
+      <link>https://www.airplanecraft.com/zh/post/pythyon_collection/</link>
       <pubDate>Thu, 04 May 2017 10:30:37 +0800</pubDate>
       
-      <guid>https://www.airplanecraft.com/zh/posts/pythyon_collection/</guid>
+      <guid>https://www.airplanecraft.com/zh/post/pythyon_collection/</guid>
       <description>
         
           
@@ -23,8 +23,8 @@
 &lt;ul&gt;
 &lt;li&gt;列表是可变的。创建后可以对其进行修改&lt;/li&gt;
 &lt;li&gt;元组是不可变的。元组一旦创建，就不能对其进行更改&lt;/li&gt;
-&lt;li&gt;列表表示的是顺序。它们是有序序列，通常是同一类型的对象 [&amp;ldquo;APPLE&amp;rdquo;,&amp;ldquo;PEAR&amp;rdquo;,&amp;ldquo;ORANGE&amp;rdquo;]&lt;/li&gt;
-&lt;li&gt;元组表示的是结构。可以用来存储不同数据类型的元素 [1,&amp;ldquo;eric&amp;rdquo;,1999-08-10,24]&lt;/li&gt;
+&lt;li&gt;列表表示的是顺序。它们是有序序列，通常是同一类型的对象 [&amp;quot;APPLE&amp;quot;,&amp;quot;PEAR&amp;quot;,&amp;quot;ORANGE&amp;quot;]&lt;/li&gt;
+&lt;li&gt;元组表示的是结构。可以用来存储不同数据类型的元素 [1,&amp;quot;eric&amp;quot;,1999-08-10,24]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;

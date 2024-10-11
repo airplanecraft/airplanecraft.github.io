@@ -2,11 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.airplanecraft.com/zh/tags/ai/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <loc>https://www.airplanecraft.com/zh/categories/airplanecraft/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/categories/airplanecraft/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/categories/airplanecraft/"
+                />
   </url><url>
     <loc>https://www.airplanecraft.com/zh/categories/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +29,7 @@
                 />
   </url><url>
     <loc>https://www.airplanecraft.com/zh/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -31,14 +41,8 @@
                 href="https://www.airplanecraft.com/zh/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/dl/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/gai/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
-  </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/index/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,11 +54,8 @@
                 href="https://www.airplanecraft.com/zh/tags/index/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/ml/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
-  </url><url>
     <loc>https://www.airplanecraft.com/zh/post/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -66,8 +67,14 @@
                 href="https://www.airplanecraft.com/zh/post/"
                 />
   </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/radiocontroller/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/post/elrschannelnumberissue/</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -78,6 +85,18 @@
                 hreflang="zh"
                 href="https://www.airplanecraft.com/zh/tags/"
                 />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/ai/</loc>
+    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/dl/</loc>
+    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/gai/</loc>
+    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/ml/</loc>
+    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
   </url><url>
     <loc>https://www.airplanecraft.com/zh/categories/technology/</loc>
     <lastmod>2023-12-03T10:30:37+08:00</lastmod>
@@ -134,19 +153,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.airplanecraft.com/zh/tags/airplanecraft/"
-                />
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/categories/airplanecraft/</loc>
-    <lastmod>2022-09-22T10:30:37+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/categories/airplanecraft/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/categories/airplanecraft/"
                 />
   </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/linux/</loc>

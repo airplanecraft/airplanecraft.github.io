@@ -2,6 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.airplanecraft.com/zh/tags/ai/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/categories/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/categories/"
+                />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/"
+                />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/index/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/tags/index/"
+                />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/post/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/post/"
+                />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/categories/quant/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/tags/"
+                />
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/tradindview/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://www.airplanecraft.com/zh/post/quant-introduction/</loc>
+    <lastmod>2025-03-27T12:40:37+08:00</lastmod>
+  </url><url>
     <loc>https://www.airplanecraft.com/zh/categories/airplanecraft/</loc>
     <lastmod>2024-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,89 +95,11 @@
                 href="https://www.airplanecraft.com/zh/categories/airplanecraft/"
                 />
   </url><url>
-    <loc>https://www.airplanecraft.com/zh/categories/</loc>
-    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/categories/"
-                />
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/</loc>
-    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/"
-                />
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/index/</loc>
-    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/tags/index/"
-                />
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/post/</loc>
-    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/post/"
-                />
-  </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/radiocontroller/</loc>
     <lastmod>2024-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.airplanecraft.com/zh/post/elrschannelnumberissue/</loc>
     <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/</loc>
-    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/tags/"
-                />
-  </url><url>
-    <loc>https://www.airplanecraft.com/zh/tags/ai/</loc>
-    <lastmod>2023-12-03T10:30:37+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.airplanecraft.com/en/tags/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.airplanecraft.com/zh/tags/ai/"
-                />
   </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/dl/</loc>
     <lastmod>2023-12-03T10:30:37+08:00</lastmod>

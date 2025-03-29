@@ -88,6 +88,16 @@
   </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/ai/</loc>
     <lastmod>2023-12-03T10:30:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.airplanecraft.com/en/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.airplanecraft.com/zh/tags/ai/"
+                />
   </url><url>
     <loc>https://www.airplanecraft.com/zh/tags/dl/</loc>
     <lastmod>2023-12-03T10:30:37+08:00</lastmod>

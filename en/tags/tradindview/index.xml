@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tradindview on </title>
+    <link>https://www.airplanecraft.com/en/tags/tradindview/</link>
+    <description>Recent content in Tradindview on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://www.airplanecraft.com/en/tags/tradindview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么越来越多的散户开始做量化</title>
+      <link>https://www.airplanecraft.com/en/post/quant-introduction_zh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/en/post/quant-introduction_zh/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;技术门槛的降低&#34;&gt;技术门槛的降低&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;编程工具普及：Python等易学语言成为主流，开源库（如Pandas、Numpy、TA-Lib）简化了数据处理和策略开发。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;低成本基础设施：云服务器（如阿里云、腾讯云）价格下降，个人也能负担高频交易所需的算力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开源平台支持：Backtrader、vn.py等框架提供免费回测工具，无需自建系统。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据爬虫技术的普及包括开源程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;数据门槛的降低&#34;&gt;数据门槛的降低&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;免费开源数据（适合入门）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.1 Tushare Pro：基础数据免费（需注册，部分高频数据需积分），覆盖A股、指数、财务数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.2 AKShare：完全免费，支持股票、期货、宏观经济、舆情等多维度数据（基于Python）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.3 Yahoo Finance：全球市场历史行情数据（通过yfinance库获取）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.4  Binance API&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5  Futu API&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;低成本付费数据（适合进阶）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2.1 Wind 万得金融终端（个人版）：年费约数千元，提供A股、期货、债券的深度数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.2 同花顺iFinD ：基础套餐约3000元/年，含财务数据、资金流向。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.3 JoinQuant（聚宽）API：月度会员可获取高质量股票、期货数据（约200元/月）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.4 Trading Economics：全球宏观数据API（约50美元/月起）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.5 东方财富Choice：舆情热度、产业链数据（按需付费）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.6 Kaggle数据集：开源社区中的股票预测、消费行为等结构化数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;量化平台的崛起&#34;&gt;量化平台的崛起&lt;/h2&gt;
+&lt;p&gt;Tradingview 的 崛起和成熟，进一步降低了量化的门槛，TradingView 是全球领先的金融分析平台，主打多资产图表分析与社交化交易。其核心功能包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.1 多市场覆盖：支持股票、外汇、加密货币、期货等全球市场实时行情。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.2 高级图表工具：内置百余种技术指标（如MACD、布林带）、自定义绘图及多时间框架分析。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.3 策略开发：通过Pine Script编写自动化交易策略，支持回测并一键对接券商执行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.4 社区互动：用户可分享观点、策略模板，跟随高手交易信号。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5 跨平台接入：提供网页、桌面及移动端，兼容MetaTrader、Interactive Brokers等经纪商&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.6 在线编程pine script，用户不再需要下载数据以及程序运行在自己的服务器上了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai工具的崛起&#34;&gt;AI工具的崛起&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 vibe coding,辅助编程，&lt;/li&gt;
+&lt;li&gt;1.2 辅助因子和策略的开发&lt;/li&gt;
+&lt;li&gt;1.3 动态风控&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

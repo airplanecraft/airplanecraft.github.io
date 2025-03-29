@@ -6,7 +6,196 @@
     <description>Recent content in Quant on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 27 Mar 2025 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/categories/quant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Mar 2025 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/categories/quant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何评估一款基金基金的收益率</title>
+      <link>https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/</link>
+      <pubDate>Fri, 28 Mar 2025 12:40:37 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;如何评价一款基金的收益率&#34;&gt;如何评价一款基金的收益率？&lt;/h1&gt;
+&lt;p&gt;评价一款基金的收益率需从多维度综合分析，既要关注绝对收益，也要衡量风险调整后的表现，并结合市场环境、策略特点及投资目标。以下是系统化的评价框架：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一绝对收益分析&#34;&gt;一、绝对收益分析&lt;/h2&gt;
+&lt;h3 id=&#34;1-收益率计算&#34;&gt;1. 收益率计算&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;累计收益率&lt;/strong&gt;：基金成立以来的总回报率（需扣除费用）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;年化收益率&lt;/strong&gt;：将不同周期收益折算为年化值，便于跨期比较。
+[
+\text{年化收益率} = \left(1 + \text{总收益率}\right)^{\frac{365}{\text{持有天数}}} - 1
+]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-收益来源分解&#34;&gt;2. 收益来源分解&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;市场收益（Beta收益）&lt;/strong&gt;：通过回归分析计算基金对市场基准（如沪深300）的敏感性（β值）。
+[
+\text{Beta收益} = \beta \times \text{基准收益率}
+]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;超额收益（Alpha收益）&lt;/strong&gt;：剔除市场影响后的主动管理能力。
+[
+\alpha = \text{基金实际收益} - \left(\text{无风险利率} + \beta \times (\text{基准收益} - \text{无风险利率})\right)
+]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二风险调整后收益&#34;&gt;二、风险调整后收益&lt;/h2&gt;
+&lt;h3 id=&#34;1-夏普比率sharpe-ratio&#34;&gt;1. 夏普比率（Sharpe Ratio）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;公式&lt;/strong&gt;：衡量单位总风险（波动性）带来的超额收益。
+[
+\text{夏普比率} = \frac{\text{基金收益} - \text{无风险利率}}{\text{收益波动率（标准差）}}
+]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标准&lt;/strong&gt;：夏普比率 &amp;gt; 1 为优秀，&amp;gt; 2 为顶级（如对冲基金）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-索提诺比率sortino-ratio&#34;&gt;2. 索提诺比率（Sortino Ratio）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;公式&lt;/strong&gt;：仅考虑下行风险（负波动率），更适合评价稳健型基金。
+[
+\text{索提诺比率} = \frac{\text{基金收益} - \text{无风险利率}}{\text{下行标准差}}
+]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-最大回撤max-drawdown&#34;&gt;3. 最大回撤（Max Drawdown）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义&lt;/strong&gt;：基金历史最大亏损幅度（峰值到谷值的跌幅）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;意义&lt;/strong&gt;：反映极端风险承受能力，最大回撤 &amp;gt; 30% 需谨慎。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三相对收益分析&#34;&gt;三、相对收益分析&lt;/h2&gt;
+&lt;h3 id=&#34;1-基准对比&#34;&gt;1. 基准对比&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;胜率&lt;/strong&gt;：基金跑赢基准的月份/季度占比（如胜率 &amp;gt; 60% 为优）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;滚动收益差&lt;/strong&gt;：分阶段（如滚动1年）对比基金与基准的累计收益差异。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-同类排名&#34;&gt;2. 同类排名&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;四分位法&lt;/strong&gt;：在同类基金中的排名（前25%为优秀）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风格箱分析&lt;/strong&gt;：对比同风格（如成长型、价值型）基金表现。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四风险与稳定性&#34;&gt;四、风险与稳定性&lt;/h2&gt;
+&lt;h3 id=&#34;1-波动率标准差&#34;&gt;1. 波动率（标准差）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;年化波动率 &amp;lt; 15% 为低风险，&amp;gt; 30% 为高风险（如行业主题基金）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-beta值&#34;&gt;2. Beta值&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;β &amp;gt; 1：波动大于市场（适合牛市）；β &amp;lt; 1：防御性强（适合熊市）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-收益分布分析&#34;&gt;3. 收益分布分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;偏度（Skewness）&lt;/strong&gt;：收益分布是否左偏（常出现小跌大跌）或右偏（常出现小涨大涨）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;峰度（Kurtosis）&lt;/strong&gt;：衡量极端收益概率，峰度 &amp;gt; 3 预示“黑天鹅”风险。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五策略与运营评价&#34;&gt;五、策略与运营评价&lt;/h2&gt;
+&lt;h3 id=&#34;1-投资逻辑验证&#34;&gt;1. 投资逻辑验证&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;策略一致性&lt;/strong&gt;：是否坚持宣称的投资风格（如价值投资、量化选股）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;持仓透明度&lt;/strong&gt;：季报披露的持仓与策略是否匹配（如芯片基金是否重仓半导体股）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-费用影响&#34;&gt;2. 费用影响&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;总费率（TER）&lt;/strong&gt;：管理费+托管费+其他费用，年费率 &amp;gt; 2% 需警惕侵蚀收益。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;换手率&lt;/strong&gt;：高频交易导致佣金和冲击成本上升（换手率 &amp;gt; 300% 可能低效）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-规模效应&#34;&gt;3. 规模效应&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;规模与收益关系&lt;/strong&gt;：规模过大可能导致策略失效（如小盘股基金超过50亿需警惕）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;六案例分析某科技主题基金评价&#34;&gt;六、案例分析：某科技主题基金评价&lt;/h2&gt;
+&lt;h3 id=&#34;数据假设&#34;&gt;数据假设&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基金年化收益：25%（同期沪深300收益12%，无风险利率3%）。&lt;/li&gt;
+&lt;li&gt;年化波动率：28%，最大回撤：-35%，夏普比率：0.79，β=1.3。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;评价结论&#34;&gt;评价结论&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;绝对收益亮眼但风险高&lt;/strong&gt;：25%收益显著跑赢市场，但波动率与回撤较大。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alpha能力存疑&lt;/strong&gt;：计算得α=25% - [3% +1.3×(12%-3%)] = 25% -14.7% = &lt;strong&gt;10.3%&lt;/strong&gt;，若统计显著（t检验），表明有主动管理能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险调整后收益一般&lt;/strong&gt;：夏普比率0.79（&amp;lt;1），单位风险回报偏低。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行业集中风险&lt;/strong&gt;：重仓科技股导致β=1.3，需评估是否与投资者风险偏好匹配。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;七综合评分表&#34;&gt;七、综合评分表&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;指标&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;权重&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;评分（1-5）&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;评价依据&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;年化收益&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;显著跑赢基准&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;夏普比率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;低于1，风险调整收益一般&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;最大回撤&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;-35%回撤，风险过高&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Alpha显著性&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;超额收益显著但需长期验证&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;费用与换手率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;费率1.5%，换手率200%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;策略一致性&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;持仓符合科技主题&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;规模适应性&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10%&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;当前规模20亿，未明显失效&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;综合得分&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;100%&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;3.6&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;中等偏上，适合高风险偏好者&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;八实用工具推荐&#34;&gt;八、实用工具推荐&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;数据获取&lt;/strong&gt;：Wind、Choice（付费）、Tushare（免费）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分析平台&lt;/strong&gt;：晨星网（风险指标）、韭圈儿APP（基金对比）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自建模型&lt;/strong&gt;：Python的&lt;code&gt;pyfolio&lt;/code&gt;库（收益归因分析）、Excel（夏普比率计算模板）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;基金的收益率评价需兼顾&lt;strong&gt;收益、风险、策略一致性&lt;/strong&gt;及&lt;strong&gt;成本&lt;/strong&gt;，避免单一指标误导。高收益基金可能是“承担高风险”或“踩中风口”的结果，需通过长期观察（至少1个牛熊周期）和归因分析验证其可持续性。对散户而言，选择与自己风险承受能力匹配、费用合理且策略透明的基金更为关键。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>为什么越来越多的散户开始做量化</title>
       <link>https://www.airplanecraft.com/zh/post/quant-introduction/</link>

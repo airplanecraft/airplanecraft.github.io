@@ -89,23 +89,6 @@
     </item>
     
     <item>
-      <title>airplancraft</title>
-      <link>https://www.airplanecraft.com/en/post/starting_recording_my_airplanecraft_life/</link>
-      <pubDate>Thu, 22 Sep 2022 10:30:37 +0800</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/starting_recording_my_airplanecraft_life/</guid>
-      <description>
-        
-          
-            &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;I will use this site to record my air plane craft life including:share teaching docs/videos,materials ,airplane models,electronic things.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Devops traning</title>
       <link>https://www.airplanecraft.com/en/post/devops-traning-slide/</link>
       <pubDate>Fri, 17 Jun 2022 10:40:37 +0800</pubDate>
@@ -236,22 +219,6 @@
     </item>
     
     <item>
-      <title>Using OpenStreetMap</title>
-      <link>https://www.airplanecraft.com/en/post/map/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/map/</guid>
-      <description>
-        
-          
-            &lt;iframe class=&#34;openstreetmap&#34; width=&#34;100%&#34; height=&#34;600px&#34; src=&#34;https://umap.openstreetmap.fr/en/map/demo-map_1?scaleControl=true&amp;miniMap=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=true&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false#14/-37.7989/145.0003&#34;&gt;&lt;/iframe&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>JWT</title>
       <link>https://www.airplanecraft.com/en/post/jwt/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
@@ -266,25 +233,6 @@
 &lt;p&gt;A well-formed JWT consists of three concatenated Base64url-encoded strings, separated by dots (.):&lt;/p&gt;
 &lt;p&gt;JOSE Header: contains metadata about the type of token and the cryptographic algorithms used to secure its contents.&lt;/p&gt;
 &lt;p&gt;JWS payload (set of claims): contains verifiable security statements, such as the identity of the user and the permissions they are allowed.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Using Notices</title>
-      <link>https://www.airplanecraft.com/en/post/notices/</link>
-      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/notices/</guid>
-      <description>
-        
-          
-            &lt;p&gt;The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.&lt;/p&gt;
-&lt;p&gt;To create a notice on a page, you can use the &lt;code&gt;notice&lt;/code&gt; shortcode.&lt;br&gt;
-You use the &lt;code&gt;notice&lt;/code&gt; shortcode, with the first parameter being one of &lt;code&gt;note&lt;/code&gt;, &lt;code&gt;info&lt;/code&gt;, &lt;code&gt;tip&lt;/code&gt;, and &lt;code&gt;warning&lt;/code&gt;.  Then add a title for your
-note in quotes as the second parameter.  The inner body of the note can be whatever markdown you want to create.&lt;/p&gt;
           
           
         
@@ -476,70 +424,6 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     &lt;/picture&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://www.airplanecraft.com/en/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/rich-content/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://www.airplanecraft.com/en/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/placeholder-text/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://www.airplanecraft.com/en/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/math-typesetting/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://www.airplanecraft.com/en/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.airplanecraft.com/en/post/emoji-support/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
           
           
         

@@ -20,20 +20,22 @@
 
 
 
+  
 <meta property="og:locale" content="zh" />
 
 <meta property="og:locale:alternate" content="en" />
 
 <meta property="og:type" content="website">
-<meta name="description" content="" />
+<meta name="description" content="A theme based on VMware&#39;s Clarity Design System for publishing technical blogs with Hugo." />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@janedoe">
-<meta name="twitter:title" content="Claridade" />
+<meta name="twitter:title" content="" />
 <meta name="twitter:image" content="https://www.airplanecraft.com/images/thumbnail.png"/>
 <meta property="og:url" content="https://www.airplanecraft.com/zh/" />
-<meta property="og:title" content="Claridade" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="A theme based on VMware&#39;s Clarity Design System for publishing technical blogs with Hugo." />
 <meta property="og:image" content="https://www.airplanecraft.com/images/thumbnail.png" />
+  <meta name="keywords" content="design,clarity,hugo theme" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.airplanecraft.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.airplanecraft.com/icons/favicon-32x32.png">
@@ -166,6 +168,460 @@
 <div class="grid-inverse wrap content">
   <div>
     <ul class="posts" id="posts">
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="k8s使用ingress总结">k8s使用ingress总结</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 3, 2018</span>
+    <span class="post_time"> · 3 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/k8s/' title="k8s" class="post_tag button button_translucent">k8s
+        </a><a href='https://www.airplanecraft.com/zh/tags/ingress/' title="ingress" class="post_tag button button_translucent">ingress
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&t=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h3 id="安装准备">安装准备</h3>
+<ul>
+<li>Centos7.7 vm 或者真实的物理机三台(master一台,node两台)</li>
+<li>硬件要求2GB ram,最低2CPU，最少32GB 硬盘</li>
+<li>节点之间最好网络互通，如果不考虑安全可以关闭firewalld</li>
+<li>可以访问到外部网络,因为需要网络资源，比如yum源和其他k8s需要的yaml文件</li>
+</ul>
+<h3 id="需要安装和配置">需要安装和配置</h3>
+<ul>
+<li>yum源配置</li>
+<li>防火墙selinux的关闭与配置</li>
+<li>swap分区配置</li>
+<li>桥接ipv4流量交给iptables</li>
+<li>文件句柄数的限制</li>
+<li>Docker的安装</li>
+<li>Kubeadmin,flannel</li>
+<li>创建deployment,service,pod,ingress,ingress controller,kubernets-dashboard …</li></ul></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="裸金属服务器使用">裸金属服务器使用</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Sep 6, 2017</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/baremetal/' title="baremetal" class="post_tag button button_translucent">baremetal
+        </a><a href='https://www.airplanecraft.com/zh/tags/cloud/' title="cloud" class="post_tag button button_translucent">cloud
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%bd%bf%e7%94%a8&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbare-metal-server%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbare-metal-server%2f&t=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%bd%bf%e7%94%a8" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h2 id="什么裸金属服务器">什么裸金属服务器</h2>
+<pre><code>裸金属服务器（Bare Metal Server，BMS）是一款兼具弹性云服务器和物理机性能的计算类服务，为您和您的企业提供专属的云上物理服务器，为核心数据库、关键应用系统、高性能计算、大数据等业务提供卓越的计算性能以及数据安全。租户可灵活申请，按需使用。
+<p>裸金属服务器的开通是自助完成的，您只需要指定具体的服务器类型、镜像、所需要的网络配置等，即可在短时间内获得所需的裸金属服务器。服务器供应、运维工作交由华为云，您可以专注于业务创新。
+</code></pre></p>
+<h2 id="产品架构">产品架构</h2>
+<ul>
+<li>裸金属服务器在不同可用区中部署（可用区之间通过内网连接），部分可用区发生故障后不会影响同一区域内的其他可用区。</li>
+<li>可以通过虚拟私有云建立专属的网络环境，设置子网、安全 …</li></ul></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="裸金属服务器遇到的docker容器访问问题">裸金属服务器遇到的docker容器访问问题</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Sep 6, 2017</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/baremetal/' title="baremetal" class="post_tag button button_translucent">baremetal
+        </a><a href='https://www.airplanecraft.com/zh/tags/cloud/' title="cloud" class="post_tag button button_translucent">cloud
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%87%e5%88%b0%e7%9a%84docker%e5%ae%b9%e5%99%a8%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffirewalld-block-docker%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffirewalld-block-docker%2f&t=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%87%e5%88%b0%e7%9a%84docker%e5%ae%b9%e5%99%a8%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h2 id="问题描述">问题描述</h2>
+<pre><code>我们本地数据中心服务器处理与客户的接口的时候发现网络有严重的延迟，然后我们又有数据合规方面的问题，我们就采用云端的裸金属服务器，安装了docker后发现docker无法访问到主机。
+</code></pre>
+<h2 id="问题发现">问题发现</h2>
+<ul>
+<li>docker exec -ti docker-id bash 进入主机</li>
+<li>在docker主机内部telnet 主机IP 端口</li>
+<li>发现无法访问</li>
+<li>退出虚拟主机在主机执行telnet 主机IP 端口 ，是可以访问的</li>
+<li>检查网络 <figure>
+  <picture>
+<pre><code>&lt;img
+  loading=&quot;lazy&quot; …&lt;/picture&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ul&gt;</code></pre>
+</p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="JDk版本問題造成的cglib運行時候出錯">JDk版本問題造成的cglib運行時候出錯</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Aug 29, 2017</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/java/' title="java" class="post_tag button button_translucent">java
+        </a><a href='https://www.airplanecraft.com/zh/tags/jdk/' title="jdk" class="post_tag button button_translucent">jdk
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=JDk%e7%89%88%e6%9c%ac%e5%95%8f%e9%a1%8c%e9%80%a0%e6%88%90%e7%9a%84cglib%e9%81%8b%e8%a1%8c%e6%99%82%e5%80%99%e5%87%ba%e9%8c%af&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjdk-version-caused-dynamic-proxy-issue%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjdk-version-caused-dynamic-proxy-issue%2f&t=JDk%e7%89%88%e6%9c%ac%e5%95%8f%e9%a1%8c%e9%80%a0%e6%88%90%e7%9a%84cglib%e9%81%8b%e8%a1%8c%e6%99%82%e5%80%99%e5%87%ba%e9%8c%af" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h2 id="異常信息">異常信息</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">Caused by: java.lang.ExceptionInInitializerError: null
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">       at org.springframework.context.annotation.ConfigurationClassEnhancer.newEnhancer(ConfigurationClassEnhancer.java:122) ~[spring-context-5.0.4.RELEASE.jar!/:5.0.4.RELEASE]
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">       at …</span></span></span></span></span></span></code></pre></div></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="如何测试linux的tcp和udp端口">如何测试linux的tcp和udp端口</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jun 2, 2017</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e5%a6%82%e4%bd%95%e6%b5%8b%e8%af%95linux%e7%9a%84tcp%e5%92%8cudp%e7%ab%af%e5%8f%a3&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tcp-udp-port-test%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tcp-udp-port-test%2f&t=%e5%a6%82%e4%bd%95%e6%b5%8b%e8%af%95linux%e7%9a%84tcp%e5%92%8cudp%e7%ab%af%e5%8f%a3" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h2 id="如何测试linux的tcp和udp端口">如何测试linux的tcp和udp端口</h2>
+<ul>
+<li>测试tcp 一般用使用 telnet
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">telnet 192.168.12.10 22
+</span></span></code></pre></div></li>
+<li>telnet 不支持udp协议，所以我们可以使用nc,nc可以支持tcp也可以支持udp
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> yum install -y nc
+</span></span><span class="line"><span class="ln">2</span><span class="cl"> nc -z -v 192.168.10.12 22 #tcp
+</span></span><span class="line"><span class="ln">3</span><span class="cl"> nc -z -v -u 192.168.10.12 123 # udp
+</span></span></code></pre></div></li>
+</ul></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="为什么要使用epel">为什么要使用epel</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 22, 2017</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/epel/' title="epel" class="post_tag button button_translucent">epel
+        </a><a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e4%bd%bf%e7%94%a8epel&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-epel%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-epel%2f&t=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e4%bd%bf%e7%94%a8epel" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <h2 id="linux-安装包的痛苦经历">Linux 安装包的痛苦经历</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">libcurl.so: libssh2.so.1: cannot open shared object file: No such file or directory
+</span></span><span class="line"><span class="ln">2</span><span class="cl">libssl.so.10: cannot open shared object file: No such file or directory
+</span></span></code></pre></div><p>如果遇到以上以上情况，libcurl需要libssh2依赖，那我们最希望的最法无非是yum install libssh2 libssl希望能安装好，那就解决了依赖的问题了，但是问题是没有</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Last metadata expiration check: 2:33:40 ago on  18 …</span></span></code></pre></div>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
         <li class="post_item">
   <div class="excerpt">
     <div class="excerpt_header">
@@ -499,484 +955,6 @@
     </div>
   </li>
 
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/linux-tree/" title="linux的tree命令">linux的tree命令</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 6, 2016</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a><a href='https://www.airplanecraft.com/zh/tags/lvm/' title="lvm" class="post_tag button button_translucent">lvm
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=linux%e7%9a%84tree%e5%91%bd%e4%bb%a4&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tree%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tree%2f&t=linux%e7%9a%84tree%e5%91%bd%e4%bb%a4" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/linux-tree/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="linux-tree-command">linux tree command</h2>
-<ul>
-<li>Centos 是默认不带tree 命令的，如果要使用首先要install tree command</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">yum install -y tree
-</span></span></code></pre></div><ul>
-<li>使用tree 显示目录的深度为2级</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl"> tree -L 2
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">.
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">├── easy-rsa-old-2.3.3
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">│   ├── configure.ac
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">│   ├── COPYING
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">│   ├── COPYRIGHT.GPL
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">│   ├── distro
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">│   ├── doc
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl">│   ├── easy-rsa
-</span></span><span class="line"><span class="ln">10</span><span class="cl">│   └── Makefile.am
-</span></span><span class="line"><span class="ln">11</span><span class="cl">├── frgs.log
-</span></span><span class="line"><span class="ln">12</span><span class="cl">├── …</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></code></pre></div></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/linux-tree/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/pptp-client/" title="vpn客户端工具pptp介绍">vpn客户端工具pptp介绍</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 4, 2016</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/vpn/' title="vpn" class="post_tag button button_translucent">vpn
-        </a><a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=vpn%e5%ae%a2%e6%88%b7%e7%ab%af%e5%b7%a5%e5%85%b7pptp%e4%bb%8b%e7%bb%8d&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fpptp-client%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fpptp-client%2f&t=vpn%e5%ae%a2%e6%88%b7%e7%ab%af%e5%b7%a5%e5%85%b7pptp%e4%bb%8b%e7%bb%8d" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/pptp-client/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="pptp-安装">pptp 安装</h2>
-<ul>
-<li>yum install ppp pptp pptp-setup -y</li>
-</ul>
-<h2 id="创建-链接文件">创建 链接文件</h2>
-<ul>
-<li>/etc/ppp/peers/pptp</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">  pty &#34;pptp 039.9966.org  --nolaunchpppd --debug&#34;
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">  name hk789
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">  password ff800800
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">  remotename PPTP
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">  require-mppe-128
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">  require-mschap-v2
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">  refuse-eap
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">  refuse-pap
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl">  refuse-chap
-</span></span><span class="line"><span class="ln">10</span><span class="cl">  refuse-mschap
-</span></span><span class="line"><span class="ln">11</span><span class="cl">  noauth
-</span></span><span class="line"><span class="ln">12</span><span class="cl">  debug …</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></code></pre></div></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/pptp-client/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/linux-lvm-resize/" title="lvm空间扩容">lvm空间扩容</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 20, 2016</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a><a href='https://www.airplanecraft.com/zh/tags/lvm/' title="lvm" class="post_tag button button_translucent">lvm
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=lvm%e7%a9%ba%e9%97%b4%e6%89%a9%e5%ae%b9&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-lvm-resize%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-lvm-resize%2f&t=lvm%e7%a9%ba%e9%97%b4%e6%89%a9%e5%ae%b9" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/linux-lvm-resize/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">[root@localhost ~]# df -H
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">Filesystem               Size  Used Avail Use% Mounted on
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">devtmpfs                  17G     0   17G   0% /dev
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">tmpfs                     17G     0   17G   0% /dev/shm
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">tmpfs                     17G  9.1M   17G   1% /run
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">tmpfs                     17G     0   17G   0% /sys/fs/cgroup
-</span></span><span class="line"><span class="ln"> 7 …</span></span></span></span></span></span></span></span></span></span></span></span></span></span></code></pre></div></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/linux-lvm-resize/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="centos使用ssh-key免密登录">centos使用ssh-key免密登录</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Apr 3, 2016</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a><a href='https://www.airplanecraft.com/zh/tags/sshkey/' title="sshkey" class="post_tag button button_translucent">sshkey
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=centos%e4%bd%bf%e7%94%a8ssh-key%e5%85%8d%e5%af%86%e7%99%bb%e5%bd%95&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-key-gen%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-key-gen%2f&t=centos%e4%bd%bf%e7%94%a8ssh-key%e5%85%8d%e5%af%86%e7%99%bb%e5%bd%95" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h2 id="centos-ssh-login-免密码登录">centos ssh login 免密码登录</h2>
-<ul>
-<li>
-<p>修改linux主机sshd配置</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">vi /etc/ssh/sshd_config 
-</span></span><span class="line"><span class="ln">2</span><span class="cl">  RSAAuthentication yes 
-</span></span><span class="line"><span class="ln">3</span><span class="cl">  PubkeyAuthentication yes 
-</span></span><span class="line"><span class="ln">4</span><span class="cl">  AuthorizedKeysFile .ssh/authorized_keys 
-</span></span><span class="line"><span class="ln">5</span><span class="cl">/sbin/service sshd restart 
-</span></span></code></pre></div></li>
-<li>
-<p>生成密钥,包括 id_rsa私钥，id_rsa.pub公钥</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> ssh-keygen -t rsa 
-</span></span></code></pre></div></li>
-<li>
-<p>更改文件名</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> mv ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
-</span></span></code></pre></div></li>
-<li>
-<p>拷贝id_rsa文件内容到任何一 …</p></li></ul>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/jvm-optimize-related/" title="jvm参数优化">jvm参数优化</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 26, 2015</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/aws/' title="aws" class="post_tag button button_translucent">aws
-        </a><a href='https://www.airplanecraft.com/zh/tags/cdk/' title="cdk" class="post_tag button button_translucent">cdk
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=jvm%e5%8f%82%e6%95%b0%e4%bc%98%e5%8c%96&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjvm-optimize-related%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjvm-optimize-related%2f&t=jvm%e5%8f%82%e6%95%b0%e4%bc%98%e5%8c%96" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/jvm-optimize-related/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h3 id="相关链接">相关链接</h3>
-<ol>
-<li><a href="https://blog.csdn.net/lingbo229/article/details/82586822">https://blog.csdn.net/lingbo229/article/details/82586822</a></li>
-<li><a href="https://www.iteye.com/blog/kakaluyi-774227">https://www.iteye.com/blog/kakaluyi-774227</a></li>
-<li><a href="https://blog.csdn.net/qq_44831907/article/details/113342146">https://blog.csdn.net/qq_44831907/article/details/113342146</a></li>
-<li><a href="https://www.cnblogs.com/jpfss/p/11050411.html">https://www.cnblogs.com/jpfss/p/11050411.html</a></li>
-</ol></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/jvm-optimize-related/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/jenkins-devops-tools/" title="jenkins简介">jenkins简介</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 6, 2015</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/devops/' title="devops" class="post_tag button button_translucent">devops
-        </a><a href='https://www.airplanecraft.com/zh/tags/jenkins/' title="jenkins" class="post_tag button button_translucent">jenkins
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=jenkins%e7%ae%80%e4%bb%8b&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjenkins-devops-tools%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjenkins-devops-tools%2f&t=jenkins%e7%ae%80%e4%bb%8b" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/jenkins-devops-tools/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="什么是ci和cd">什么是CI和CD</h2>
-<pre><code>CI(Continuous integration，中文意思是持续集成)/  CD(Continuous Delivery， 中文意思持续交付)
-CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交付应用的方法。
-CI/CD 的核心概念是持续集成、持续交付和持续部署。它是作为一个面向开发和运营团队的解决方案，主要针对在集成新代码时所引发的问题（也称为：“集成地狱”）。
-CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期（从集成和测试阶段，到交付和部署）。
-</code></pre>
-<h2 id="jenkins简介">jenkins简介</h2>
-<pre><code>    Jenkins是一个开源的、提供友好操作界面的持续集成(CI)工具，起源于Hudson（Hudson是商用的），主 …</code></pre></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/jenkins-devops-tools/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
       <li>
     <ul class="pagination pagination-default">
       <li class="page-item">
@@ -984,9 +962,6 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
       </li>
       <li class="page-item">
         <a href="/zh/page/5/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item">
         <a href="/zh/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
@@ -1000,11 +975,14 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 6" class="page-link" role="button">6</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="page-item">
+        <a href="/zh/page/7/" aria-label="Page 7" class="page-link" role="button">7</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="page-item">
+        <a href="/zh/page/7/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/zh/page/7/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
       </li>
@@ -1067,7 +1045,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
       <nav class="tags_nav">
         <a href='https://www.airplanecraft.com/zh/categories/technology/' class="post_tag button button_translucent" title="technology">
           TECHNOLOGY
-          <span class="button_tally">55</span>
+          <span class="button_tally">58</span>
         </a>
         
         <a href='https://www.airplanecraft.com/zh/categories/quant/' class="post_tag button button_translucent" title="quant">
@@ -1101,6 +1079,11 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
           <span class="button_tally">12</span>
         </a>
         
+        <a href='https://www.airplanecraft.com/zh/tags/hugo/' class="post_tag button button_translucent" title="hugo">
+          HUGO
+          <span class="button_tally">4</span>
+        </a>
+        
         <a href='https://www.airplanecraft.com/zh/tags/ansible/' class="post_tag button button_translucent" title="ansible">
           ANSIBLE
           <span class="button_tally">3</span>
@@ -1113,11 +1096,6 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
         
         <a href='https://www.airplanecraft.com/zh/tags/cloud/' class="post_tag button button_translucent" title="cloud">
           CLOUD
-          <span class="button_tally">3</span>
-        </a>
-        
-        <a href='https://www.airplanecraft.com/zh/tags/hugo/' class="post_tag button button_translucent" title="hugo">
-          HUGO
           <span class="button_tally">3</span>
         </a>
         
@@ -1226,7 +1204,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
             </a>
             
             
-            <a href='https://www.airplanecraft.com/zh/tags/hugo/' class=" post_tag button button_translucent" data-position=3 title="hugo">HUGO<span class="button_tally">3</span>
+            <a href='https://www.airplanecraft.com/zh/tags/hugo/' class=" post_tag button button_translucent" data-position=4 title="hugo">HUGO<span class="button_tally">4</span>
             </a>
             
             
@@ -1286,6 +1264,10 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
             </a>
             
             
+            <a href='https://www.airplanecraft.com/zh/tags/markdown/' class=" post_tag button button_translucent" data-position=1 title="markdown">MARKDOWN<span class="button_tally">1</span>
+            </a>
+            
+            
             <a href='https://www.airplanecraft.com/zh/tags/maxfileopen/' class=" post_tag button button_translucent" data-position=1 title="maxfileopen">MAXFILEOPEN<span class="button_tally">1</span>
             </a>
             
@@ -1311,6 +1293,10 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
             
             
             <a href='https://www.airplanecraft.com/zh/tags/polygon/' class=" post_tag button button_translucent" data-position=1 title="polygon">POLYGON<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://www.airplanecraft.com/zh/tags/privacy/' class=" post_tag button button_translucent" data-position=1 title="privacy">PRIVACY<span class="button_tally">1</span>
             </a>
             
             
@@ -1342,11 +1328,19 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
             </a>
             
             
+            <a href='https://www.airplanecraft.com/zh/tags/shortcodes/' class=" post_tag button button_translucent" data-position=1 title="shortcodes">SHORTCODES<span class="button_tally">1</span>
+            </a>
+            
+            
             <a href='https://www.airplanecraft.com/zh/tags/sshkey/' class=" post_tag button button_translucent" data-position=1 title="sshkey">SSHKEY<span class="button_tally">1</span>
             </a>
             
             
             <a href='https://www.airplanecraft.com/zh/tags/terraform/' class=" post_tag button button_translucent" data-position=1 title="terraform">TERRAFORM<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://www.airplanecraft.com/zh/tags/text/' class=" post_tag button button_translucent" data-position=1 title="text">TEXT<span class="button_tally">1</span>
             </a>
             
             

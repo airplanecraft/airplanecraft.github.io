@@ -196,6 +196,161 @@
   <div class="excerpt">
     <div class="excerpt_header">
       <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="使用Aws sts创建临时credential">使用Aws sts创建临时credential</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Aug 26, 2019</span>
+    <span class="post_time"> · 2 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/aws/' title="aws" class="post_tag button button_translucent">aws
+        </a><a href='https://www.airplanecraft.com/zh/tags/sap/' title="sap" class="post_tag button button_translucent">sap
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e4%bd%bf%e7%94%a8Aws%20sts%e5%88%9b%e5%bb%ba%e4%b8%b4%e6%97%b6credential&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-sts-service%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-sts-service%2f&t=%e4%bd%bf%e7%94%a8Aws%20sts%e5%88%9b%e5%bb%ba%e4%b8%b4%e6%97%b6credential" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h3 id="aws-sts-简介">Aws sts 简介</h3>
+<ul>
+<li>简单来说就是aws通过sts服务生成临时的credential给用户使用，他们可以设置有效期，自动失效,这也是amazon best practice 里面建议的方式</li>
+</ul>
+<h3 id="实验准备">实验准备</h3>
+<ul>
+<li>创建 User</li>
+<li>创建 Role</li>
+<li>创建 s3 作为测试</li>
+<li>为User创建sts assumeRole 的访问策略</li>
+<li>在EC2上使用Aws cli 创建 历史的credential</li>
+<li>访问s3</li>
+</ul>
+<h3 id="create-an-iam-user">Create an IAM user</h3>
+<ul>
+<li><a href="https://console.aws.amazon.com/iam/home?region=ap-southeast-1#/users">https://console.aws.amazon.com/iam/home?region=ap-southeast-1#/users</a></li>
+<li>input name： mystsuser</li>
+<li>access type …</li></ul></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/aws-sap-system-manager/" title=" 使用Aws System Manager 统一管理 aws resource ">使用Aws System Manager 统一管理 aws resource</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Aug 25, 2019</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/aws/' title="aws" class="post_tag button button_translucent">aws
+        </a><a href='https://www.airplanecraft.com/zh/tags/sap/' title="sap" class="post_tag button button_translucent">sap
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%20%e4%bd%bf%e7%94%a8Aws%20System%20Manager%20%e7%bb%9f%e4%b8%80%e7%ae%a1%e7%90%86%20aws%20resource%20&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-system-manager%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-system-manager%2f&t=%20%e4%bd%bf%e7%94%a8Aws%20System%20Manager%20%e7%bb%9f%e4%b8%80%e7%ae%a1%e7%90%86%20aws%20resource%20" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/aws-sap-system-manager/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <h2 id="使用aws-system-manager-统一管理-aws-resource">使用Aws System Manager 统一管理 aws resource</h2>
+<h3 id="aws-system-manager-简介">Aws system Manager 简介</h3>
+<ul>
+<li>
+<p>AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified use:qr interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS …</p></li></ul>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/aws-sap-system-manager/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
         <a href="https://www.airplanecraft.com/zh/post/aws-nat-instance-setup/" title="NAT instance setup 简介">NAT instance setup 简介</a>
       </h3>
       
@@ -341,6 +496,297 @@
           
           <br>
           <a href="https://www.airplanecraft.com/zh/post/why-do-we-need-k8s/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/rich-content/" title="Rich Content">Rich Content</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Mar 10, 2019</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/shortcodes/' title="shortcodes" class="post_tag button button_translucent">shortcodes
+        </a><a href='https://www.airplanecraft.com/zh/tags/privacy/' title="privacy" class="post_tag button button_translucent">privacy
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=Rich%20Content&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2frich-content%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2frich-content%2f&t=Rich%20Content" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/rich-content/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail"><figure>
+  <picture>
+
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="Rich Content"
+      
+        class="image_figure image_thumbnail image_internal image_unprocessed"
+        src="https://www.airplanecraft.com/images/dollar.png"
+      
+      
+    />
+
+    </picture>
+</figure>
+
+      </div>
+      
+        <div class="pale">
+          
+            Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/rich-content/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/placeholder-text/" title="Placeholder Text">Placeholder Text</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Mar 9, 2019</span>
+    <span class="post_time"> · 2 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/markdown/' title="markdown" class="post_tag button button_translucent">markdown
+        </a><a href='https://www.airplanecraft.com/zh/tags/text/' title="text" class="post_tag button button_translucent">text
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=Placeholder%20Text&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fplaceholder-text%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fplaceholder-text%2f&t=Placeholder%20Text" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/placeholder-text/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            Lorem est tota propiore conpellat pectoribus de pectora summo.
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/placeholder-text/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/math-typesetting/" title="Math Typesetting">Math Typesetting</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Mar 8, 2019</span>
+    <span class="post_time"> · 1 分钟阅读</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=Math%20Typesetting&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fmath-typesetting%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fmath-typesetting%2f&t=Math%20Typesetting" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/math-typesetting/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/math-typesetting/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/emoji-support/" title="Emoji Support">Emoji Support</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Mar 5, 2019</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/hugo/' title="hugo" class="post_tag button button_translucent">hugo
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=Emoji%20Support&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2femoji-support%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2femoji-support%2f&t=Emoji%20Support" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/emoji-support/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            Emoji can be enabled in a Hugo project in a number of ways.
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/emoji-support/" title="阅读更多" class="excerpt_more button">阅读更多</a>
         </div>
       </div>
     </div>
@@ -500,460 +946,6 @@
     </div>
   </li>
 
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="k8s使用ingress总结">k8s使用ingress总结</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 3, 2018</span>
-    <span class="post_time"> · 3 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/k8s/' title="k8s" class="post_tag button button_translucent">k8s
-        </a><a href='https://www.airplanecraft.com/zh/tags/ingress/' title="ingress" class="post_tag button button_translucent">ingress
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&t=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h3 id="安装准备">安装准备</h3>
-<ul>
-<li>Centos7.7 vm 或者真实的物理机三台(master一台,node两台)</li>
-<li>硬件要求2GB ram,最低2CPU，最少32GB 硬盘</li>
-<li>节点之间最好网络互通，如果不考虑安全可以关闭firewalld</li>
-<li>可以访问到外部网络,因为需要网络资源，比如yum源和其他k8s需要的yaml文件</li>
-</ul>
-<h3 id="需要安装和配置">需要安装和配置</h3>
-<ul>
-<li>yum源配置</li>
-<li>防火墙selinux的关闭与配置</li>
-<li>swap分区配置</li>
-<li>桥接ipv4流量交给iptables</li>
-<li>文件句柄数的限制</li>
-<li>Docker的安装</li>
-<li>Kubeadmin,flannel</li>
-<li>创建deployment,service,pod,ingress,ingress controller,kubernets-dashboard …</li></ul></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="裸金属服务器使用">裸金属服务器使用</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 6, 2017</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/baremetal/' title="baremetal" class="post_tag button button_translucent">baremetal
-        </a><a href='https://www.airplanecraft.com/zh/tags/cloud/' title="cloud" class="post_tag button button_translucent">cloud
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%bd%bf%e7%94%a8&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbare-metal-server%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbare-metal-server%2f&t=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%bd%bf%e7%94%a8" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="什么裸金属服务器">什么裸金属服务器</h2>
-<pre><code>裸金属服务器（Bare Metal Server，BMS）是一款兼具弹性云服务器和物理机性能的计算类服务，为您和您的企业提供专属的云上物理服务器，为核心数据库、关键应用系统、高性能计算、大数据等业务提供卓越的计算性能以及数据安全。租户可灵活申请，按需使用。
-<p>裸金属服务器的开通是自助完成的，您只需要指定具体的服务器类型、镜像、所需要的网络配置等，即可在短时间内获得所需的裸金属服务器。服务器供应、运维工作交由华为云，您可以专注于业务创新。
-</code></pre></p>
-<h2 id="产品架构">产品架构</h2>
-<ul>
-<li>裸金属服务器在不同可用区中部署（可用区之间通过内网连接），部分可用区发生故障后不会影响同一区域内的其他可用区。</li>
-<li>可以通过虚拟私有云建立专属的网络环境，设置子网、安全 …</li></ul></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/bare-metal-server/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="裸金属服务器遇到的docker容器访问问题">裸金属服务器遇到的docker容器访问问题</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 6, 2017</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/baremetal/' title="baremetal" class="post_tag button button_translucent">baremetal
-        </a><a href='https://www.airplanecraft.com/zh/tags/cloud/' title="cloud" class="post_tag button button_translucent">cloud
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%87%e5%88%b0%e7%9a%84docker%e5%ae%b9%e5%99%a8%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffirewalld-block-docker%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffirewalld-block-docker%2f&t=%e8%a3%b8%e9%87%91%e5%b1%9e%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%87%e5%88%b0%e7%9a%84docker%e5%ae%b9%e5%99%a8%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="问题描述">问题描述</h2>
-<pre><code>我们本地数据中心服务器处理与客户的接口的时候发现网络有严重的延迟，然后我们又有数据合规方面的问题，我们就采用云端的裸金属服务器，安装了docker后发现docker无法访问到主机。
-</code></pre>
-<h2 id="问题发现">问题发现</h2>
-<ul>
-<li>docker exec -ti docker-id bash 进入主机</li>
-<li>在docker主机内部telnet 主机IP 端口</li>
-<li>发现无法访问</li>
-<li>退出虚拟主机在主机执行telnet 主机IP 端口 ，是可以访问的</li>
-<li>检查网络 <figure>
-  <picture>
-<pre><code>&lt;img
-  loading=&quot;lazy&quot; …&lt;/picture&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ul&gt;</code></pre>
-</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/firewalld-block-docker/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="JDk版本問題造成的cglib運行時候出錯">JDk版本問題造成的cglib運行時候出錯</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Aug 29, 2017</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/java/' title="java" class="post_tag button button_translucent">java
-        </a><a href='https://www.airplanecraft.com/zh/tags/jdk/' title="jdk" class="post_tag button button_translucent">jdk
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=JDk%e7%89%88%e6%9c%ac%e5%95%8f%e9%a1%8c%e9%80%a0%e6%88%90%e7%9a%84cglib%e9%81%8b%e8%a1%8c%e6%99%82%e5%80%99%e5%87%ba%e9%8c%af&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjdk-version-caused-dynamic-proxy-issue%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fjdk-version-caused-dynamic-proxy-issue%2f&t=JDk%e7%89%88%e6%9c%ac%e5%95%8f%e9%a1%8c%e9%80%a0%e6%88%90%e7%9a%84cglib%e9%81%8b%e8%a1%8c%e6%99%82%e5%80%99%e5%87%ba%e9%8c%af" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="異常信息">異常信息</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">Caused by: java.lang.ExceptionInInitializerError: null
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">       at org.springframework.context.annotation.ConfigurationClassEnhancer.newEnhancer(ConfigurationClassEnhancer.java:122) ~[spring-context-5.0.4.RELEASE.jar!/:5.0.4.RELEASE]
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">       at …</span></span></span></span></span></span></code></pre></div></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/jdk-version-caused-dynamic-proxy-issue/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="如何测试linux的tcp和udp端口">如何测试linux的tcp和udp端口</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 2, 2017</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e5%a6%82%e4%bd%95%e6%b5%8b%e8%af%95linux%e7%9a%84tcp%e5%92%8cudp%e7%ab%af%e5%8f%a3&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tcp-udp-port-test%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-tcp-udp-port-test%2f&t=%e5%a6%82%e4%bd%95%e6%b5%8b%e8%af%95linux%e7%9a%84tcp%e5%92%8cudp%e7%ab%af%e5%8f%a3" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h2 id="如何测试linux的tcp和udp端口">如何测试linux的tcp和udp端口</h2>
-<ul>
-<li>测试tcp 一般用使用 telnet
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">telnet 192.168.12.10 22
-</span></span></code></pre></div></li>
-<li>telnet 不支持udp协议，所以我们可以使用nc,nc可以支持tcp也可以支持udp
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> yum install -y nc
-</span></span><span class="line"><span class="ln">2</span><span class="cl"> nc -z -v 192.168.10.12 22 #tcp
-</span></span><span class="line"><span class="ln">3</span><span class="cl"> nc -z -v -u 192.168.10.12 123 # udp
-</span></span></code></pre></div></li>
-</ul></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/linux-tcp-udp-port-test/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="为什么要使用epel">为什么要使用epel</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 22, 2017</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/epel/' title="epel" class="post_tag button button_translucent">epel
-        </a><a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e4%bd%bf%e7%94%a8epel&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-epel%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-epel%2f&t=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e4%bd%bf%e7%94%a8epel" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h2 id="linux-安装包的痛苦经历">Linux 安装包的痛苦经历</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">libcurl.so: libssh2.so.1: cannot open shared object file: No such file or directory
-</span></span><span class="line"><span class="ln">2</span><span class="cl">libssl.so.10: cannot open shared object file: No such file or directory
-</span></span></code></pre></div><p>如果遇到以上以上情况，libcurl需要libssh2依赖，那我们最希望的最法无非是yum install libssh2 libssl希望能安装好，那就解决了依赖的问题了，但是问题是没有</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Last metadata expiration check: 2:33:40 ago on  18 …</span></span></code></pre></div>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/why-epel/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
       <li>
     <ul class="pagination pagination-default">
       <li class="page-item">
@@ -961,9 +953,6 @@
       </li>
       <li class="page-item">
         <a href="/zh/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item">
         <a href="/zh/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
@@ -978,10 +967,13 @@
         <a href="/zh/post/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
       </li>
       <li class="page-item">
+        <a href="/zh/post/page/7/" aria-label="Page 7" class="page-link" role="button">7</a>
+      </li>
+      <li class="page-item">
         <a href="/zh/post/page/6/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="/zh/post/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/zh/post/page/7/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
       </li>
@@ -1044,7 +1036,7 @@
       <nav class="tags_nav">
         <a href='https://www.airplanecraft.com/zh/categories/technology/' class="post_tag button button_translucent" title="technology">
           TECHNOLOGY
-          <span class="button_tally">55</span>
+          <span class="button_tally">58</span>
         </a>
         
         <a href='https://www.airplanecraft.com/zh/categories/quant/' class="post_tag button button_translucent" title="quant">
@@ -1078,6 +1070,11 @@
           <span class="button_tally">12</span>
         </a>
         
+        <a href='https://www.airplanecraft.com/zh/tags/hugo/' class="post_tag button button_translucent" title="hugo">
+          HUGO
+          <span class="button_tally">4</span>
+        </a>
+        
         <a href='https://www.airplanecraft.com/zh/tags/ansible/' class="post_tag button button_translucent" title="ansible">
           ANSIBLE
           <span class="button_tally">3</span>
@@ -1090,11 +1087,6 @@
         
         <a href='https://www.airplanecraft.com/zh/tags/cloud/' class="post_tag button button_translucent" title="cloud">
           CLOUD
-          <span class="button_tally">3</span>
-        </a>
-        
-        <a href='https://www.airplanecraft.com/zh/tags/hugo/' class="post_tag button button_translucent" title="hugo">
-          HUGO
           <span class="button_tally">3</span>
         </a>
         
@@ -1203,7 +1195,7 @@
             </a>
             
             
-            <a href='https://www.airplanecraft.com/zh/tags/hugo/' class=" post_tag button button_translucent" data-position=3 title="hugo">HUGO<span class="button_tally">3</span>
+            <a href='https://www.airplanecraft.com/zh/tags/hugo/' class=" post_tag button button_translucent" data-position=4 title="hugo">HUGO<span class="button_tally">4</span>
             </a>
             
             
@@ -1263,6 +1255,10 @@
             </a>
             
             
+            <a href='https://www.airplanecraft.com/zh/tags/markdown/' class=" post_tag button button_translucent" data-position=1 title="markdown">MARKDOWN<span class="button_tally">1</span>
+            </a>
+            
+            
             <a href='https://www.airplanecraft.com/zh/tags/maxfileopen/' class=" post_tag button button_translucent" data-position=1 title="maxfileopen">MAXFILEOPEN<span class="button_tally">1</span>
             </a>
             
@@ -1288,6 +1284,10 @@
             
             
             <a href='https://www.airplanecraft.com/zh/tags/polygon/' class=" post_tag button button_translucent" data-position=1 title="polygon">POLYGON<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://www.airplanecraft.com/zh/tags/privacy/' class=" post_tag button button_translucent" data-position=1 title="privacy">PRIVACY<span class="button_tally">1</span>
             </a>
             
             
@@ -1319,11 +1319,19 @@
             </a>
             
             
+            <a href='https://www.airplanecraft.com/zh/tags/shortcodes/' class=" post_tag button button_translucent" data-position=1 title="shortcodes">SHORTCODES<span class="button_tally">1</span>
+            </a>
+            
+            
             <a href='https://www.airplanecraft.com/zh/tags/sshkey/' class=" post_tag button button_translucent" data-position=1 title="sshkey">SSHKEY<span class="button_tally">1</span>
             </a>
             
             
             <a href='https://www.airplanecraft.com/zh/tags/terraform/' class=" post_tag button button_translucent" data-position=1 title="terraform">TERRAFORM<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://www.airplanecraft.com/zh/tags/text/' class=" post_tag button button_translucent" data-position=1 title="text">TEXT<span class="button_tally">1</span>
             </a>
             
             

@@ -894,6 +894,22 @@ AlmaLinux (initially known as Project Lenix) is a CentOS alternative backed by t
     </item>
     
     <item>
+      <title>Using OpenStreetMap</title>
+      <link>https://www.airplanecraft.com/zh/post/map/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/map/</guid>
+      <description>
+        
+          
+            &lt;iframe class=&#34;openstreetmap&#34; width=&#34;100%&#34; height=&#34;600px&#34; src=&#34;https://umap.openstreetmap.fr/en/map/demo-map_1?scaleControl=true&amp;miniMap=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=true&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false#14/-37.7989/145.0003&#34;&gt;&lt;/iframe&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>JWT、JWE、JWS 、JWK 到底是什么</title>
       <link>https://www.airplanecraft.com/zh/post/jwt-jwe-jwk-jws/</link>
       <pubDate>Fri, 03 Dec 2021 10:30:37 +0800</pubDate>
@@ -1103,6 +1119,25 @@ signture：拥有该部分的JWT被称为JWS，也就是签了名的JWS；没有
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Our application will process the data and sending to Kafka and Elastic search&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Notices</title>
+      <link>https://www.airplanecraft.com/zh/post/notices/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/notices/</guid>
+      <description>
+        
+          
+            &lt;p&gt;The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.&lt;/p&gt;
+&lt;p&gt;To create a notice on a page, you can use the &lt;code&gt;notice&lt;/code&gt; shortcode.&lt;br&gt;
+You use the &lt;code&gt;notice&lt;/code&gt; shortcode, with the first parameter being one of &lt;code&gt;note&lt;/code&gt;, &lt;code&gt;info&lt;/code&gt;, &lt;code&gt;tip&lt;/code&gt;, and &lt;code&gt;warning&lt;/code&gt;.  Then add a title for your
+note in quotes as the second parameter.  The inner body of the note can be whatever markdown you want to create.&lt;/p&gt;
           
           
         
@@ -3555,6 +3590,70 @@ arn:aws:iam::XXXX:user/mystsuser&lt;/li&gt;
 6.反向代理，直接使用service ingress 就可以很容易解決&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;總之，k8S提供了你需要的完美的一體化的解決方案，所有的這些服務都集成在K8S内部，如果使用一些定制化的k8S平臺，比如openshit還集成了更多的開發和devops的工具在裏面，可以更快的開發和測試和部署，讓我們的用戶效率大大提高。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://www.airplanecraft.com/zh/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/rich-content/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://www.airplanecraft.com/zh/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/placeholder-text/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://www.airplanecraft.com/zh/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/math-typesetting/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://www.airplanecraft.com/zh/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/emoji-support/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
           
           
         

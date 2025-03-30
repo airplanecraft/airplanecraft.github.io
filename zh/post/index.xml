@@ -6,7 +6,194 @@
     <description>Recent content in Posts on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 28 Mar 2025 12:40:37 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Mar 2025 11:40:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三因子模型和CA模型的区别</title>
+      <link>https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/</link>
+      <pubDate>Sat, 29 Mar 2025 11:40:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;三因子模型fama-french与capm模型的比较&#34;&gt;三因子模型（Fama-French）与CAPM模型的比较&lt;/h1&gt;
+&lt;p&gt;以下是三因子模型（Fama-French三因子模型）与CAPM（资本资产定价模型）的对比分析，涵盖理论基础、因子构成、应用场景及优缺点：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一核心理论对比&#34;&gt;一、核心理论对比&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;维度&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;CAPM模型&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;三因子模型&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;理论基础&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;单因子模型，仅考虑市场风险溢价（市场因子）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;多因子模型，扩展CAPM，引入市值因子（SMB）、账面市值比因子（HML）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;核心公式&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$ E(R_i) = R_f + \beta_i (E(R_m) - R_f) $$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$ E(R_i) = R_f + \beta_{m}(R_m - R_f) + \beta_{SMB}SMB + \beta_{HML}HML $$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;因子数量&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1个（市场因子）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3个（市场因子 + 市值因子 + 账面市值比因子）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;假设前提&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;市场完全有效、投资者理性同质、无摩擦交易。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;放松CAPM假设，承认市场异象（如小盘股溢价、价值股溢价）。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二因子解释能力&#34;&gt;二、因子解释能力&lt;/h2&gt;
+&lt;h3 id=&#34;1-capm的局限性&#34;&gt;1. CAPM的局限性&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无法解释市场异象&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;小盘股效应&lt;/strong&gt;：小市值股票长期收益高于CAPM预测。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;价值股效应&lt;/strong&gt;：低市净率（P/B）股票表现优于高P/B股票。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实证缺陷&lt;/strong&gt;：CAPM对股票横截面收益的解释力不足（R²通常 &amp;lt; 70%）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-三因子模型的改进&#34;&gt;2. 三因子模型的改进&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;新增因子&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMB（Small Minus Big）&lt;/strong&gt;：小市值股票收益减大市值股票收益，捕捉规模效应。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HML（High Minus Low）&lt;/strong&gt;：高账面市值比股票（价值股）收益减低账面市值比股票（成长股）收益。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解释力提升&lt;/strong&gt;：三因子模型对股票收益的解释力显著提高（R²可达90%+），尤其在解释长期收益差异时更优。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三实证表现对比&#34;&gt;三、实证表现对比&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;场景&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;CAPM&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;三因子模型&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;美股市场&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;解释力较弱，尤其对小盘股、价值股失效。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;显著改善对小盘股、价值股收益的解释。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;新兴市场&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;适用性更低（市场有效性差）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;仍能部分解释异象，但因子溢价可能不稳定。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;行业分析&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;仅反映行业与市场的相关性。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;可分解行业收益来源（如科技股受成长因子驱动）。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四应用场景差异&#34;&gt;四、应用场景差异&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;场景&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;CAPM适用性&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;三因子模型适用性&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;资产定价&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;快速估算股权成本（WACC），适合粗略估值。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;更精确的资产定价，适用于基金业绩归因、多因子选股。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;组合管理&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;单因子风险暴露管理（如β对冲）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;多因子风险控制（市值、价值风格暴露管理）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;学术研究&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;理论教学与简单实证分析。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;市场异象研究、因子投资理论验证。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五优缺点总结&#34;&gt;五、优缺点总结&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;模型&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;优点&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;缺点&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;CAPM&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;简单易用，参数少，计算成本低。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;忽略市场异象，解释力不足，假设过于理想化。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;三因子模型&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;解释力强，更贴近现实市场行为。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;数据需求高（需市值、账面市值比数据），因子定义可能存在争议（如HML的稳定性）。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;六案例分析&#34;&gt;六、案例分析&lt;/h2&gt;
+&lt;h3 id=&#34;案例某小盘价值股的超额收益归因&#34;&gt;案例：某小盘价值股的超额收益归因&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAPM分析&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;该股票β=1.2，市场收益10%，无风险利率3% → 预期收益=3% +1.2×(10%-3%)=11.4%。&lt;/li&gt;
+&lt;li&gt;实际收益18% → 超额收益6.6%（α=6.6%），但无法解释来源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;三因子模型分析&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;因子暴露：β_m=1.2，β_SMB=0.8（小盘股暴露），β_HML=1.0（价值股暴露）。&lt;/li&gt;
+&lt;li&gt;预期收益=3% +1.2×7% +0.8×4% +1.0×5%=3%+8.4%+3.2%+5%=19.6%。&lt;/li&gt;
+&lt;li&gt;实际收益18% → 超额收益-1.6%（α≈0），说明收益主要来自因子暴露，而非主动管理能力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;七后续发展&#34;&gt;七、后续发展&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;五因子模型&lt;/strong&gt;：Fama-French进一步加入盈利因子（RMW）和投资因子（CMA），增强对收益的解释力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;因子投资实践&lt;/strong&gt;：三因子模型催生了Smart Beta ETF（如小盘价值ETF），成为被动投资的重要工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAPM&lt;/strong&gt;：适合快速估算市场风险溢价，但需谨慎用于复杂市场环境。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;三因子模型&lt;/strong&gt;：更全面揭示收益来源，是因子投资和组合管理的基石，但需关注因子溢价的变化（如近年成长股跑赢价值股）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;选择建议&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;学术研究/精细化投资 → 三因子模型。&lt;/li&gt;
+&lt;li&gt;初级估值/教学场景 → CAPM。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>如何评估一款基金基金的收益率</title>
       <link>https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/</link>
@@ -3270,7 +3457,7 @@ arn:aws:iam::XXXX:user/mystsuser&lt;/li&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ARM&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arm64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;64&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;位实例：&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;S&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_arm64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SSMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_arm64&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Intel&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x86&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;位实例：&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yum&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazonaws&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ec2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SSMAgent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;latest&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linux_386&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;amazon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ssm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;agent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rpm&lt;/span&gt;

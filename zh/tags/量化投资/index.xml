@@ -6,7 +6,131 @@
     <description>Recent content in 量化投资 on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 29 Mar 2025 17:40:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Mar 2025 21:40:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>量化因子发现与选择方法</title>
+      <link>https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/</link>
+      <pubDate>Sun, 30 Mar 2025 21:40:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;量化交易中的因子发现与筛选方法&#34;&gt;量化交易中的因子发现与筛选方法&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一因子发现方法&#34;&gt;一、因子发现方法&lt;/h2&gt;
+&lt;h3 id=&#34;1-数据驱动挖掘&#34;&gt;1. &lt;strong&gt;数据驱动挖掘&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;统计方法&lt;/strong&gt;：通过相关性分析、协整检验、Granger因果检验等，从历史数据中寻找与收益率显著相关的变量。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;机器学习&lt;/strong&gt;：使用随机森林、LASSO回归、梯度提升树（如XGBoost）等算法自动提取有效特征。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;事件驱动&lt;/strong&gt;：分析财报发布、政策变化、市场事件对价格的影响（如财报超预期因子）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-理论驱动构建&#34;&gt;2. &lt;strong&gt;理论驱动构建&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;行为金融学&lt;/strong&gt;：基于投资者心理偏差设计因子（如过度反应因子、羊群效应因子）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险溢价理论&lt;/strong&gt;：捕捉风险溢价（如波动率风险溢价、流动性溢价）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;套利定价理论（APT）&lt;/strong&gt;：基于多因子模型（如Fama-French三因子、五因子模型）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二常见因子类型&#34;&gt;二、常见因子类型&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;因子类别&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;典型因子示例&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;应用场景&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;技术因子&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;动量、波动率、换手率、RSI、布林带&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;短期趋势跟踪、反转策略&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;基本面因子&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;市盈率（PE）、市净率（PB）、ROE&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;价值投资、长线选股&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;情绪因子&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;新闻舆情、社交媒体热度、期权隐含波动率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;事件驱动、市场情绪对冲&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;另类数据因子&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;卫星图像数据、供应链数据、ESG评分&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;行业轮动、ESG主题投资&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三因子筛选流程&#34;&gt;三、因子筛选流程&lt;/h2&gt;
+&lt;h3 id=&#34;1-初步筛选&#34;&gt;1. &lt;strong&gt;初步筛选&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;显著性检验&lt;/strong&gt;：剔除p值&amp;gt;0.05的因子（如通过t检验或ANOVA）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相关性过滤&lt;/strong&gt;：剔除与其他因子相关性&amp;gt;0.7的冗余因子（如使用皮尔逊相关系数矩阵）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-样本外测试&#34;&gt;2. &lt;strong&gt;样本外测试&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分层回测&lt;/strong&gt;：将因子在训练集（样本内）和测试集（样本外）分别测试，剔除样本外表现显著下降的因子。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;过拟合检验&lt;/strong&gt;：通过随机数据生成器（如White&#39;s Reality Check）验证因子有效性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-经济逻辑验证&#34;&gt;3. &lt;strong&gt;经济逻辑验证&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;理论一致性&lt;/strong&gt;：剔除与经济逻辑矛盾的因子（如“股价尾号为8的股票收益更高”缺乏逻辑支撑）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;稳定性分析&lt;/strong&gt;：剔除在不同市场周期（牛市/熊市）表现不稳定的因子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四策略案例多因子选股策略&#34;&gt;四、策略案例：多因子选股策略&lt;/h2&gt;
+&lt;h3 id=&#34;1-因子库选择&#34;&gt;1. &lt;strong&gt;因子库选择&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;假设因子库包含以下候选因子：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动量因子&lt;/strong&gt;（20日收益率）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;波动率因子&lt;/strong&gt;（60日收益率标准差）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;质量因子&lt;/strong&gt;（ROE排名）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;价值因子&lt;/strong&gt;（市盈率倒数）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;换手率因子&lt;/strong&gt;（5日平均换手率）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-筛选过程&#34;&gt;2. &lt;strong&gt;筛选过程&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;剔除因子质量因子roe排名&#34;&gt;&lt;strong&gt;剔除因子：质量因子（ROE排名）&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多重共线性&lt;/strong&gt;：与价值因子（市盈率倒数）相关性高达0.85。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;样本外失效&lt;/strong&gt;：在2020-2023年回测中，质量因子在测试集的IC（信息系数）从0.12降至-0.05。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;保留因子动量波动率换手率&#34;&gt;&lt;strong&gt;保留因子：动量、波动率、换手率&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动量因子&lt;/strong&gt;：样本内外IC均&amp;gt;0.1，且与波动率因子相关性仅0.3。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;波动率因子&lt;/strong&gt;：在熊市中表现稳定（IC=0.18），符合“低波动异象”理论。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;换手率因子&lt;/strong&gt;：高频数据中与短期动量形成互补（相关性0.2）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-策略构建&#34;&gt;3. &lt;strong&gt;策略构建&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;信号生成&lt;/strong&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 组合权重：动量(40%) + 波动率(30%) + 换手率(30%)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;generate_signal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;momentum&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;close&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pct_change&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;volatility&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;close&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pct_change&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rolling&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;turnover_rank&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;turnover&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rank&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pct&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 综合得分&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;score&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.4&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;momentum&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;volatility&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;turnover_rank&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;score&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rank&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pct&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>金融领域买方与卖方有什么区别</title>
       <link>https://www.airplanecraft.com/zh/post/busy-side-vs-sell-side/</link>

@@ -4,13 +4,12 @@
   lang="zh"
   data-figures=""
   
-    class="home"
+    class="page"
   
   
   >
   <head>
-	<meta name="generator" content="Hugo 0.134.3">
-<title>Claridade</title>
+<title>量化因子发现与选择方法 | Claridade</title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,30 +19,56 @@
 
 
 
-  
 <meta property="og:locale" content="zh" />
 
-<meta property="og:locale:alternate" content="en" />
-
-<meta property="og:type" content="website">
-<meta name="description" content="A theme based on VMware&#39;s Clarity Design System for publishing technical blogs with Hugo." />
+<meta property="og:type" content="article">
+<meta name="description" content="量化因子发现与选择方法" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@janedoe">
-<meta name="twitter:title" content="" />
+<meta name="twitter:title" content="量化因子发现与选择方法" />
 <meta name="twitter:image" content="https://www.airplanecraft.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.airplanecraft.com/zh/" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="A theme based on VMware&#39;s Clarity Design System for publishing technical blogs with Hugo." />
+<meta property="og:url" content="https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/" />
+<meta property="og:title" content="量化因子发现与选择方法" />
+<meta property="og:description" content="量化因子发现与选择方法" />
 <meta property="og:image" content="https://www.airplanecraft.com/images/thumbnail.png" />
-  <meta name="keywords" content="design,clarity,hugo theme" />
+  <meta name="keywords" content="量化投资,因子" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage":"https:\/\/www.airplanecraft.com\/zh\/post\/quantitative-factor-discovery-and-selection-methods\/",
+      "name": "Claridade",
+      "headline": "量化因子发现与选择方法",
+      "description": "量化因子发现与选择方法",
+      "url": "https:\/\/www.airplanecraft.com\/zh\/post\/quantitative-factor-discovery-and-selection-methods\/",
+      "datePublished": "2025-03-30T21:40:35+08:00",
+      "dateModified": "2025-03-30T21:40:35+08:00",
+      "keywords": ["量化投资","因子"],
+        "articleSection": ["Quant"],
+      "author": {
+        "@type": "Person",
+        "name": "map[name:Eric Wang]"
+      },
+      "image":{
+        "@type":"ImageObject",
+        "url": "https:\/\/www.airplanecraft.com\/images\/thumbnail.png"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type":"ImageObject",
+          "url": "https:\/\/www.airplanecraft.com\/logos\/logo.png"
+        },
+        "name": "Claridade"
+      }
+    }
+  </script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.airplanecraft.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.airplanecraft.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.airplanecraft.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.airplanecraft.com/zh/">
-<link rel="alternate" type="application/rss+xml" href="https://www.airplanecraft.com/zh/index.xml" title="Claridade" />
-<link rel="alternate" type="application/json" href="https://www.airplanecraft.com/zh/index.json" title="Claridade" />
+<link rel="canonical" href="https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/">
 
 
 
@@ -160,21 +185,10 @@
 </header>
 
     <main>
-
   
-
-
-
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/" title="量化因子发现与选择方法">量化因子发现与选择方法</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">量化因子发现与选择方法</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -222,11 +236,36 @@
   </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h1 id="量化交易中的因子发现与筛选方法">量化交易中的因子发现与筛选方法</h1>
+      <div class="post_toc">
+        <h2>文章目录</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一因子发现方法">一、因子发现方法</a>
+      <ul>
+        <li><a href="#1-数据驱动挖掘">1. <strong>数据驱动挖掘</strong></a></li>
+        <li><a href="#2-理论驱动构建">2. <strong>理论驱动构建</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#二常见因子类型">二、常见因子类型</a></li>
+    <li><a href="#三因子筛选流程">三、因子筛选流程</a>
+      <ul>
+        <li><a href="#1-初步筛选">1. <strong>初步筛选</strong></a></li>
+        <li><a href="#2-样本外测试">2. <strong>样本外测试</strong></a></li>
+        <li><a href="#3-经济逻辑验证">3. <strong>经济逻辑验证</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#四策略案例多因子选股策略">四、策略案例：多因子选股策略</a>
+      <ul>
+        <li><a href="#1-因子库选择">1. <strong>因子库选择</strong></a></li>
+        <li><a href="#2-筛选过程">2. <strong>筛选过程</strong></a></li>
+        <li><a href="#3-策略构建">3. <strong>策略构建</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    
+    <div class="post_body"><h1 id="量化交易中的因子发现与筛选方法">量化交易中的因子发现与筛选方法</h1>
 <hr>
 <h2 id="一因子发现方法">一、因子发现方法</h2>
 <h3 id="1-数据驱动挖掘">1. <strong>数据驱动挖掘</strong></h3>
@@ -242,750 +281,119 @@
 <li><strong>套利定价理论（APT）</strong>：基于多因子模型（如Fama-French三因子、五因子模型）。</li>
 </ul>
 <hr>
-<h2 id="二常见因子类型">二、 …</h2></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/busy-side-vs-sell-side/" title="金融领域买方与卖方有什么区别">金融领域买方与卖方有什么区别</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 29, 2025</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' title="量化投资" class="post_tag button button_translucent">量化投资
-        </a><a href='https://www.airplanecraft.com/zh/tags/%E5%9B%A0%E5%AD%90/' title="因子" class="post_tag button button_translucent">因子
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e9%87%91%e8%9e%8d%e9%a2%86%e5%9f%9f%e4%b9%b0%e6%96%b9%e4%b8%8e%e5%8d%96%e6%96%b9%e6%9c%89%e4%bb%80%e4%b9%88%e5%8c%ba%e5%88%ab&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbusy-side-vs-sell-side%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fbusy-side-vs-sell-side%2f&t=%e9%87%91%e8%9e%8d%e9%a2%86%e5%9f%9f%e4%b9%b0%e6%96%b9%e4%b8%8e%e5%8d%96%e6%96%b9%e6%9c%89%e4%bb%80%e4%b9%88%e5%8c%ba%e5%88%ab" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/busy-side-vs-sell-side/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h1 id="买方buy-side与卖方sell-side的区别">买方（Buy Side）与卖方（Sell Side）的区别</h1>
-<p>在金融领域，<strong>买方</strong>和<strong>卖方</strong>是两类完全不同的参与主体，其核心职能、盈利模式和角色定位存在显著差异。以下是详细对比：</p>
-<hr>
-<h2 id="一定义与核心职能">一、定义与核心职能</h2>
+<h2 id="二常见因子类型">二、常见因子类型</h2>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left"><strong>维度</strong></th>
-          <th style="text-align: left"><strong>买方（Buy Side）</strong></th>
-          <th style="text-align: left"><strong>卖方（Sell Side）</strong></th>
+          <th style="text-align: left"><strong>因子类别</strong></th>
+          <th style="text-align: left"><strong>典型因子示例</strong></th>
+          <th style="text-align: left"><strong>应用场景</strong></th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left"><strong>角色定位</strong></td>
-          <td style="text-align: left">资金管理方，通过投资获取收益。</td>
-          <td style="text-align: left">金融服务提供方，通过销售金融产品或服务赚取佣金。</td>
+          <td style="text-align: left"><strong>技术因子</strong></td>
+          <td style="text-align: left">动量、波动率、换手率、RSI、布林带</td>
+          <td style="text-align: left">短期趋势跟踪、反转策略</td>
       </tr>
       <tr>
-          <td style="text-align: left"><strong>典型机构</strong></td>
-          <td style="text-align: left">对冲基金、共同基金、养老基金、私募股 …</td></tr></tbody></table>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/busy-side-vs-sell-side/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/" title="三因子模型和CAPM模型的区别">三因子模型和CAPM模型的区别</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 29, 2025</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' title="量化投资" class="post_tag button button_translucent">量化投资
-        </a><a href='https://www.airplanecraft.com/zh/tags/%E5%9B%A0%E5%AD%90/' title="因子" class="post_tag button button_translucent">因子
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%b8%89%e5%9b%a0%e5%ad%90%e6%a8%a1%e5%9e%8b%e5%92%8cCAPM%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%8c%ba%e5%88%ab&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffama-french-vs-capm-model%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2ffama-french-vs-capm-model%2f&t=%e4%b8%89%e5%9b%a0%e5%ad%90%e6%a8%a1%e5%9e%8b%e5%92%8cCAPM%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%8c%ba%e5%88%ab" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h1 id="三因子模型fama-french与capm模型的比较">三因子模型（Fama-French）与CAPM模型的比较</h1>
-<p>以下是三因子模型（Fama-French三因子模型）与CAPM（资本资产定价模型）的对比分析，涵盖理论基础、因子构成、应用场景及优缺点：</p>
-<hr>
-<h2 id="一核心理论对比">一、核心理论对比</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left"><strong>维度</strong></th>
-          <th style="text-align: left"><strong>CAPM模型</strong></th>
-          <th style="text-align: left"><strong>三因子模型</strong></th>
+          <td style="text-align: left"><strong>基本面因子</strong></td>
+          <td style="text-align: left">市盈率（PE）、市净率（PB）、ROE</td>
+          <td style="text-align: left">价值投资、长线选股</td>
       </tr>
-  </thead>
-  <tbody>
       <tr>
-          <td style="text-align: left"><strong>理论基础</strong></td>
-          <td style="text-align: left">单因子模型，仅考虑市场风险溢价（市场因子）。</td>
-          <td style="text-align: left">多因子模型，扩展CAPM，引入市值因子（SMB）、账面市值比因子（HML）。 …</td></tr></tbody></table>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/" title="如何评估一款基金基金的收益率">如何评估一款基金基金的收益率</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 28, 2025</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' title="量化投资" class="post_tag button button_translucent">量化投资
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e5%a6%82%e4%bd%95%e8%af%84%e4%bc%b0%e4%b8%80%e6%ac%be%e5%9f%ba%e9%87%91%e5%9f%ba%e9%87%91%e7%9a%84%e6%94%b6%e7%9b%8a%e7%8e%87&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fhow-to-evaluate-fund-returns%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fhow-to-evaluate-fund-returns%2f&t=%e5%a6%82%e4%bd%95%e8%af%84%e4%bc%b0%e4%b8%80%e6%ac%be%e5%9f%ba%e9%87%91%e5%9f%ba%e9%87%91%e7%9a%84%e6%94%b6%e7%9b%8a%e7%8e%87" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h1 id="如何评价一款基金的收益率">如何评价一款基金的收益率？</h1>
-<p>评价一款基金的收益率需从多维度综合分析，既要关注绝对收益，也要衡量风险调整后的表现，并结合市场环境、策略特点及投资目标。以下是系统化的评价框架：</p>
+          <td style="text-align: left"><strong>情绪因子</strong></td>
+          <td style="text-align: left">新闻舆情、社交媒体热度、期权隐含波动率</td>
+          <td style="text-align: left">事件驱动、市场情绪对冲</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>另类数据因子</strong></td>
+          <td style="text-align: left">卫星图像数据、供应链数据、ESG评分</td>
+          <td style="text-align: left">行业轮动、ESG主题投资</td>
+      </tr>
+  </tbody>
+</table>
 <hr>
-<h2 id="一绝对收益分析">一、绝对收益分析</h2>
-<h3 id="1-收益率计算">1. 收益率计算</h3>
+<h2 id="三因子筛选流程">三、因子筛选流程</h2>
+<h3 id="1-初步筛选">1. <strong>初步筛选</strong></h3>
 <ul>
-<li><strong>累计收益率</strong>：基金成立以来的总回报率（需扣除费用）。</li>
-<li><strong>年化收益率</strong>：将不同周期收益折算为年化值，便于跨期比较。
-[
-\text{年化收益率} = \left(1 + \text{总收益率}\right)^{\frac{365}{\text{持有天数}}} - 1
-]</li>
+<li><strong>显著性检验</strong>：剔除p值&gt;0.05的因子（如通过t检验或ANOVA）。</li>
+<li><strong>相关性过滤</strong>：剔除与其他因子相关性&gt;0.7的冗余因子（如使用皮尔逊相关系数矩阵）。</li>
 </ul>
-<h3 id="2-收益来源分解">2. 收益来源分解</h3>
+<h3 id="2-样本外测试">2. <strong>样本外测试</strong></h3>
 <ul>
-<li><strong>市场收益（Beta收益）</strong>：通过回归分析计算基金对市场基准（如沪深300）的敏感性（β值）。
-[
-\text{Beta收益} = \beta …</li></ul>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/quant-introduction/" title="为什么越来越多的散户开始做量化">为什么越来越多的散户开始做量化</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Mar 27, 2025</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' title="量化投资" class="post_tag button button_translucent">量化投资
-        </a><a href='https://www.airplanecraft.com/zh/tags/ai/' title="AI" class="post_tag button button_translucent">AI
-        </a><a href='https://www.airplanecraft.com/zh/tags/tradindview/' title="tradindview" class="post_tag button button_translucent">tradindview
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%b6%8a%e6%9d%a5%e8%b6%8a%e5%a4%9a%e7%9a%84%e6%95%a3%e6%88%b7%e5%bc%80%e5%a7%8b%e5%81%9a%e9%87%8f%e5%8c%96&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fquant-introduction%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fquant-introduction%2f&t=%e4%b8%ba%e4%bb%80%e4%b9%88%e8%b6%8a%e6%9d%a5%e8%b6%8a%e5%a4%9a%e7%9a%84%e6%95%a3%e6%88%b7%e5%bc%80%e5%a7%8b%e5%81%9a%e9%87%8f%e5%8c%96" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/quant-introduction/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h2 id="技术门槛的降低">技术门槛的降低</h2>
-<ol>
-<li>
-<p>编程工具普及：Python等易学语言成为主流，开源库（如Pandas、Numpy、TA-Lib）简化了数据处理和策略开发。</p>
-</li>
-<li>
-<p>低成本基础设施：云服务器（如阿里云、腾讯云）价格下降，个人也能负担高频交易所需的算力。</p>
-</li>
-<li>
-<p>开源平台支持：Backtrader、vn.py等框架提供免费回测工具，无需自建系统。</p>
-</li>
-<li>
-<p>数据爬虫技术的普及包括开源程序</p>
-</li>
-</ol>
-<h2 id="数据门槛的降低">数据门槛的降低</h2>
-<ol>
-<li>
-<p>免费开源数据（适合入门）</p>
+<li><strong>分层回测</strong>：将因子在训练集（样本内）和测试集（样本外）分别测试，剔除样本外表现显著下降的因子。</li>
+<li><strong>过拟合检验</strong>：通过随机数据生成器（如White's Reality Check）验证因子有效性。</li>
+</ul>
+<h3 id="3-经济逻辑验证">3. <strong>经济逻辑验证</strong></h3>
 <ul>
-<li>
-<p>1.1 Tushare Pro：基础数据免费（需注册，部分高频数据需积分），覆盖A股、指数、财务数据。</p>
+<li><strong>理论一致性</strong>：剔除与经济逻辑矛盾的因子（如“股价尾号为8的股票收益更高”缺乏逻辑支撑）。</li>
+<li><strong>稳定性分析</strong>：剔除在不同市场周期（牛市/熊市）表现不稳定的因子。</li>
+</ul>
+<hr>
+<h2 id="四策略案例多因子选股策略">四、策略案例：多因子选股策略</h2>
+<h3 id="1-因子库选择">1. <strong>因子库选择</strong></h3>
+<p>假设因子库包含以下候选因子：</p>
+<ul>
+<li><strong>动量因子</strong>（20日收益率）</li>
+<li><strong>波动率因子</strong>（60日收益率标准差）</li>
+<li><strong>质量因子</strong>（ROE排名）</li>
+<li><strong>价值因子</strong>（市盈率倒数）</li>
+<li><strong>换手率因子</strong>（5日平均换手率）</li>
+</ul>
+<h3 id="2-筛选过程">2. <strong>筛选过程</strong></h3>
+<h4 id="剔除因子质量因子roe排名"><strong>剔除因子：质量因子（ROE排名）</strong></h4>
+<ul>
+<li><strong>原因</strong>：
+<ul>
+<li><strong>多重共线性</strong>：与价值因子（市盈率倒数）相关性高达0.85。</li>
+<li><strong>样本外失效</strong>：在2020-2023年回测中，质量因子在测试集的IC（信息系数）从0.12降至-0.05。</li>
+</ul>
 </li>
-<li>
-<p>1.2 AKShare：完全免费，支持股票、期货、宏观经济、舆情等多维度数据（基于Python）。</p>
+</ul>
+<h4 id="保留因子动量波动率换手率"><strong>保留因子：动量、波动率、换手率</strong></h4>
+<ul>
+<li><strong>原因</strong>：
+<ul>
+<li><strong>动量因子</strong>：样本内外IC均&gt;0.1，且与波动率因子相关性仅0.3。</li>
+<li><strong>波动率因子</strong>：在熊市中表现稳定（IC=0.18），符合“低波动异象”理论。</li>
+<li><strong>换手率因子</strong>：高频数据中与短期动量形成互补（相关性0.2）。</li>
+</ul>
 </li>
-<li>
-<p>1.3 …</p></li></ul></li></ol>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/quant-introduction/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/elrschannelnumberissue/" title="Radiomaster的zorro遥控器在飞控上只能看到12个通道">Radiomaster的zorro遥控器在飞控上只能看到12个通道</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Oct 11, 2024</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/radiocontroller/' title="radiocontroller" class="post_tag button button_translucent">radiocontroller
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=Radiomaster%e7%9a%84zorro%e9%81%a5%e6%8e%a7%e5%99%a8%e5%9c%a8%e9%a3%9e%e6%8e%a7%e4%b8%8a%e5%8f%aa%e8%83%bd%e7%9c%8b%e5%88%b012%e4%b8%aa%e9%80%9a%e9%81%93&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2felrschannelnumberissue%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2felrschannelnumberissue%2f&t=Radiomaster%e7%9a%84zorro%e9%81%a5%e6%8e%a7%e5%99%a8%e5%9c%a8%e9%a3%9e%e6%8e%a7%e4%b8%8a%e5%8f%aa%e8%83%bd%e7%9c%8b%e5%88%b012%e4%b8%aa%e9%80%9a%e9%81%93" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/elrschannelnumberissue/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
+</ul>
+<h3 id="3-策略构建">3. <strong>策略构建</strong></h3>
+<ul>
+<li><strong>信号生成</strong>：
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1"># 组合权重：动量(40%) + 波动率(30%) + 换手率(30%)</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">def</span> <span class="nf">generate_signal</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;momentum&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">pct_change</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;volatility&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">pct_change</span><span class="p">()</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;turnover_rank&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;turnover&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">rank</span><span class="p">(</span><span class="n">pct</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="c1"># 综合得分</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;score&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.4</span><span class="o">*</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;momentum&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.3</span><span class="o">*</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;volatility&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="mf">0.3</span><span class="o">*</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;turnover_rank&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="ln">8</span><span class="cl">    <span class="k">return</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;score&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">rank</span><span class="p">(</span><span class="n">pct</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span></code></pre></div></li>
+</ul>
 
     </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>Radiomaster的zorro遥控器在飞控上只能看到12个通道的解决方案</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/elrschannelnumberissue/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
+<div class="post_comments">
+  
+  
+  
+  
+</div>
 
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/generative-ai/" title="什么是生成式ai">什么是生成式ai</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Dec 3, 2023</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/ml/' title="ML" class="post_tag button button_translucent">ML
-        </a><a href='https://www.airplanecraft.com/zh/tags/dl/' title="DL" class="post_tag button button_translucent">DL
-        </a><a href='https://www.airplanecraft.com/zh/tags/gai/' title="GAI" class="post_tag button button_translucent">GAI
-        </a><a href='https://www.airplanecraft.com/zh/tags/ai/' title="AI" class="post_tag button button_translucent">AI
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%bb%80%e4%b9%88%e6%98%af%e7%94%9f%e6%88%90%e5%bc%8fai&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fgenerative-ai%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
 
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fgenerative-ai%2f&t=%e4%bb%80%e4%b9%88%e6%98%af%e7%94%9f%e6%88%90%e5%bc%8fai" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
 
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
 
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/generative-ai/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h3 id="什么是ai">什么是AI</h3>
-<p>人工智能（AI）是指计算机系统能够执行人类通常需要使用智力才能完成的任务的能力。这些任务可以包括语音识别、图像识别、自然语言处理、决策制定等等。人工智能的目标是让计算机拥有类似人类的智能水平，能够像人一样学习、推理、理解和适应环境。</p>
-<h3 id="什么是ml">什么是ML</h3>
-<p>机器学习（ML）是一种人工智能的分支，其主要关注如何让计算机根据数据自动学习并改进算法，而不需要人工干预。换句话说，机器学习是一种数据驱动的方法，通过分析和学习数据中的模式和规律，让计算机能够自主地进行预测和决策。机器学习算法通常可以分为监督学习、无监督学习、半监督学习和强化学习等几种类型。</p>
-<h3 id="什么是dl">什么是DL</h3>
-<p>深度学习（DL）是机器学习的一种特殊形式，其主要依赖于深层神经网络（DNN） …</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/generative-ai/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/service-mesh/" title="什么是service mesh">什么是service mesh</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 23, 2023</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/service-mesh/' title="service mesh" class="post_tag button button_translucent">service mesh
-        </a><a href='https://www.airplanecraft.com/zh/tags/paas/' title="PAAS" class="post_tag button button_translucent">PAAS
-        </a><a href='https://www.airplanecraft.com/zh/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%bb%80%e4%b9%88%e6%98%afservice%20mesh&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fservice-mesh%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fservice-mesh%2f&t=%e4%bb%80%e4%b9%88%e6%98%afservice%20mesh" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/service-mesh/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h2 id="什么是service-mesh">什么是service mesh</h2>
-<p>Service Mesh又译作“服务网格”，作为服务间通信的基础设施层。Willian Morgan（Linkerd的CEO）如下定义Service Mesh。</p>
-<p>Service Mesh 是一个基础设施层，用于处理服务间通信。云原生应用有着复杂的服务拓扑，Service Mesh 保证请求可以在这些拓扑中可靠地穿梭。在实际应用当中，Service Mesh 通常是由一系列轻量级的网络代理组成的，它们与应用程序部署在一起，但应用程序不需要知道它们的存在。</p>
-<p>Service Mesh 实际上就是处于 TCP/IP 之上的一个抽象层，它假设底层的 L3/L4 网络能够点对点地传输字节（当然，它也假设网络环境是 …</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/service-mesh/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/why-openshift/" title="企业为什么选择使用openshift">企业为什么选择使用openshift</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 23, 2022</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/service-mesh/' title="service mesh" class="post_tag button button_translucent">service mesh
-        </a><a href='https://www.airplanecraft.com/zh/tags/paas/' title="PAAS" class="post_tag button button_translucent">PAAS
-        </a><a href='https://www.airplanecraft.com/zh/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e4%bc%81%e4%b8%9a%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9%e4%bd%bf%e7%94%a8openshift&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-openshift%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fwhy-openshift%2f&t=%e4%bc%81%e4%b8%9a%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9%e4%bd%bf%e7%94%a8openshift" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/why-openshift/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h2 id="什么是openshift">什么是openshift</h2>
-<p>OpenShift是红帽的云开发平台即服务（PaaS）。自由和开放源码的云计算平台使开发人员能够创建、测试和运行他们的应用程序，并且可以把它们部署到云中。OpenShift广泛支持多种编程语言和框架，如Java，Ruby和PHP等。另外它还提供了多种集成开发工具如Eclipse integration，JBoss Developer Studio和 Jenkins等。OpenShift 基于一个开源生态系统为移动应用，数据库服务等，提供支持。
-OpenShift Online服务构建在Red Hat Enterprise Linux上。Red Hat Enterprise Linux提供集成应用程序，运行库 …</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/why-openshift/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/starting_recording_my_airplanecraft_life/" title="airplancraft">airplancraft</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 22, 2022</span>
-    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/airplanecraft/' title="airplanecraft" class="post_tag button button_translucent">airplanecraft
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=airplancraft&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fstarting_recording_my_airplanecraft_life%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fstarting_recording_my_airplanecraft_life%2f&t=airplancraft" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/starting_recording_my_airplanecraft_life/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <h3 id="introduction">Introduction</h3>
-<p>I will use this site to record my air plane craft life including:share teaching docs/videos,materials ,airplane models,electronic things.</p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/starting_recording_my_airplanecraft_life/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li>
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/zh/page/7/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='搜索内容...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='搜索内容...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -1394,9 +802,8 @@ OpenShift Online服务构建在Red Hat Enterprise Linux上。Red Hat Enterprise 
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

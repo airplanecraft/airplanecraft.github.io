@@ -6,7 +6,177 @@
     <description>Recent content in 量化投资 on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 31 Mar 2025 21:20:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Mar 2025 21:30:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>量化与数学1</title>
+      <link>https://www.airplanecraft.com/zh/post/quant-maths-1/</link>
+      <pubDate>Mon, 31 Mar 2025 21:30:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quant-maths-1/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;量化中的高斯分布方差黄金分割与斐波那契数列关系&#34;&gt;量化中的高斯分布、方差、黄金分割与斐波那契数列关系&lt;/h1&gt;
+&lt;h2 id=&#34;1-高斯分布与方差统计建模的基石&#34;&gt;1. 高斯分布与方差：统计建模的基石&lt;/h2&gt;
+&lt;h3 id=&#34;高斯分布正态分布&#34;&gt;高斯分布（正态分布）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义&lt;/strong&gt;：资产收益率分布的经典模型，参数为均值 ( \mu ) 和方差 ( \sigma^2 )。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应用&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;期权定价（Black-Scholes模型）&lt;/li&gt;
+&lt;li&gt;风险价值（VaR）计算&lt;/li&gt;
+&lt;li&gt;统计套利的均值回归假设&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;局限性&lt;/strong&gt;：实际数据常呈现“肥尾”，需用复杂模型（如GARCH）修正。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;方差与标准差&#34;&gt;方差与标准差&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;量化波动性（方差 ( \sigma^2 ) 是高斯分布的关键参数）&lt;/li&gt;
+&lt;li&gt;风险管理（止损设定）、组合优化（马科维茨模型）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;扩展工具&lt;/strong&gt;：波动率通道（如布林带）、历史波动率分析。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-黄金分割与斐波那契数列技术分析的经验工具&#34;&gt;2. 黄金分割与斐波那契数列：技术分析的经验工具&lt;/h2&gt;
+&lt;h3 id=&#34;黄金分割0618&#34;&gt;黄金分割（≈0.618）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数学定义&lt;/strong&gt;：( \phi = \frac{1+\sqrt{5}}{2} \approx 1.618 )，其倒数 ( \phi^{-1} \approx 0.618 )&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;来源&lt;/strong&gt;：斐波那契数列相邻项比值的极限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;斐波那契数列&#34;&gt;斐波那契数列&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;递推公式&lt;/strong&gt;：( F_n = F_{n-1} + F_{n-2} )&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键比例&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;23.6%（( F_n/F_{n+3} )）&lt;/li&gt;
+&lt;li&gt;38.2%（( F_n/F_{n+2} )）&lt;/li&gt;
+&lt;li&gt;61.8%（( F_n/F_{n+1} )）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;技术分析应用&#34;&gt;技术分析应用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;斐波那契回调&lt;/strong&gt;：预测价格调整的支撑/阻力位（如61.8%回调位）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;斐波那契扩展&lt;/strong&gt;：趋势延续目标位（如161.8%扩展位）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;时间周期分析&lt;/strong&gt;：用斐波那契数列长度预测变盘窗口。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-四者的协同关系统计模型与经验规律的结合&#34;&gt;3. 四者的协同关系：统计模型与经验规律的结合&lt;/h2&gt;
+&lt;h3 id=&#34;1-波动率方差与斐波那契水平的结合&#34;&gt;(1) 波动率（方差）与斐波那契水平的结合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动态调整支撑/阻力&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;用历史波动率计算统计波动范围（如±1σ）；&lt;/li&gt;
+&lt;li&gt;叠加斐波那契回调水平验证重合点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例&lt;/strong&gt;：价格回调至61.8%且接近+1σ波动带上沿时触发卖出信号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-高斯分布对斐波那契策略的验证&#34;&gt;(2) 高斯分布对斐波那契策略的验证&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;概率过滤&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;计算斐波那契回调位处于高斯分布尾部的概率；&lt;/li&gt;
+&lt;li&gt;若价格触及61.8%回调位且处于±2σ外，可能预示反转。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例&lt;/strong&gt;：均值回归策略中，价格偏离均值超过2σ且触及斐波那契支撑位时开仓。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-黄金分割与波动率通道&#34;&gt;(3) 黄金分割与波动率通道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自适应通道设计&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;用波动率构建布林带；&lt;/li&gt;
+&lt;li&gt;黄金分割比例（0.618）替代传统2σ倍数作为通道宽度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例&lt;/strong&gt;：布林带宽度设为0.618倍波动率，观察价格边界反应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-实际应用案例&#34;&gt;4. 实际应用案例&lt;/h2&gt;
+&lt;h3 id=&#34;案例1趋势跟踪策略&#34;&gt;案例1：趋势跟踪策略&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;用斐波那契扩展位（如161.8%）设定盈利目标；&lt;/li&gt;
+&lt;li&gt;基于历史波动率计算持仓周期和止损范围；&lt;/li&gt;
+&lt;li&gt;若价格触及目标位且波动率收缩，平仓锁定收益。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;案例2均值回归策略&#34;&gt;案例2：均值回归策略&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;价格触及斐波那契61.8%回调位时假设支撑；&lt;/li&gt;
+&lt;li&gt;计算Z-Score（价格偏离均值的标准差）；&lt;/li&gt;
+&lt;li&gt;若Z-Score &amp;gt; 2（概率&amp;lt;2.5%），触发买入信号。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-核心差异与注意事项&#34;&gt;5. 核心差异与注意事项&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;工具&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;数学基础&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;量化中的角色&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;局限性&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;高斯分布与方差&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;概率论与统计学&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;客观统计建模、风险评估&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;忽略肥尾效应&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;黄金分割&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;几何比例与数论&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;主观经验信号生成&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;缺乏经济学解释&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;斐波那契数列&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;递推数列与极限比例&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;市场心理预期刻画&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;依赖市场共识&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;关键注意&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;黄金分割和斐波那契反映&lt;strong&gt;市场心理&lt;/strong&gt;，需结合统计验证；&lt;/li&gt;
+&lt;li&gt;警惕高斯分布的“肥尾”风险；&lt;/li&gt;
+&lt;li&gt;现代量化将技术指标作为因子之一，与统计模型结合回测。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-总结工具的本质与量化思维&#34;&gt;6. 总结：工具的本质与量化思维&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;统计框架&lt;/strong&gt;（高斯分布与方差）：
+&lt;ul&gt;
+&lt;li&gt;提供&lt;strong&gt;客观概率模型&lt;/strong&gt;，量化不确定性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;经验规则&lt;/strong&gt;（黄金分割与斐波那契）：
+&lt;ul&gt;
+&lt;li&gt;捕捉&lt;strong&gt;群体行为模式&lt;/strong&gt;，生成交易信号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协同逻辑&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;用统计模型过滤技术信号可靠性；&lt;/li&gt;
+&lt;li&gt;用技术分析修正统计模型盲点（如极端事件）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>财报里面的利润指标</title>
       <link>https://www.airplanecraft.com/zh/post/quant-financial-report-profit-related/</link>

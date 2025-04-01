@@ -6,7 +6,105 @@
     <description>Recent content on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 30 Mar 2025 21:40:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Mar 2025 21:20:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>财报里面的利润指标</title>
+      <link>https://www.airplanecraft.com/zh/post/quant-financial-report-profit-related/</link>
+      <pubDate>Mon, 31 Mar 2025 21:20:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quant-financial-report-profit-related/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;港股财报利润指标对比表含非营业利润&#34;&gt;港股财报利润指标对比表（含非营业利润）&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;指标名称&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;定义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;计算公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;使用场景/意义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;注意事项&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;毛利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;企业销售商品或服务后，扣除直接成本（如原材料、人工）后的利润。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;毛利润 = 营业收入 - 营业成本&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映企业核心业务的盈利能力，衡量产品或服务的毛利率。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未包含运营费用（如销售、管理费用），可能高估实际利润。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;营业利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;毛利润扣除所有运营费用（销售、管理、研发等）后的利润。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;营业利润 = 毛利润 - 销售费用 - 管理费用 - 研发费用 - 其他运营费用&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;体现企业主营业务的经营效率，排除非经常性损益影响。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未考虑利息、税收等财务成本。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;非营业利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;企业非主营业务活动产生的利润（如投资收益、政府补贴、资产出售等）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;非营业利润 = 投资收益 + 政府补贴 + 资产处置收益 - 非经常性损失&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映企业非核心业务的收益，可能具有偶然性或不可持续性。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;需区分持续性收益与一次性收益，警惕通过非营业利润修饰报表。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;EBITDA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;税息折旧及摊销前利润（未扣除利息、税项、折旧和摊销的利润）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;EBITDA = 营业利润 + 折旧费用 + 摊销费用&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;评估企业现金流和经营效率，常用于高资本支出行业（如电信、能源）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;忽略资本支出和财务结构，可能高估实际现金流。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;EBIT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;息税前利润（扣除利息和税项前的利润）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;EBIT = 营业利润 + 非营业利润&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;衡量企业整体盈利能力（含非核心业务），排除资本结构和税收影响。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;包含非经常性收益，可能掩盖主营业务问题。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;税前利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;扣除利息但未缴纳所得税前的利润。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;税前利润 = EBIT - 利息支出&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;用于分析企业税务负担和税前盈利能力。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;需结合税率判断税后实际利润。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;净利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;企业最终利润，扣除所有成本、费用、利息、税项后的净收益。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;净利润 = 税前利润 - 所得税&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映企业整体盈利能力，直接影响股东分红和股价。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;包含非经常性损益（如资产出售、减值），需关注持续性。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;归母净利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;归属于母公司所有者的净利润，排除少数股东权益后的净利润。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;归母净利润 = 净利润 - 少数股东损益&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映母公司股东实际可分配的利润，是财报的核心指标之一。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;若子公司占比较大，归母净利润可能与净利润差异显著。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;扣非净利润&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;扣除非经常性损益后的净利润（如一次性政府补贴、资产处置收益等）。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;扣非净利润 = 净利润 - 非经常性损益&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;排除偶然性收益，反映企业持续经营的真实盈利能力。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;需关注非经常性损益的具体构成（可能隐藏财务风险）。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关键对比总结&#34;&gt;关键对比总结&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;层级关系&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;毛利润 → 营业利润 → 非营业利润 → EBITDA/EBIT → 税前利润 → 净利润 → 归母净利润&lt;/code&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>量化因子发现与选择方法</title>
       <link>https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/</link>

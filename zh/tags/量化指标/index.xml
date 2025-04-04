@@ -16,7 +16,108 @@
       <description>
         
           
-            &lt;h3 id=&#34;2-动态水平&#34;&gt;2. 动态水平&lt;/h3&gt;
+            &lt;h1 id=&#34;tradingview量化交易技术指标分类详解&#34;&gt;TradingView量化交易技术指标分类详解&lt;/h1&gt;
+&lt;h2 id=&#34;一趋势跟踪类trend-following-indicators&#34;&gt;一、趋势跟踪类（Trend-Following Indicators）&lt;/h2&gt;
+&lt;h3 id=&#34;1-移动平均线moving-averages&#34;&gt;1. 移动平均线（Moving Averages）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简单移动平均线（SMA）&lt;/strong&gt;&lt;br&gt;
+计算指定周期内的平均价格&lt;br&gt;
+&lt;code&gt;示例&lt;/code&gt;：SMA(20)表示20日均线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指数移动平均线（EMA）&lt;/strong&gt;&lt;br&gt;
+近期价格权重更高&lt;br&gt;
+&lt;code&gt;应用&lt;/code&gt;：EMA(50)捕捉长期趋势转折&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加权移动平均线（WMA）&lt;/strong&gt;&lt;br&gt;
+按时间顺序加权计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-趋势动量指标&#34;&gt;2. 趋势动量指标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MACD指标&lt;/strong&gt;&lt;br&gt;
+组成：12日EMA（快线）+26日EMA（慢线）+9日EMA信号线&lt;br&gt;
+&lt;code&gt;信号规则&lt;/code&gt;：金叉/死叉&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ADX指标&lt;/strong&gt;&lt;br&gt;
+衡量趋势强度（&amp;gt;25强趋势，&amp;lt;20震荡市）&lt;br&gt;
+&lt;code&gt;组合使用&lt;/code&gt;：+DI/-DI判断方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-趋势确认工具&#34;&gt;3. 趋势确认工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;抛物线SAR&lt;/strong&gt;&lt;br&gt;
+点状标记反转位&lt;br&gt;
+&lt;code&gt;交易规则&lt;/code&gt;：价格在SAR上方持多单&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ichimoku云&lt;/strong&gt;&lt;br&gt;
+五要素综合系统&lt;br&gt;
+&lt;code&gt;关键信号&lt;/code&gt;：价格与云层位置关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二震荡指标oscillators&#34;&gt;二、震荡指标（Oscillators）&lt;/h2&gt;
+&lt;h3 id=&#34;1-动量震荡指标&#34;&gt;1. 动量震荡指标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RSI相对强弱指数&lt;/strong&gt;&lt;br&gt;
+范围0-100，超买(&amp;gt;70)/超卖(&amp;lt;30)&lt;br&gt;
+&lt;code&gt;经典用法&lt;/code&gt;：背离信号&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;随机震荡指标&lt;/strong&gt;&lt;br&gt;
+%K与%D线组合&lt;br&gt;
+&lt;code&gt;交叉规则&lt;/code&gt;：%K上穿%D买入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-均值回归指标&#34;&gt;2. 均值回归指标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CCI商品通道指数&lt;/strong&gt;&lt;br&gt;
+波动范围±200&lt;br&gt;
+&lt;code&gt;极端值&lt;/code&gt;：&amp;gt;+200超买，&amp;lt;-200超卖&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;威廉%R&lt;/strong&gt;&lt;br&gt;
+反向刻度（0到-100）&lt;br&gt;
+&lt;code&gt;阈值&lt;/code&gt;：-80超卖/-20超买&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三成交量类volume-indicators&#34;&gt;三、成交量类（Volume Indicators）&lt;/h2&gt;
+&lt;h3 id=&#34;1-基础分析工具&#34;&gt;1. 基础分析工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;成交量柱状图&lt;/strong&gt;&lt;br&gt;
+量价配合验证趋势&lt;br&gt;
+&lt;code&gt;看涨信号&lt;/code&gt;：放量突破&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VWAP成交量加权均价&lt;/strong&gt;&lt;br&gt;
+机构交易参考基准&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-资金流分析&#34;&gt;2. 资金流分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OBV能量潮&lt;/strong&gt;&lt;br&gt;
+累积成交量指标&lt;br&gt;
+&lt;code&gt;背离应用&lt;/code&gt;：价格新高但OBV走低&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chaikin资金流&lt;/strong&gt;&lt;br&gt;
+结合价格区间计算&lt;br&gt;
+&lt;code&gt;公式&lt;/code&gt;：CMF = ∑[(C-L)-(H-C)/(H-L)*V] / ∑V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四波动率指标volatility-indicators&#34;&gt;四、波动率指标（Volatility Indicators）&lt;/h2&gt;
+&lt;h3 id=&#34;1-波动通道&#34;&gt;1. 波动通道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;布林带&lt;/strong&gt;&lt;br&gt;
+20日SMA±2倍标准差&lt;br&gt;
+&lt;code&gt;收缩信号&lt;/code&gt;：带宽&amp;lt;10%预示变盘&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keltner通道&lt;/strong&gt;&lt;br&gt;
+EMA中轨±ATR波动带&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-波幅计量&#34;&gt;2. 波幅计量&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ATR平均真实波幅&lt;/strong&gt;&lt;br&gt;
+计算周期内最大波动值&lt;br&gt;
+&lt;code&gt;公式&lt;/code&gt;：Max(H-L, H-PC, PC-L)的N日平均&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;历史波动率&lt;/strong&gt;&lt;br&gt;
+对数收益率标准差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五支撑阻力类support--resistance&#34;&gt;五、支撑阻力类（Support &amp;amp; Resistance）&lt;/h2&gt;
+&lt;h3 id=&#34;1-静态水平&#34;&gt;1. 静态水平&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;斐波那契回撤&lt;/strong&gt;&lt;br&gt;
+关键比例：23.6%/38.2%/61.8%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;枢轴点系统&lt;/strong&gt;&lt;br&gt;
+计算公式：
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  P = (H+L+C)/3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  R1 = P2 - L
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;  S1 = P2 - H
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-动态水平&#34;&gt;2. 动态水平&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;移动平均支撑&lt;/strong&gt;&lt;br&gt;
 如50/200日均线&lt;/li&gt;
@@ -91,7 +192,6 @@ Pine Script调用Python模型&lt;/li&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：所有指标均可通过TradingView顶部菜单栏的&amp;quot;Indicators&amp;quot;按钮添加，支持实时参数调整和策略回测。&lt;/p&gt;
-&lt;/blockquote&gt;
           
           
         

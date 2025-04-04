@@ -216,45 +216,29 @@
       <div class="excerpt_footer">
         <div class="pale">
           
-            <p><h3 id="2-动态水平">2. 动态水平</h3>
+            <p><h1 id="tradingview量化交易技术指标分类详解">TradingView量化交易技术指标分类详解</h1>
+<h2 id="一趋势跟踪类trend-following-indicators">一、趋势跟踪类（Trend-Following Indicators）</h2>
+<h3 id="1-移动平均线moving-averages">1. 移动平均线（Moving Averages）</h3>
 <ul>
-<li><strong>移动平均支撑</strong><br>
-如50/200日均线</li>
-<li><strong>波动通道边界</strong><br>
-布林带上下轨</li>
+<li><strong>简单移动平均线（SMA）</strong><br>
+计算指定周期内的平均价格<br>
+<code>示例</code>：SMA(20)表示20日均线</li>
+<li><strong>指数移动平均线（EMA）</strong><br>
+近期价格权重更高<br>
+<code>应用</code>：EMA(50)捕捉长期趋势转折</li>
+<li><strong>加权移动平均线（WMA）</strong><br>
+按时间顺序加权计算</li>
 </ul>
-<hr>
-<h2 id="六统计与数学类statistical-indicators">六、统计与数学类（Statistical Indicators）</h2>
-<h3 id="1-回归分析">1. 回归分析</h3>
+<h3 id="2-趋势动量指标">2. 趋势动量指标</h3>
 <ul>
-<li><strong>线性回归通道</strong><br>
-基于最小二乘法拟合</li>
-<li><strong>标准差通道</strong><br>
-波动范围概率分布</li>
+<li><strong>MACD指标</strong><br>
+组成：12日EMA（快线）+26日EMA（慢线）+9日EMA信号线<br>
+<code>信号规则</code>：金叉/死叉</li>
+<li><strong>ADX指标</strong><br>
+衡量趋势强度（&gt;25强趋势，&lt;20震荡市）<br>
+<code>组合使用</code>：+DI/-DI判断方向</li>
 </ul>
-<h3 id="2-相关性分析">2. 相关性分析</h3>
-<ul>
-<li><strong>相关系数</strong><br>
-Pearson系数计算<br>
-<code>范围</code>：-1（负相关）到+1（正相关）</li>
-<li><strong>协整检验</strong><br>
-配对交易基础</li>
-</ul>
-<hr>
-<h2 id="七自定义脚本custom-scripts">七、自定义脚本（Custom Scripts）</h2>
-<h3 id="1-多指标融合">1. 多指标融合</h3>
-<ul>
-<li><strong>MACD+RSI组合策略</strong><br>
-<code>入场条件</code>：MACD金叉且RSI&gt;50</li>
-<li><strong>布林带收缩突破</strong><br>
-<code>过滤条件</code>：带宽&lt;ATR均值</li>
-</ul>
-<h3 id="2-高级算法">2. 高级算法</h3>
-<ul>
-<li><strong>机器学习集成</strong><br>
-Pine Script调用Python模型</li>
-<li><strong>情绪分析指标</strong><br>
-结合 …</li></ul></p>
+<h3 id="3-趋势确认工具">3. …</h3></p>
           
           <br>
           <a href="https://www.airplanecraft.com/zh/post/quant-indicator/" title="阅读更多" class="excerpt_more button">阅读更多</a>

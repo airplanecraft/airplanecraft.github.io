@@ -6,7 +6,117 @@
     <description>Recent content in Quant on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 01 Apr 2025 21:30:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/categories/quant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Apr 2025 22:30:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/categories/quant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>雪球场外交易</title>
+      <link>https://www.airplanecraft.com/zh/post/quant-snowball-otc/</link>
+      <pubDate>Tue, 01 Apr 2025 22:30:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quant-snowball-otc/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;雪球场外交易snowball-otc详解&#34;&gt;雪球场外交易（Snowball OTC）详解&lt;/h1&gt;
+&lt;h2 id=&#34;一雪球产品的核心特点&#34;&gt;一、雪球产品的核心特点&lt;/h2&gt;
+&lt;h3 id=&#34;1-收益结构&#34;&gt;1. 收益结构&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;固定票息&lt;/strong&gt;：持有期间定期获得约定利息（如年化15%）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;条件性赎回&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;敲出（自动终止）&lt;/strong&gt;：若标的资产价格在观察日超过预设水平，产品提前终止，投资者获得本金+票息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;敲入（风险触发）&lt;/strong&gt;：若标的资产价格跌破预设阈值，投资者可能承担本金损失（如挂钩标的最终跌幅）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-常见类型&#34;&gt;2. 常见类型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;保本型&lt;/strong&gt;：敲入未触发时保本，触发后可能亏损。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非保本型&lt;/strong&gt;：即使未敲入，也可能因标的下跌亏损。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二雪球场外交易的运作机制&#34;&gt;二、雪球场外交易的运作机制&lt;/h2&gt;
+&lt;h3 id=&#34;1-参与方&#34;&gt;1. 参与方&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;投资者&lt;/strong&gt;：主要为高净值个人、私募基金等合格投资者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;交易商&lt;/strong&gt;：券商、银行、衍生品做市商（如中金、中信等），负责设计产品并担任对手方。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中介机构&lt;/strong&gt;：部分财富管理机构代销产品。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-交易流程&#34;&gt;2. 交易流程&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;定制条款&lt;/strong&gt;：双方协商标的资产、期限（通常1-2年）、票息率、敲入/敲出价格等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;签署协议&lt;/strong&gt;：通过ISDA（国际衍生品协议）或NAFMII（中国银行间市场协议）框架签约。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;资金交割&lt;/strong&gt;：投资者支付本金，交易商提供收益结构。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动态对冲&lt;/strong&gt;：交易商通过场内期货、期权等对冲风险。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;3-定价与收益来源&#34;&gt;3. 定价与收益来源&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;波动率套利&lt;/strong&gt;：交易商赚取产品隐含波动率与市场实际波动率的差价。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;方向性风险&lt;/strong&gt;：若标的走势与对冲模型偏离，交易商可能亏损。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三雪球场外交易的优势与风险&#34;&gt;三、雪球场外交易的优势与风险&lt;/h2&gt;
+&lt;h3 id=&#34;优势&#34;&gt;优势&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;高收益潜力&lt;/strong&gt;：票息率远高于普通理财（如年化10%-20%）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活定制&lt;/strong&gt;：标的、期限、敲入/敲出条件均可协商。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险可控（部分场景）&lt;/strong&gt;：若未触发敲入且提前敲出，投资者可快速获利。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;风险&#34;&gt;风险&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;本金损失风险&lt;/strong&gt;：若标的暴跌且触发敲入，可能亏损（如2022年中证500雪球集中敲入）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;流动性差&lt;/strong&gt;：OTC产品无二级市场，提前赎回需支付高额违约金。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;交易对手风险&lt;/strong&gt;：若交易商违约，投资者可能无法获赔。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;信息不对称&lt;/strong&gt;：复杂结构可能导致投资者误解条款。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四典型案例分析&#34;&gt;四、典型案例分析&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;案例&lt;/strong&gt;：某挂钩中证500指数的2年期雪球产品&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;票息&lt;/strong&gt;：年化15%，按月付息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;敲出条件&lt;/strong&gt;：每月观察，若指数较期初上涨5%，产品终止，返还本金+票息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;敲入条件&lt;/strong&gt;：每日观察，若指数较期初下跌25%，触发敲入。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;到期结算&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;若未敲入且未敲出：返还本金+剩余票息。&lt;/li&gt;
+&lt;li&gt;若敲入但未敲出：投资者承担指数跌幅（如到期指数跌30%，则亏损30%）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若中证500指数在1年后上涨6%触发敲出，投资者获得15%年化收益。&lt;/li&gt;
+&lt;li&gt;若指数在6个月后跌至-26%触发敲入，且到期时指数跌30%，投资者亏损30%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五监管与市场现状&#34;&gt;五、监管与市场现状&lt;/h2&gt;
+&lt;h3 id=&#34;1-中国监管要求&#34;&gt;1. 中国监管要求&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;仅限专业投资者（金融资产≥500万元或最近3年收入≥40万元）。&lt;/li&gt;
+&lt;li&gt;交易商需具备衍生品资质（如券商一级交易商资格）。&lt;/li&gt;
+&lt;li&gt;2023年加强销售适当性管理，禁止夸大宣传“保本高收益”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-市场规模&#34;&gt;2. 市场规模&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2023年中国雪球产品存量规模约2000亿元，主要挂钩中证500、中证1000指数。&lt;/li&gt;
+&lt;li&gt;主要发行方：中信证券、中金公司、华泰证券等头部券商。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;六投资者建议&#34;&gt;六、投资者建议&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;充分理解条款&lt;/strong&gt;：重点关注敲入/敲出条件、亏损情景和流动性限制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分散配置&lt;/strong&gt;：避免过度集中于单一标的或期限的雪球产品。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;评估交易商信用&lt;/strong&gt;：选择资本实力强、对冲能力优的机构。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;警惕市场极端波动&lt;/strong&gt;：高波动率下敲入风险显著上升（如2022年A股下跌导致大量雪球敲入）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;雪球场外交易通过&lt;strong&gt;定制化衍生结构&lt;/strong&gt;提供高收益机会，但需承担&lt;strong&gt;非线性风险&lt;/strong&gt;。其本质是投资者向交易商“出售波动率”，适合对市场有中性/震荡预期且风险承受能力较强的专业投资者。普通投资者应谨慎参与，避免因信息不对称导致重大损失。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>国债逆回购</title>
       <link>https://www.airplanecraft.com/zh/post/quant-treasury-bond-reverse-repo/</link>

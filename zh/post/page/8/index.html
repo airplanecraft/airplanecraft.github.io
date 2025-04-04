@@ -42,8 +42,8 @@
       "headline": "Posts",
       "description": "",
       "url": "https:\/\/www.airplanecraft.com\/zh\/post\/",
-      "datePublished": "2025-04-01T21:30:35+08:00",
-      "dateModified": "2025-04-01T21:30:35+08:00",
+      "datePublished": "2025-04-01T22:30:35+08:00",
+      "dateModified": "2025-04-01T22:30:35+08:00",
       "keywords": ["index"],
       "author": {
         "@type": "Person",
@@ -192,6 +192,92 @@
 <div class="grid-inverse wrap content">
   <div>
     <ul class="posts" id="posts">
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="centos使用ssh-key免密登录">centos使用ssh-key免密登录</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Apr 3, 2016</span>
+    <span class="post_time"> · 1 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/linux/' title="linux" class="post_tag button button_translucent">linux
+        </a><a href='https://www.airplanecraft.com/zh/tags/sshkey/' title="sshkey" class="post_tag button button_translucent">sshkey
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=centos%e4%bd%bf%e7%94%a8ssh-key%e5%85%8d%e5%af%86%e7%99%bb%e5%bd%95&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-key-gen%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2flinux-key-gen%2f&t=centos%e4%bd%bf%e7%94%a8ssh-key%e5%85%8d%e5%af%86%e7%99%bb%e5%bd%95" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <h2 id="centos-ssh-login-免密码登录">centos ssh login 免密码登录</h2>
+<ul>
+<li>
+<p>修改linux主机sshd配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">vi /etc/ssh/sshd_config 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">  RSAAuthentication yes 
+</span></span><span class="line"><span class="ln">3</span><span class="cl">  PubkeyAuthentication yes 
+</span></span><span class="line"><span class="ln">4</span><span class="cl">  AuthorizedKeysFile .ssh/authorized_keys 
+</span></span><span class="line"><span class="ln">5</span><span class="cl">/sbin/service sshd restart 
+</span></span></code></pre></div></li>
+<li>
+<p>生成密钥,包括 id_rsa私钥，id_rsa.pub公钥</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> ssh-keygen -t rsa 
+</span></span></code></pre></div></li>
+<li>
+<p>更改文件名</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl"> mv ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+</span></span></code></pre></div></li>
+<li>
+<p>拷贝id_rsa文件内容到任何一 …</p></li></ul>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/linux-key-gen/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
         <li class="post_item">
   <div class="excerpt">
     <div class="excerpt_header">
@@ -400,6 +486,9 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
     <h2 class="mt-4">最新文章</h2>
     <ul class="flex-column">
       <li>
+        <a href="https://www.airplanecraft.com/zh/post/quant-snowball-otc/" class="nav-link" title="雪球场外交易">雪球场外交易</a>
+      </li>
+      <li>
         <a href="https://www.airplanecraft.com/zh/post/quant-treasury-bond-reverse-repo/" class="nav-link" title="国债逆回购">国债逆回购</a>
       </li>
       <li>
@@ -420,9 +509,6 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
       <li>
         <a href="https://www.airplanecraft.com/zh/post/fama-french-vs-capm-model/" class="nav-link" title="三因子模型和CAPM模型的区别">三因子模型和CAPM模型的区别</a>
       </li>
-      <li>
-        <a href="https://www.airplanecraft.com/zh/post/how-to-evaluate-fund-returns/" class="nav-link" title="如何评估一款基金基金的收益率">如何评估一款基金基金的收益率</a>
-      </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">分类</h2>
@@ -434,7 +520,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
         
         <a href='https://www.airplanecraft.com/zh/categories/quant/' class="post_tag button button_translucent" title="quant">
           QUANT
-          <span class="button_tally">9</span>
+          <span class="button_tally">10</span>
         </a>
         
         <a href='https://www.airplanecraft.com/zh/categories/airplanecraft/' class="post_tag button button_translucent" title="airplanecraft">
@@ -465,7 +551,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
         
         <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' class="post_tag button button_translucent" title="量化投资">
           量化投资
-          <span class="button_tally">9</span>
+          <span class="button_tally">10</span>
         </a>
         
         <a href='https://www.airplanecraft.com/zh/tags/hugo/' class="post_tag button button_translucent" title="hugo">
@@ -776,7 +862,7 @@ CI/CD 可让持续自动化和持续监控贯穿于应用的整个生命周期�
             </a>
             
             
-            <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' class=" post_tag button button_translucent" data-position=9 title="量化投资">量化投资<span class="button_tally">9</span>
+            <a href='https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/' class=" post_tag button button_translucent" data-position=10 title="量化投资">量化投资<span class="button_tally">10</span>
             </a>
             
             

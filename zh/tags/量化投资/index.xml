@@ -6,7 +6,98 @@
     <description>Recent content in 量化投资 on Claridade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 01 Apr 2025 22:30:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Apr 2025 23:33:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>量化指标</title>
+      <link>https://www.airplanecraft.com/zh/post/quant-indicator/</link>
+      <pubDate>Tue, 01 Apr 2025 23:33:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quant-indicator/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;2-动态水平&#34;&gt;2. 动态水平&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;移动平均支撑&lt;/strong&gt;&lt;br&gt;
+如50/200日均线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;波动通道边界&lt;/strong&gt;&lt;br&gt;
+布林带上下轨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;六统计与数学类statistical-indicators&#34;&gt;六、统计与数学类（Statistical Indicators）&lt;/h2&gt;
+&lt;h3 id=&#34;1-回归分析&#34;&gt;1. 回归分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;线性回归通道&lt;/strong&gt;&lt;br&gt;
+基于最小二乘法拟合&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标准差通道&lt;/strong&gt;&lt;br&gt;
+波动范围概率分布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-相关性分析&#34;&gt;2. 相关性分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;相关系数&lt;/strong&gt;&lt;br&gt;
+Pearson系数计算&lt;br&gt;
+&lt;code&gt;范围&lt;/code&gt;：-1（负相关）到+1（正相关）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协整检验&lt;/strong&gt;&lt;br&gt;
+配对交易基础&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;七自定义脚本custom-scripts&#34;&gt;七、自定义脚本（Custom Scripts）&lt;/h2&gt;
+&lt;h3 id=&#34;1-多指标融合&#34;&gt;1. 多指标融合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MACD+RSI组合策略&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;入场条件&lt;/code&gt;：MACD金叉且RSI&amp;gt;50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;布林带收缩突破&lt;/strong&gt;&lt;br&gt;
+&lt;code&gt;过滤条件&lt;/code&gt;：带宽&amp;lt;ATR均值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-高级算法&#34;&gt;2. 高级算法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机器学习集成&lt;/strong&gt;&lt;br&gt;
+Pine Script调用Python模型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;情绪分析指标&lt;/strong&gt;&lt;br&gt;
+结合新闻API数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;技术指标组合应用矩阵&#34;&gt;技术指标组合应用矩阵&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;交易场景&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;推荐指标组合&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;参数设置示例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;趋势跟踪&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;EMA(50)+MACD+ADX&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;EMA周期50，MACD(12,26,9)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;震荡市交易&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;RSI(14)+布林带&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;RSI超买/超卖阈值调整&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;突破策略&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;成交量突破+波动率收缩&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;突破前高+ATR&amp;lt;10日均值&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;风险管理&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ATR止损+波动率仓位控制&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3倍ATR止损，仓位=2%风险&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：所有指标均可通过TradingView顶部菜单栏的&amp;quot;Indicators&amp;quot;按钮添加，支持实时参数调整和策略回测。&lt;/p&gt;
+&lt;/blockquote&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>雪球场外交易</title>
       <link>https://www.airplanecraft.com/zh/post/quant-snowball-otc/</link>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Claridade</title>
+    <link>https://www.airplanecraft.com/zh/tags/math/</link>
+    <description>Recent content in Math on Claridade</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 05 Apr 2025 21:30:35 +0800</lastBuildDate><atom:link href="https://www.airplanecraft.com/zh/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>指数、对数、导数的定义与关系</title>
+      <link>https://www.airplanecraft.com/zh/post/quant-maths-2/</link>
+      <pubDate>Sat, 05 Apr 2025 21:30:35 +0800</pubDate>
+      
+      <guid>https://www.airplanecraft.com/zh/post/quant-maths-2/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;指数对数导数的定义与关系&#34;&gt;指数、对数、导数的定义与关系&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-指数函数&#34;&gt;&lt;strong&gt;1. 指数函数&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义&lt;/strong&gt;：形如 ( y = a^x )（( a &amp;gt; 0 ) 且 ( a \neq 1 )），表示底数 ( a ) 的 ( x ) 次幂。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特点&lt;/strong&gt;：增长/衰减速度快，例如：
+&lt;ul&gt;
+&lt;li&gt;( 2^3 = 8 )，( e^{1} \approx 2.718 )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-对数函数&#34;&gt;&lt;strong&gt;2. 对数函数&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义&lt;/strong&gt;：指数函数的反函数，形如 ( y = \log_a x )，表示 ( a ) 的多少次幂等于 ( x )。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;公式关系&lt;/strong&gt;：( a^y = x \Leftrightarrow y = \log_a x )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特点&lt;/strong&gt;：增长缓慢，例如：
+&lt;ul&gt;
+&lt;li&gt;( \log_2 8 = 3 )，( \ln e = 1 )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-导数&#34;&gt;&lt;strong&gt;3. 导数&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义&lt;/strong&gt;：函数在某一点的瞬时变化率，即斜率，记为 ( \frac{dy}{dx} ) 或 ( f&#39;(x) )。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;意义&lt;/strong&gt;：描述函数增减趋势，例如：
+&lt;ul&gt;
+&lt;li&gt;导数为正表示递增，导数为负表示递减。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三者关系&#34;&gt;&lt;strong&gt;三者关系&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1-指数与对数互为反函数&#34;&gt;&lt;strong&gt;1. 指数与对数互为反函数&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;关系式&lt;/strong&gt;：&lt;br&gt;
+( y = a^x \Leftrightarrow x = \log_a y )，例如：
+&lt;ul&gt;
+&lt;li&gt;( y = 2^x ) 的反函数是 ( y = \log_2 x )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-导数关系&#34;&gt;&lt;strong&gt;2. 导数关系&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;指数函数的导数&#34;&gt;&lt;strong&gt;指数函数的导数&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自然指数函数&lt;/strong&gt;：&lt;br&gt;
+( \frac{d}{dx} e^x = e^x )（唯一导数为自身的函数）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一般指数函数&lt;/strong&gt;：&lt;br&gt;
+( \frac{d}{dx} a^x = a^x \ln a )，例如：
+&lt;ul&gt;
+&lt;li&gt;( \frac{d}{dx} 2^x = 2^x \ln 2 )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;对数函数的导数&#34;&gt;&lt;strong&gt;对数函数的导数&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自然对数&lt;/strong&gt;：&lt;br&gt;
+( \frac{d}{dx} \ln x = \frac{1}{x} )。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一般对数&lt;/strong&gt;：&lt;br&gt;
+( \frac{d}{dx} \log_a x = \frac{1}{x \ln a} )，例如：
+&lt;ul&gt;
+&lt;li&gt;( \frac{d}{dx} \log_2 x = \frac{1}{x \ln 2} )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;反函数导数关系&#34;&gt;&lt;strong&gt;反函数导数关系&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;若 ( y = f(x) ) 与 ( x = f^{-1}(y) ) 互为反函数，则：
+[
+\frac{d}{dy} f^{-1}(y) = \frac{1}{f&#39;(x)}.
+]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例&lt;/strong&gt;：&lt;br&gt;
+对 ( y = e^x )，其反函数 ( x = \ln y )，导数为：
+[
+\frac{d}{dy} \ln y = \frac{1}{e^x} = \frac{1}{y}.
+]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;综合示例&#34;&gt;&lt;strong&gt;综合示例&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;场景1求导验证&#34;&gt;&lt;strong&gt;场景1：求导验证&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;指数函数&lt;/strong&gt;：( y = 3^x )&lt;br&gt;
+导数：( \frac{dy}{dx} = 3^x \ln 3 )。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对数函数&lt;/strong&gt;：( y = \log_3 x )&lt;br&gt;
+导数：( \frac{dy}{dx} = \frac{1}{x \ln 3} )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;场景2反函数导数验证&#34;&gt;&lt;strong&gt;场景2：反函数导数验证&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;步骤&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;设 ( y = 3^x )，则反函数为 ( x = \log_3 y )。&lt;/li&gt;
+&lt;li&gt;原函数导数：( \frac{dy}{dx} = 3^x \ln 3 )。&lt;/li&gt;
+&lt;li&gt;反函数导数：( \frac{dx}{dy} = \frac{1}{3^x \ln 3} = \frac{1}{y \ln 3} )，与直接求导结果一致。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;指数与对数&lt;/strong&gt;：互为反函数，解决“幂运算”与“求指数”问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;导数关系&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;自然指数 ( e^x ) 导数为自身，一般指数导数为 ( a^x \ln a )。&lt;/li&gt;
+&lt;li&gt;自然对数 ( \ln x ) 导数为 ( \frac{1}{x} )，一般对数导数为 ( \frac{1}{x \ln a} )。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心联系&lt;/strong&gt;：通过导数与反函数关系，指数与对数的运算在微积分中紧密关联。&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

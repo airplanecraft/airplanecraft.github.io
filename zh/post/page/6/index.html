@@ -196,6 +196,90 @@
   <div class="excerpt">
     <div class="excerpt_header">
       <h3 class="post_link">
+        <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="使用Aws sts创建临时credential">使用Aws sts创建临时credential</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Aug 26, 2019</span>
+    <span class="post_time"> · 2 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/aws/' title="aws" class="post_tag button button_translucent">aws
+        </a><a href='https://www.airplanecraft.com/zh/tags/sap/' title="sap" class="post_tag button button_translucent">sap
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    分享到:
+    <a href="https://twitter.com/intent/tweet?text=%e4%bd%bf%e7%94%a8Aws%20sts%e5%88%9b%e5%bb%ba%e4%b8%b4%e6%97%b6credential&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-sts-service%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2faws-sap-sts-service%2f&t=%e4%bd%bf%e7%94%a8Aws%20sts%e5%88%9b%e5%bb%ba%e4%b8%b4%e6%97%b6credential" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p><h3 id="aws-sts-简介">Aws sts 简介</h3>
+<ul>
+<li>简单来说就是aws通过sts服务生成临时的credential给用户使用，他们可以设置有效期，自动失效,这也是amazon best practice 里面建议的方式</li>
+</ul>
+<h3 id="实验准备">实验准备</h3>
+<ul>
+<li>创建 User</li>
+<li>创建 Role</li>
+<li>创建 s3 作为测试</li>
+<li>为User创建sts assumeRole 的访问策略</li>
+<li>在EC2上使用Aws cli 创建 历史的credential</li>
+<li>访问s3</li>
+</ul>
+<h3 id="create-an-iam-user">Create an IAM user</h3>
+<ul>
+<li><a href="https://console.aws.amazon.com/iam/home?region=ap-southeast-1#/users">https://console.aws.amazon.com/iam/home?region=ap-southeast-1#/users</a></li>
+<li>input name： mystsuser</li>
+<li>access type …</li></ul></p>
+          
+          <br>
+          <a href="https://www.airplanecraft.com/zh/post/aws-sap-sts-service/" title="阅读更多" class="excerpt_more button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
         <a href="https://www.airplanecraft.com/zh/post/aws-sap-system-manager/" title=" 使用Aws System Manager 统一管理 aws resource ">使用Aws System Manager 统一管理 aws resource</a>
       </h3>
       
@@ -862,89 +946,6 @@
     </div>
   </li>
 
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="k8s使用ingress总结">k8s使用ingress总结</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      May 3, 2018</span>
-    <span class="post_time"> · 3 分钟阅读</span><span>&nbsp;· <a href='https://www.airplanecraft.com/zh/tags/k8s/' title="k8s" class="post_tag button button_translucent">k8s
-        </a><a href='https://www.airplanecraft.com/zh/tags/ingress/' title="ingress" class="post_tag button button_translucent">ingress
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93&url=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.airplanecraft.com%2fzh%2fpost%2fk8s-install-ingress%2f&t=k8s%e4%bd%bf%e7%94%a8ingress%e6%80%bb%e7%bb%93" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p><h3 id="安装准备">安装准备</h3>
-<ul>
-<li>Centos7.7 vm 或者真实的物理机三台(master一台,node两台)</li>
-<li>硬件要求2GB ram,最低2CPU，最少32GB 硬盘</li>
-<li>节点之间最好网络互通，如果不考虑安全可以关闭firewalld</li>
-<li>可以访问到外部网络,因为需要网络资源，比如yum源和其他k8s需要的yaml文件</li>
-</ul>
-<h3 id="需要安装和配置">需要安装和配置</h3>
-<ul>
-<li>yum源配置</li>
-<li>防火墙selinux的关闭与配置</li>
-<li>swap分区配置</li>
-<li>桥接ipv4流量交给iptables</li>
-<li>文件句柄数的限制</li>
-<li>Docker的安装</li>
-<li>Kubeadmin,flannel</li>
-<li>创建deployment,service,pod,ingress,ingress controller,kubernets-dashboard …</li></ul></p>
-          
-          <br>
-          <a href="https://www.airplanecraft.com/zh/post/k8s-install-ingress/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
       <li>
     <ul class="pagination pagination-default">
       <li class="page-item">
@@ -1009,6 +1010,9 @@
         <a href="https://www.airplanecraft.com/zh/post/quant-maths-2/" class="nav-link" title="指数、对数、导数的定义与关系">指数、对数、导数的定义与关系</a>
       </li>
       <li>
+        <a href="https://www.airplanecraft.com/zh/post/quant-maths-3/" class="nav-link" title="指数、对数、导数的定义与关系">指数、对数、导数的定义与关系</a>
+      </li>
+      <li>
         <a href="https://www.airplanecraft.com/zh/post/quant-indicator/" class="nav-link" title="量化指标">量化指标</a>
       </li>
       <li>
@@ -1026,9 +1030,6 @@
       <li>
         <a href="https://www.airplanecraft.com/zh/post/quantitative-factor-discovery-and-selection-methods/" class="nav-link" title="量化因子发现与选择方法">量化因子发现与选择方法</a>
       </li>
-      <li>
-        <a href="https://www.airplanecraft.com/zh/post/quant-high-frequency-tranding-with-factors/" class="nav-link" title="高频交易量化因子的选择">高频交易量化因子的选择</a>
-      </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">分类</h2>
@@ -1040,7 +1041,7 @@
         
         <a href='https://www.airplanecraft.com/zh/categories/quant/' class="post_tag button button_translucent" title="quant">
           QUANT
-          <span class="button_tally">12</span>
+          <span class="button_tally">13</span>
         </a>
         
         <a href='https://www.airplanecraft.com/zh/categories/airplanecraft/' class="post_tag button button_translucent" title="airplanecraft">
@@ -1258,6 +1259,10 @@
             </a>
             
             
+            <a href='https://www.airplanecraft.com/zh/tags/math/' class=" post_tag button button_translucent" data-position=1 title="math">MATH<span class="button_tally">1</span>
+            </a>
+            
+            
             <a href='https://www.airplanecraft.com/zh/tags/maxfileopen/' class=" post_tag button button_translucent" data-position=1 title="maxfileopen">MAXFILEOPEN<span class="button_tally">1</span>
             </a>
             
@@ -1299,6 +1304,10 @@
             
             
             <a href='https://www.airplanecraft.com/zh/tags/python/' class=" post_tag button button_translucent" data-position=1 title="python">PYTHON<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://www.airplanecraft.com/zh/tags/quant/' class=" post_tag button button_translucent" data-position=1 title="quant">QUANT<span class="button_tally">1</span>
             </a>
             
             
